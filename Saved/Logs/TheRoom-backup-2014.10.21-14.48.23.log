@@ -1,0 +1,1297 @@
+Log file open, 10/21/14 10:40:12
+LogInit:Display: Running engine for game: TheRoom
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.21-08.40.12:008][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.21-08.40.12:040][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.21-08.40.12:048][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.21-08.40.12:059][  0]LogInit: Object subsystem initialized
+[2014.10.21-08.40.12:061][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.21-08.40.12:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.21-08.40.12:068][  0]LogInit: Computer: 2011-KURS-09
+[2014.10.21-08.40.12:068][  0]LogInit: User: lennartdaldrup
+[2014.10.21-08.40.12:070][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.21-08.40.12:070][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.10.21-08.40.12:070][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.10.21-08.40.12:070][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.21-08.40.12:070][  0]LogMemory: Process Physical Memory: 60.64 MB used, 60.64 MB peak
+[2014.10.21-08.40.12:070][  0]LogMemory: Process Virtual Memory: 36.81 MB used, 36.81 MB peak
+[2014.10.21-08.40.12:070][  0]LogMemory: Physical Memory: 4543.04 MB used, 8191.18 MB total
+[2014.10.21-08.40.12:070][  0]LogMemory: Virtual Memory: 256.70 MB used, 8388608.00 MB total
+[2014.10.21-08.40.12:123][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.10.21-08.40.12:123][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.10.21-08.40.12:123][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.21-08.40.12:131][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.10.21-08.40.12:140][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.21-08.40.12:188][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.10.21-08.40.12:286][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.21-08.40.14:798][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-08.40.15:880][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-08.40.15:919][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.21-08.40.16:027][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.21-08.40.16:027][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.21-08.40.16:027][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.21-08.40.16:027][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.21-08.40.16:046][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.21-08.40.16:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.21-08.40.16:288][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.21-08.40.16:288][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.21-08.40.16:738][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.21-08.40.17:584][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_e08_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e4c_0///////STATCAT_Advanced////
+[2014.10.21-08.40.17:584][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.21-08.40.17:679][  0]SourceControl: Info Source control is disabled
+[2014.10.21-08.40.17:680][  0]SourceControl: Info Source control is disabled
+[2014.10.21-08.40.17:685][  0]SourceControl: Info Source control is disabled
+[2014.10.21-08.40.17:853][  0]BlueprintLog: New page: Editor Load
+[2014.10.21-08.40.17:938][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.21-08.40.17:938][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.21-08.40.18:205][  0]LogEngine: Initializing Engine...
+[2014.10.21-08.40.18:386][  0]LogInit: XAudio2 using 'Digitalaudio (S/PDIF) (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.21-08.40.18:412][  0]LogInit: FAudioDevice initialized.
+[2014.10.21-08.40.18:427][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.21-08.40.18:467][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.21-08.40.18:481][  0]LogInit: Texture streaming: Enabled
+[2014.10.21-08.40.18:510][  0]LogInit: Transaction tracking system initialized
+[2014.10.21-08.40.18:609][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2014.10.21-08.40.19:777][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-08.40.20:859][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-08.40.20:976][  0]LogConsoleResponse:Display: 
+[2014.10.21-08.40.21:151][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_16f0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e4c_0///////STATCAT_Advanced////
+[2014.10.21-08.40.21:151][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_a20_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e4c_0///////STATCAT_Advanced////
+[2014.10.21-08.40.21:151][  0]SourceControl: Info Source control is disabled
+[2014.10.21-08.40.21:152][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.21-08.40.21:152][  0]LightingResults: New page: Lighting Build
+[2014.10.21-08.40.21:160][  0]MapCheck: New page: Map Check
+[2014.10.21-08.40.21:160][  0]LightingResults: New page: Lighting Build
+[2014.10.21-08.40.21:179][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010B11300
+[2014.10.21-08.40.21:451][  0]LogStaticMesh: Building static mesh TemplateCube_Rounded...
+[2014.10.21-08.40.21:479][  0]LogStaticMesh: Built static mesh [27.514669ms] /Game/Meshes/TemplateCube_Rounded.TemplateCube_Rounded
+[2014.10.21-08.40.21:551][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-08.40.21:823][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.10.21-08.40.21:852][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-08.40.22:021][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.10.21-08.40.22:039][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.21-08.40.22:100][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.10.21-08.40.22:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.21-08.40.22:168][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.21-08.40.22:178][  0]Cmd: MAP CHECKDEP
+[2014.10.21-08.40.22:178][  0]MapCheck: New page: Example_Map - Oct 21, 2014, 12:40:22 PM
+[2014.10.21-08.40.22:230][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [51.23ms] ==========
+[2014.10.21-08.40.22:230][  0]LogFileHelpers: Loading map 'Example_Map' took 1.077
+[2014.10.21-08.40.22:636][  0]LogCollectionManager: Loaded 0 collections in 0.001646 seconds
+[2014.10.21-08.40.23:253][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.21-08.40.23:596][  0]LogLoad: Full Startup: 13.41 seconds (BP compile: 0.08 seconds)
+[2014.10.21-08.40.24:663][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.10.21-08.40.25:540][  3]LogAssetRegistry: Asset discovery search completed in 6.9414 seconds
+[2014.10.21-08.44.26:327][151]LightingResults: New page: Lighting Build
+[2014.10.21-08.44.26:328][151]MapCheck: New page: Map Check
+[2014.10.21-08.44.26:328][151]LightingResults: New page: Lighting Build
+[2014.10.21-08.44.26:353][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012FD23E0
+[2014.10.21-08.44.26:396][151]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.21-08.44.26:397][151]LoadErrors: New page: New Map
+[2014.10.21-08.44.55:276][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheRoom" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.21-08.44.55:369][609]LogSavePackage: Save=25.599203ms
+[2014.10.21-08.44.55:369][609]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom7D9FA3DD4BE7C0AB914ED0B34631C9E3.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap'
+[2014.10.21-08.44.55:396][609]LogFileHelpers: Saving map 'TheRoom' took 0.835
+[2014.10.21-08.57.00:927][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.21-08.57.02:187][727]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.21-08.57.07:719][  1]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.21-08.57.15:748][368]LogSavePackage: Save=88.636543ms
+[2014.10.21-08.57.15:750][368]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto165077FBF4F6888792CF0969E24927365.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto1.umap'
+[2014.10.21-08.57.15:765][368]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.175
+[2014.10.21-08.57.15:765][368]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.175
+[2014.10.21-09.07.16:061][881]LogSavePackage: Save=42.873116ms
+[2014.10.21-09.07.16:061][881]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto2996D99094E47BF15FFB763BDBCBDE27C.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto2.umap'
+[2014.10.21-09.07.16:073][881]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.154
+[2014.10.21-09.07.16:073][881]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.154
+[2014.10.21-09.39.23:012][879]LogEditorViewport: Clicking Background
+[2014.10.21-09.39.23:316][903]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.39.23:316][903]Can't find target actor.
+[2014.10.21-09.39.23:512][903]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.39.23:512][903]Can't find target actor.
+[2014.10.21-09.39.23:612][910]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.39.23:612][910]Can't find target actor.
+[2014.10.21-09.39.35:814][629]LogSavePackage: Save=40.351429ms
+[2014.10.21-09.39.35:814][629]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto3311B81D24BDD17AD15CF87AE32E1D6A6.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto3.umap'
+[2014.10.21-09.39.35:966][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.264
+[2014.10.21-09.39.35:966][629]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.264
+[2014.10.21-09.41.12:374][ 68]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-09.41.12:374][ 68]LogStaticMesh: Built static mesh [1.151822ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-09.41.12:411][ 68]LogActorFactory: Actor Factory created WallBoxMesh
+[2014.10.21-09.41.13:125][ 68]EditorErrors: New page: Actor Reattachment
+[2014.10.21-09.41.35:453][559]MapCheck: New page: Map Check
+[2014.10.21-09.41.35:559][559]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:41:35 PM
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.41.56:457][559]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.41.56:696][559]LogEditorBuildUtils: Build time 0:00:21
+[2014.10.21-09.41.56:721][559]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.10.21-09.41.56:810][559]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.10.21-09.41.56:813][559]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.10.21-09.42.06:470][667]Job is a success!
+[2014.10.21-09.42.06:750][668]Lightmass on 2011-KURS-09: 1.58 sec total, 1.00 sec importing, 0 ms setup, 87 ms photons, 177 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 521 ms total, 0 ms processing.
+[2014.10.21-09.42.06:775][668]LogStaticLightingSystem:Warning: Illumination: 31.1 sec (15 ms encoding lightmaps)
+[2014.10.21-09.42.06:775][668]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.21-09.42.06:775][668]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.21-09.42.07:412][669]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.42.07:412][669]MapCheck: New page: TheRoom - Oct 21, 2014, 1:42:07 PM
+[2014.10.21-09.42.07:505][669]MapCheck:Error: Error WallBoxMesh Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2014.10.21-09.42.14:316][669]MapCheck: Info ========== Map Check: 1 Error(s), 0 Warning(s), [6,903.189ms] ==========
+[2014.10.21-09.42.40:225][991]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush3)
+[2014.10.21-09.43.16:510][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-09.43.19:238][580]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-09.43.45:285][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.43.45:647][ 28]LogSavePackage: Save=357.343109ms
+[2014.10.21-09.43.45:647][ 28]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh07AFCC024F8CD4BFA69BD9AA5DEDF454.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.43.47:668][138]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.43.47:700][138]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:43:47 PM)
+[2014.10.21-09.43.47:725][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014000s)
+[2014.10.21-09.43.47:727][138]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2014.10.21-09.43.47:727][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.027106s)
+[2014.10.21-09.43.49:013][138]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.10.21-09.43.49:028][138]LogAudioDerivedData:Display: Building compressed audio format OGG wave Template1rst_WeaponFire02...
+[2014.10.21-09.43.49:214][138]BlueprintLog:Warning: Warning Blueprint MyCharacter has been migrated and requires re-saving to avoid import errors
+[2014.10.21-09.43.49:215][138]LogTexture:Display: Building textures: crosshair (AutoDXT)
+[2014.10.21-09.43.49:226][138]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.21-09.43.49:227][138]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.21-09.43.49:228][138]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.43.49:461][138]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.43.49:462][138]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.43.49
+[2014.10.21-09.43.49:487][138]LogWorld: Bringing up level for play took: 0.025719
+[2014.10.21-09.43.49:740][138]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 2.616
+[2014.10.21-09.43.50:134][139]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.10.21-09.43.53:137][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000131E4D60
+[2014.10.21-09.43.53:138][297]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000131E6DE0
+[2014.10.21-09.43.55:395][441]MapCheck: New page: Map Check
+[2014.10.21-09.43.55:417][441]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:43:55 PM
+[2014.10.21-09.43.59:970][441]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.43.59:977][441]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.43.59:977][441]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.43.59:977][441]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.43.59:977][441]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.43.59:977][441]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.44.00:044][441]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.44.02:740][552]Job is a success!
+[2014.10.21-09.44.09:147][947]Lightmass on 2011-KURS-09: 8.62 sec total, 1.20 sec importing, 0 ms setup, 774 ms photons, 6.58 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 19.6 sec total, 20 ms processing.
+[2014.10.21-09.44.09:150][947]LogStaticLightingSystem:Warning: Illumination: 7.40 sec (0 ms encoding lightmaps)
+[2014.10.21-09.44.09:150][947]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.21-09.44.09:150][947]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.21-09.44.09:984][948]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.44.09:985][948]MapCheck: New page: TheRoom - Oct 21, 2014, 1:44:09 PM
+[2014.10.21-09.44.10:045][948]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.139ms] ==========
+[2014.10.21-09.44.10:586][983]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.44.10:586][983]Aligned camera to fit all selected actors.
+[2014.10.21-09.44.49:511][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheRoom" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.21-09.44.49:566][552]LogSavePackage: Save=23.484758ms
+[2014.10.21-09.44.49:566][552]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoomBBBC1E9142DC4FF41C3358BAB9D501ED.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap'
+[2014.10.21-09.44.49:600][552]LogFileHelpers: Saving map 'TheRoom' took 0.148
+[2014.10.21-09.45.10:222][791]AssetRegistry: New page: Content migration completed successfully!
+[2014.10.21-09.45.10:222][791]AssetRegistry: Info /Game/Meshes/WallBoxMesh
+[2014.10.21-09.45.14:192][ 29]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Meshes'
+[2014.10.21-09.45.20:218][453]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-09.45.25:673][603]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Meshes'
+[2014.10.21-09.45.28:039][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.45.28:376][773]LogSavePackage: Save=332.916748ms
+[2014.10.21-09.45.28:376][773]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMeshB04ECE354E1065A22ACCE7B1E36D8BC3.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.45.29:188][826]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-09.45.29:510][847]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Meshes'
+[2014.10.21-09.45.29:628][856]Cmd: DELETE
+[2014.10.21-09.45.29:628][856]Cmd: ACTOR DELETE
+[2014.10.21-09.45.29:655][856]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.21-09.45.29:680][856]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.10.21-09.45.33:448][226]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.21-09.45.34:119][251]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.10.21-09.45.35:865][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-09.45.36:715][494]LogActorFactory: Actor Factory created WallBoxMesh
+[2014.10.21-09.45.37:024][519]LogActorFactory: Actor Factory created WallBoxMesh
+[2014.10.21-09.46.11:090][307]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-09.46.11:090][307]LogStaticMesh: Built static mesh [1.545378ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-09.46.13:914][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.46.14:262][431]LogSavePackage: Save=339.059631ms
+[2014.10.21-09.46.14:262][431]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh2CA737784EA157201CD5E880ED2AD68C.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.46.22:229][914]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.10.21-09.46.23:652][985]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.10.21-09.46.24:565][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.21-09.46.27:563][172]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.46.27:564][172]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:46:27 PM)
+[2014.10.21-09.46.27:565][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000935s)
+[2014.10.21-09.46.27:566][172]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2014.10.21-09.46.27:566][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002201s)
+[2014.10.21-09.46.27:633][172]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.46.27:635][172]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.46.27:636][172]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.46.27
+[2014.10.21-09.46.27:708][172]LogWorld: Bringing up level for play took: 0.073348
+[2014.10.21-09.46.27:834][172]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.688
+[2014.10.21-09.46.29:933][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.21-09.46.29:933][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.10.21-09.46.29:955][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018F12480
+[2014.10.21-09.46.29:955][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003A936A0
+[2014.10.21-09.46.42:500][958]MapCheck: New page: Map Check
+[2014.10.21-09.46.42:522][958]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:46:42 PM
+[2014.10.21-09.46.47:083][958]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.46.47:086][958]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.46.47:086][958]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.46.47:086][958]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.46.47:086][958]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.46.47:086][958]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.46.47:133][958]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.46.47:179][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.10.21-09.46.47:179][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.21-09.46.48:930][ 32]Job is a success!
+[2014.10.21-09.46.49:004][ 33]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.46.49:021][ 33]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.46.49:052][ 33]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.21-09.46.49:090][ 33]LogStaticLightingSystem:Warning: Illumination: 6.54 sec (76 ms encoding lightmaps)
+[2014.10.21-09.46.49:090][ 33]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.46.49:090][ 33]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2014.10.21-09.46.50:128][ 34]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.46.50:128][ 34]MapCheck: New page: TheRoom - Oct 21, 2014, 1:46:50 PM
+[2014.10.21-09.46.50:194][ 34]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [65.979ms] ==========
+[2014.10.21-09.46.53:886][261]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.46.53:886][261]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:46:53 PM)
+[2014.10.21-09.46.53:887][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001013s)
+[2014.10.21-09.46.53:890][261]LogPlayLevel: PIE: World Init took: (0.002311s)
+[2014.10.21-09.46.53:890][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003524s)
+[2014.10.21-09.46.53:919][261]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.46.53:920][261]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.46.53:922][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.46.53
+[2014.10.21-09.46.53:922][261]LogWorld: Bringing up level for play took: 0.001902
+[2014.10.21-09.46.53:924][261]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.774
+[2014.10.21-09.46.56:231][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FAAF20
+[2014.10.21-09.46.59:574][598]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.21-09.47.01:856][736]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.47.01:856][736]Aligned camera to fit all selected actors.
+[2014.10.21-09.47.04:618][898]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-09.47.14:514][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.47.14:537][340]LogSavePackage: Save=18.649158ms
+[2014.10.21-09.47.14:537][340]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMeshDCE674B946A028C7774A97AF112C7632.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.47.17:903][510]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.47.17:904][510]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:47:17 PM)
+[2014.10.21-09.47.17:905][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001466s)
+[2014.10.21-09.47.17:906][510]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2014.10.21-09.47.17:907][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002795s)
+[2014.10.21-09.47.17:938][510]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.47.17:939][510]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.47.17:940][510]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.47.17
+[2014.10.21-09.47.17:941][510]LogWorld: Bringing up level for play took: 0.001233
+[2014.10.21-09.47.17:942][510]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.789
+[2014.10.21-09.47.19:599][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.10.21-09.47.19:599][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.21-09.47.19:654][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001310AF20
+[2014.10.21-09.47.19:654][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013109BC0
+[2014.10.21-09.47.22:845][801]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-09.47.25:654][950]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.47.25:654][950]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:47:25 PM)
+[2014.10.21-09.47.25:656][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001745s)
+[2014.10.21-09.47.25:659][950]LogPlayLevel: PIE: World Init took: (0.002460s)
+[2014.10.21-09.47.25:659][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.004404s)
+[2014.10.21-09.47.25:711][950]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.47.25:713][950]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.47.25:713][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.47.25
+[2014.10.21-09.47.25:714][950]LogWorld: Bringing up level for play took: 0.001251
+[2014.10.21-09.47.25:715][950]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.561
+[2014.10.21-09.47.29:080][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001318EAC0
+[2014.10.21-09.47.34:268][467]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.47.34:268][467]PIE: New page: SIE session: TheRoom (Oct 21, 2014, 1:47:34 PM)
+[2014.10.21-09.47.34:270][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001198s)
+[2014.10.21-09.47.34:271][467]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2014.10.21-09.47.34:271][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002882s)
+[2014.10.21-09.47.34:272][467]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-09.47.34:309][467]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.47.34:311][467]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.47.34:311][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.47.34
+[2014.10.21-09.47.34:312][467]LogWorld: Bringing up level for play took: 0.001226
+[2014.10.21-09.47.34:312][467]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.21-09.47.34:313][467]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.843
+[2014.10.21-09.47.34:377][467]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-09.47.36:021][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-09.47.36:021][536]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-09.47.38:221][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FABB00
+[2014.10.21-09.47.39:047][657]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
+[2014.10.21-09.47.41:747][812]Cmd: DELETE
+[2014.10.21-09.47.41:747][812]Cmd: ACTOR DELETE
+[2014.10.21-09.47.41:747][812]LogEditorActor: Deleted Actor: PointLight
+[2014.10.21-09.47.41:778][812]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.10.21-09.47.48:401][287]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.47.48:402][287]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:47:48 PM)
+[2014.10.21-09.47.48:403][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001057s)
+[2014.10.21-09.47.48:404][287]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2014.10.21-09.47.48:404][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002360s)
+[2014.10.21-09.47.48:435][287]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.47.48:436][287]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.47.48:437][287]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.47.48
+[2014.10.21-09.47.48:438][287]LogWorld: Bringing up level for play took: 0.001257
+[2014.10.21-09.47.48:439][287]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.718
+[2014.10.21-09.47.49:736][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.21-09.47.49:762][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001310AD40
+[2014.10.21-09.47.54:192][625]Cmd: DELETE
+[2014.10.21-09.47.54:192][625]Cmd: ACTOR DELETE
+[2014.10.21-09.47.54:192][625]LogEditorActor: Deleted Actor: SkyLight
+[2014.10.21-09.47.54:220][625]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.10.21-09.48.09:531][553]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.48.09:531][553]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:48:09 PM)
+[2014.10.21-09.48.09:532][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001086s)
+[2014.10.21-09.48.09:533][553]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2014.10.21-09.48.09:533][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002561s)
+[2014.10.21-09.48.09:565][553]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.48.09:567][553]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.48.09:568][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.48.09
+[2014.10.21-09.48.09:569][553]LogWorld: Bringing up level for play took: 0.001859
+[2014.10.21-09.48.09:571][553]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.41
+[2014.10.21-09.48.10:962][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.21-09.48.10:984][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FEE340
+[2014.10.21-09.48.29:245][385]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.48.29:245][385]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:48:29 PM)
+[2014.10.21-09.48.29:246][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001089s)
+[2014.10.21-09.48.29:247][385]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2014.10.21-09.48.29:247][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002315s)
+[2014.10.21-09.48.29:299][385]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.48.29:300][385]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.48.29:301][385]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.48.29
+[2014.10.21-09.48.29:302][385]LogWorld: Bringing up level for play took: 0.001276
+[2014.10.21-09.48.29:303][385]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.141
+[2014.10.21-09.48.30:341][435]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002277CFE0
+[2014.10.21-09.48.34:664][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-09.48.39:172][834]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-09.48.47:771][213]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.48.47:771][213]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:48:47 PM)
+[2014.10.21-09.48.47:772][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001226s)
+[2014.10.21-09.48.47:773][213]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2014.10.21-09.48.47:773][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002642s)
+[2014.10.21-09.48.47:824][213]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.48.47:826][213]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.48.47:826][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.48.47
+[2014.10.21-09.48.47:827][213]LogWorld: Bringing up level for play took: 0.001190
+[2014.10.21-09.48.47:828][213]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.665
+[2014.10.21-09.48.50:059][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013172B60
+[2014.10.21-09.48.52:560][433]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.21-09.48.52:560][433]Aligned camera to fit all selected actors.
+[2014.10.21-09.48.58:398][668]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.48.58:399][668]PIE: New page: SIE session: TheRoom (Oct 21, 2014, 1:48:58 PM)
+[2014.10.21-09.48.58:402][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002564s)
+[2014.10.21-09.48.58:403][668]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2014.10.21-09.48.58:403][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003872s)
+[2014.10.21-09.48.58:428][668]LogSelection:Warning: PIE object was selected: "MyCharacter_C /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.MyCharacter_11"
+[2014.10.21-09.48.58:455][668]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.48.58:456][668]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.48.58:457][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.48.58
+[2014.10.21-09.48.58:458][668]LogWorld: Bringing up level for play took: 0.001239
+[2014.10.21-09.48.58:458][668]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.21-09.48.58:459][668]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.705
+[2014.10.21-09.48.58:522][668]LogSelection:Warning: PIE object was selected: "MyCharacter_C /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.MyCharacter_11"
+[2014.10.21-09.49.00:558][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013171B20
+[2014.10.21-09.49.01:154][759]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.49.01:155][759]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:49:01 PM)
+[2014.10.21-09.49.01:156][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001141s)
+[2014.10.21-09.49.01:159][759]LogPlayLevel: PIE: World Init took: (0.002905s)
+[2014.10.21-09.49.01:159][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.004349s)
+[2014.10.21-09.49.01:208][759]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.49.01:209][759]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.49.01:210][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.49.01
+[2014.10.21-09.49.01:211][759]LogWorld: Bringing up level for play took: 0.001197
+[2014.10.21-09.49.01:212][759]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.048
+[2014.10.21-09.49.03:253][873]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B760C0
+[2014.10.21-09.49.10:142][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-09.49.20:648][668]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.49.20:648][668]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:49:20 PM)
+[2014.10.21-09.49.20:649][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001304s)
+[2014.10.21-09.49.20:653][668]LogPlayLevel: PIE: World Init took: (0.003593s)
+[2014.10.21-09.49.20:653][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.005145s)
+[2014.10.21-09.49.20:682][668]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.49.20:683][668]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.49.20:684][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.49.20
+[2014.10.21-09.49.20:685][668]LogWorld: Bringing up level for play took: 0.001407
+[2014.10.21-09.49.20:686][668]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.478
+[2014.10.21-09.49.55:781][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FAA3E0
+[2014.10.21-09.50.23:134][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.50.23:471][852]LogSavePackage: Save=332.116943ms
+[2014.10.21-09.50.23:471][852]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh983ADC0E490B9F9C5F2A4785151B5B85.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.50.27:050][ 34]MapCheck: New page: Map Check
+[2014.10.21-09.50.27:083][ 34]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:50:27 PM
+[2014.10.21-09.50.31:642][ 34]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.50.31:645][ 34]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.50.31:645][ 34]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.50.31:645][ 34]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.50.31:645][ 34]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.50.31:645][ 34]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.50.31:693][ 34]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.50.32:001][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FA8220
+[2014.10.21-09.50.43:160][517]Job is a success!
+[2014.10.21-09.50.43:945][518]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.50.44:519][518]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.50.45:717][518]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.10.21-09.50.45:981][518]LogStaticLightingSystem:Warning: Illumination: 18.8 sec (2.57 sec encoding lightmaps)
+[2014.10.21-09.50.45:981][518]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.50.45:981][518]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.50.46:680][519]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.50.46:680][519]MapCheck: New page: TheRoom - Oct 21, 2014, 1:50:46 PM
+[2014.10.21-09.50.46:681][519]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.50.46:742][519]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [61.821ms] ==========
+[2014.10.21-09.50.47:306][539]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-09.50.47:307][539]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 1:50:47 PM)
+[2014.10.21-09.50.47:308][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001036s)
+[2014.10.21-09.50.47:309][539]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2014.10.21-09.50.47:309][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002244s)
+[2014.10.21-09.50.47:337][539]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-09.50.47:338][539]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-09.50.47:339][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-11.50.47
+[2014.10.21-09.50.47:340][539]LogWorld: Bringing up level for play took: 0.001188
+[2014.10.21-09.50.47:342][539]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.173
+[2014.10.21-09.50.49:141][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FA9620
+[2014.10.21-09.50.53:233][859]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight1)
+[2014.10.21-09.51.01:886][358]MapCheck: New page: Map Check
+[2014.10.21-09.51.01:906][358]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:51:01 PM
+[2014.10.21-09.51.06:464][358]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.51.06:466][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.51.06:466][358]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.51.06:466][358]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.51.06:466][358]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.51.06:466][358]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.51.06:508][358]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.51.11:917][577]Job is a success!
+[2014.10.21-09.51.12:646][578]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-09.51.13:207][578]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-09.51.14:441][578]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.10.21-09.51.14:739][578]LogStaticLightingSystem:Warning: Illumination: 12.7 sec (2.59 sec encoding lightmaps)
+[2014.10.21-09.51.14:739][578]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.51.14:739][578]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2014.10.21-09.51.15:481][579]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.51.15:482][579]MapCheck: New page: TheRoom - Oct 21, 2014, 1:51:15 PM
+[2014.10.21-09.51.15:495][579]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.51.15:551][579]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [69.368ms] ==========
+[2014.10.21-09.51.29:315][245]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/TheRoom.HQ_Lightmap0_1. Streaming mips will be recached.
+[2014.10.21-09.51.29:337][245]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.51.38:744][622]LogEditorTransaction: Undo Create Sphere Collision
+[2014.10.21-09.51.42:048][770]LogEditorTransaction: Undo Create Box Collision
+[2014.10.21-09.51.49:781][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.51.49:812][140]LogSavePackage: Save=19.847425ms
+[2014.10.21-09.51.49:812][140]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh47A2FBD14182951CFEC1B1A51816F138.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.51.59:130][581]MapCheck: New page: Map Check
+[2014.10.21-09.51.59:142][581]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:51:59 PM
+[2014.10.21-09.52.03:698][581]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.52.03:701][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.52.03:701][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.52.03:701][581]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.52.03:701][581]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.52.03:701][581]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.52.03:755][581]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.52.03:832][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B774C0
+[2014.10.21-09.52.08:913][789]Job is a success!
+[2014.10.21-09.52.09:655][790]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.52.10:250][790]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.52.11:471][790]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.10.21-09.52.11:759][790]LogStaticLightingSystem:Warning: Illumination: 12.5 sec (2.60 sec encoding lightmaps)
+[2014.10.21-09.52.11:759][790]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.52.11:759][790]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.10.21-09.52.12:707][791]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.52.12:708][791]MapCheck: New page: TheRoom - Oct 21, 2014, 1:52:12 PM
+[2014.10.21-09.52.12:722][791]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2014.10.21-09.52.12:722][791]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.52.12:779][791]MapCheck: Info ========== Map Check: 1 Error(s), 1 Warning(s), [71.674ms] ==========
+[2014.10.21-09.52.13:298][808]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-09.52.14:438][859]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/TheRoom.HQ_Lightmap1_1. Streaming mips will be recached.
+[2014.10.21-09.52.14:492][859]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-09.52.45:628][497]MapCheck: New page: Map Check
+[2014.10.21-09.52.45:643][497]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-09.52.45:656][497]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.52.45:698][497]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:52:45 PM
+[2014.10.21-09.52.50:279][497]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.52.50:283][497]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.52.50:283][497]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.52.50:283][497]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.52.50:283][497]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.52.50:283][497]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.52.50:326][497]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.52.55:822][744]Job is a success!
+[2014.10.21-09.52.56:516][745]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.52.57:140][745]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.52.58:368][745]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.10.21-09.52.58:644][745]LogStaticLightingSystem:Warning: Illumination: 12.9 sec (2.65 sec encoding lightmaps)
+[2014.10.21-09.52.58:644][745]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.52.58:644][745]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2014.10.21-09.52.59:275][745]Lightmass on 2011-KURS-09: 7.85 sec total, 1.09 sec importing, 0 ms setup, 179 ms photons, 6.53 sec processing, 0 ms extra exporting [1/1 mappings]. Threads: 19.5 sec total, 2.50 sec processing.
+[2014.10.21-09.52.59:283][746]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.52.59:284][746]MapCheck: New page: TheRoom - Oct 21, 2014, 1:52:59 PM
+[2014.10.21-09.52.59:284][746]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.52.59:346][746]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [62.012ms] ==========
+[2014.10.21-09.53.24:801][ 46]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.21-09.53.47:408][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-09.53.47:745][117]LogSavePackage: Save=331.489685ms
+[2014.10.21-09.53.47:745][117]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMeshEC4B3F1A4E7C5EA3DC6AB6ACBCB6683B.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-09.53.50:455][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheRoom" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.21-09.53.50:921][249]LogSavePackage: Save=430.317108ms
+[2014.10.21-09.53.50:921][249]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom4905DB284C81EC8099E6DABEB8A73FA2.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap'
+[2014.10.21-09.53.50:946][249]LogFileHelpers: Saving map 'TheRoom' took 0.550
+[2014.10.21-09.53.53:287][366]MapCheck: New page: Map Check
+[2014.10.21-09.53.53:323][366]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-09.53.53:323][366]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.53.53:338][366]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:53:53 PM
+[2014.10.21-09.53.57:883][366]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.53.57:886][366]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.53.57:887][366]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.53.57:887][366]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.53.57:887][366]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.53.57:887][366]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.53.57:936][366]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.53.58:005][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001310AAC0
+[2014.10.21-09.54.04:216][563]Job is a success!
+[2014.10.21-09.54.04:968][564]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.54.05:549][564]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.54.06:795][564]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.10.21-09.54.07:080][564]LogStaticLightingSystem:Warning: Illumination: 13.6 sec (2.64 sec encoding lightmaps)
+[2014.10.21-09.54.07:080][564]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.54.07:080][564]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.10.21-09.54.07:993][565]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.54.07:994][565]MapCheck: New page: TheRoom - Oct 21, 2014, 1:54:07 PM
+[2014.10.21-09.54.08:007][565]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.54.08:065][565]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [72.344ms] ==========
+[2014.10.21-09.54.13:842][820]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Shared/Editor/MapErrors/index.html
+[2014.10.21-09.56.20:802][964]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.10.21-09.56.36:056][902]MapCheck: New page: Map Check
+[2014.10.21-09.56.36:094][902]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-09.56.36:094][902]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.56.36:113][902]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:56:36 PM
+[2014.10.21-09.56.40:669][902]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.56.40:673][902]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.56.40:673][902]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.56.40:673][902]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.56.40:673][902]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.56.40:673][902]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.56.40:717][902]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.56.40:720][902]LogContentStreaming: Texture pool size now 400 MB
+[2014.10.21-09.56.46:959][162]Job is a success!
+[2014.10.21-09.56.47:770][163]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-09.56.48:382][163]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-09.56.49:651][163]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.10.21-09.56.49:968][163]LogStaticLightingSystem:Warning: Illumination: 13.8 sec (2.75 sec encoding lightmaps)
+[2014.10.21-09.56.49:968][163]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.56.49:968][163]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 7 textures
+[2014.10.21-09.56.50:681][164]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.56.50:682][164]MapCheck: New page: TheRoom - Oct 21, 2014, 1:56:50 PM
+[2014.10.21-09.56.50:695][164]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.56.50:752][164]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [70.377ms] ==========
+[2014.10.21-09.56.52:196][235]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/TheRoom.HQ_Lightmap0_1. Streaming mips will be recached.
+[2014.10.21-09.56.52:229][235]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.56.52:829][236]LogEditorViewport: Clicking Background
+[2014.10.21-09.56.54:704][379]LogEditorViewport: Clicking Background
+[2014.10.21-09.57.06:976][364]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-09.57.45:680][423]MapCheck: New page: Map Check
+[2014.10.21-09.57.45:718][423]Cmd: MAP REBUILD
+[2014.10.21-09.57.45:718][423]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.57.45:776][423]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2014.10.21-09.57.45:776][423]MapCheck: New page: TheRoom - Oct 21, 2014, 1:57:45 PM
+[2014.10.21-09.57.45:792][423]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.57.45:876][423]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [100.115ms] ==========
+[2014.10.21-09.57.45:897][423]LogEditorBuildUtils: Build time 0:00:00
+[2014.10.21-09.58.04:831][560]MapCheck: New page: Map Check
+[2014.10.21-09.58.04:853][560]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-09.58.04:853][560]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.58.04:896][560]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2014.10.21-09.58.04:896][560]MapCheck: New page: TheRoom - Oct 21, 2014, 1:58:04 PM
+[2014.10.21-09.58.04:918][560]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.58.04:973][560]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [76.555ms] ==========
+[2014.10.21-09.58.04:993][560]LogEditorBuildUtils: Build time 0:00:00
+[2014.10.21-09.59.07:228][301]MapCheck: New page: Map Check
+[2014.10.21-09.59.07:253][301]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-09.59.07:254][301]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-09.59.07:298][301]LightingResults: New page: Lighting Build - Oct 21, 2014, 1:59:07 PM
+[2014.10.21-09.59.11:854][301]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-09.59.11:858][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-09.59.11:858][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-09.59.11:858][301]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-09.59.11:858][301]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-09.59.11:858][301]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-09.59.11:901][301]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-09.59.18:513][544]Job is a success!
+[2014.10.21-09.59.19:270][545]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-09.59.19:875][545]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-09.59.21:142][545]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.10.21-09.59.21:421][545]LogStaticLightingSystem:Warning: Illumination: 14.0 sec (2.68 sec encoding lightmaps)
+[2014.10.21-09.59.21:421][545]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-09.59.21:421][545]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2014.10.21-09.59.21:878][546]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-09.59.21:878][546]MapCheck: New page: TheRoom - Oct 21, 2014, 1:59:21 PM
+[2014.10.21-09.59.21:879][546]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-09.59.21:942][546]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [63.509ms] ==========
+[2014.10.21-09.59.24:735][684]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Shared/Editor/MapErrors/index.html
+[2014.10.21-10.00.09:834][834]Cmd: MAP CHECK
+[2014.10.21-10.00.09:834][834]MapCheck: New page: TheRoom - Oct 21, 2014, 2:00:09 PM
+[2014.10.21-10.00.09:835][834]MapCheck:Warning: Warning WallBoxMesh_6 'WallBoxMesh' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2014.10.21-10.00.09:892][834]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [57.901ms] ==========
+[2014.10.21-10.02.09:104][773]LogEditorViewport: Clicking Background
+[2014.10.21-10.02.22:766][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.02.22:975][403]LogSavePackage: Save=199.665176ms
+[2014.10.21-10.02.22:975][403]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh3215859541FBC9D3644D4CA6F2CF56BD.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.02.26:276][593]MapCheck: New page: Map Check
+[2014.10.21-10.02.26:294][593]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.02.26:294][593]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.02.26:341][593]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:02:26 PM
+[2014.10.21-10.02.30:898][593]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.02.30:902][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.02.30:902][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.02.30:902][593]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.02.30:902][593]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.02.30:902][593]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.02.30:957][593]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.02.31:020][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B57EC0
+[2014.10.21-10.02.36:068][788]Job is a success!
+[2014.10.21-10.02.36:786][789]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.02.37:431][789]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.02.38:733][789]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.10.21-10.02.39:059][789]LogStaticLightingSystem:Warning: Illumination: 12.6 sec (2.79 sec encoding lightmaps)
+[2014.10.21-10.02.39:060][789]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.02.39:060][789]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 9 textures
+[2014.10.21-10.02.39:981][790]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.02.39:982][790]MapCheck: New page: TheRoom - Oct 21, 2014, 2:02:39 PM
+[2014.10.21-10.02.42:128][790]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [2,146.659ms] ==========
+[2014.10.21-10.02.43:271][867]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.02.43:271][867]PIE: New page: SIE session: TheRoom (Oct 21, 2014, 2:02:43 PM)
+[2014.10.21-10.02.43:272][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001168s)
+[2014.10.21-10.02.43:273][867]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2014.10.21-10.02.43:274][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002592s)
+[2014.10.21-10.02.43:305][867]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.02.43:306][867]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.02.43:307][867]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.02.43
+[2014.10.21-10.02.43:308][867]LogWorld: Bringing up level for play took: 0.001331
+[2014.10.21-10.02.43:308][867]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.21-10.02.43:309][867]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.109
+[2014.10.21-10.02.45:180][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DCEE200
+[2014.10.21-10.02.45:885][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.03.17:449][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.03.17:474][668]LogSavePackage: Save=19.011913ms
+[2014.10.21-10.03.17:474][668]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh1CB740474DBED34201E6379F04A085AA.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.03.21:667][884]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.03.21:667][884]PIE: New page: SIE session: TheRoom (Oct 21, 2014, 2:03:21 PM)
+[2014.10.21-10.03.21:669][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001554s)
+[2014.10.21-10.03.21:670][884]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2014.10.21-10.03.21:670][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003107s)
+[2014.10.21-10.03.21:671][884]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-10.03.21:701][884]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.03.21:702][884]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.03.21:703][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.03.21
+[2014.10.21-10.03.21:704][884]LogWorld: Bringing up level for play took: 0.001227
+[2014.10.21-10.03.21:704][884]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.21-10.03.21:705][884]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.504
+[2014.10.21-10.03.21:727][884]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-10.03.23:295][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048315620
+[2014.10.21-10.03.23:312][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048315760
+[2014.10.21-10.03.23:872][993]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.03.23:873][993]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:03:23 PM)
+[2014.10.21-10.03.23:874][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001085s)
+[2014.10.21-10.03.23:875][993]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2014.10.21-10.03.23:875][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002278s)
+[2014.10.21-10.03.23:904][993]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.03.23:906][993]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.03.23:906][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.03.23
+[2014.10.21-10.03.23:907][993]LogWorld: Bringing up level for play took: 0.001254
+[2014.10.21-10.03.23:908][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.707
+[2014.10.21-10.03.28:306][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BAA6840
+[2014.10.21-10.03.36:900][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.03.53:575][893]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:592][894]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:608][895]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:625][896]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:640][897]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:656][898]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:673][899]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:689][900]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.53:870][913]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.55:179][986]Cmd: TRANSACTION UNDO
+[2014.10.21-10.03.55:179][986]LogEditorTransaction: Undo Edit Static Lighting Level Scale
+[2014.10.21-10.03.55:217][987]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.58:362][150]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.03.58:417][154]MapCheck: New page: Map Check
+[2014.10.21-10.03.58:457][154]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.03.58:457][154]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.03.58:501][154]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:03:58 PM
+[2014.10.21-10.04.03:058][154]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.04.03:061][154]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.04.03:062][154]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.04.03:062][154]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.04.03:062][154]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.04.03:062][154]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.04.03:106][154]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.04.12:384][558]Job is a success!
+[2014.10.21-10.04.13:138][559]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.04.13:722][559]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.04.15:003][559]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.10.21-10.04.15:316][559]LogStaticLightingSystem:Warning: Illumination: 16.7 sec (2.69 sec encoding lightmaps)
+[2014.10.21-10.04.15:316][559]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.04.15:316][559]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 10 textures
+[2014.10.21-10.04.16:249][560]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.04.16:249][560]MapCheck: New page: TheRoom - Oct 21, 2014, 2:04:16 PM
+[2014.10.21-10.04.18:224][560]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [1,975.462ms] ==========
+[2014.10.21-10.04.18:238][560]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight1)
+[2014.10.21-10.04.22:343][721]LogSavePackage: Save=1002.471680ms
+[2014.10.21-10.04.22:343][721]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto44C36C14044D29CB10D3033A4BEA69048.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto4.umap'
+[2014.10.21-10.04.22:356][721]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 1.073
+[2014.10.21-10.04.22:356][721]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.073
+[2014.10.21-10.04.23:287][774]MapCheck: New page: Map Check
+[2014.10.21-10.04.23:315][774]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.04.23:315][774]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.04.23:382][774]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:04:23 PM
+[2014.10.21-10.04.27:951][774]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.04.27:956][774]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.04.27:956][774]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.04.27:956][774]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.04.27:956][774]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.04.27:956][774]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.04.27:999][774]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.04.33:901][ 24]Job is a success!
+[2014.10.21-10.04.34:617][ 25]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2014.10.21-10.04.35:219][ 25]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.04.36:474][ 25]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.10.21-10.04.36:796][ 25]LogStaticLightingSystem:Warning: Illumination: 13.3 sec (2.65 sec encoding lightmaps)
+[2014.10.21-10.04.36:796][ 25]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.04.36:796][ 25]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 11 textures
+[2014.10.21-10.04.37:087][ 26]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.04.37:087][ 26]MapCheck: New page: TheRoom - Oct 21, 2014, 2:04:37 PM
+[2014.10.21-10.04.37:822][ 26]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [734.285ms] ==========
+[2014.10.21-10.04.39:091][100]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.04.39:947][150]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.04.41:163][227]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.04.42:398][300]MapCheck: New page: Map Check
+[2014.10.21-10.04.42:415][300]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.04.42:415][300]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.04.42:459][300]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:04:42 PM
+[2014.10.21-10.04.47:018][300]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.04.47:021][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.04.47:022][300]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.04.47:022][300]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.04.47:022][300]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.04.47:022][300]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.04.47:065][300]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.04.52:797][550]Job is a success!
+[2014.10.21-10.04.53:550][551]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.04.54:158][551]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.04.55:422][551]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.10.21-10.04.55:725][551]LogStaticLightingSystem:Warning: Illumination: 13.2 sec (2.68 sec encoding lightmaps)
+[2014.10.21-10.04.55:725][551]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.04.55:725][551]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 12 textures
+[2014.10.21-10.04.56:020][552]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.04.56:020][552]MapCheck: New page: TheRoom - Oct 21, 2014, 2:04:56 PM
+[2014.10.21-10.04.56:079][552]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.965ms] ==========
+[2014.10.21-10.04.58:562][692]Cmd: UpdateLandscapeSetup
+[2014.10.21-10.04.59:691][765]LogEditorViewport: Clicking Background
+[2014.10.21-10.05.00:099][791]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight1)
+[2014.10.21-10.05.00:767][834]Cmd: DELETE
+[2014.10.21-10.05.00:767][834]Cmd: ACTOR DELETE
+[2014.10.21-10.05.00:768][834]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.10.21-10.05.00:806][834]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2014.10.21-10.06.11:792][251]MapCheck: New page: Map Check
+[2014.10.21-10.06.11:827][251]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.06.11:827][251]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.06.11:870][251]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:06:11 PM
+[2014.10.21-10.06.16:418][251]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.06.16:422][251]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.06.16:422][251]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.06.16:422][251]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.06.16:422][251]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.06.16:422][251]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.06.16:466][251]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.06.16:487][252]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.21-10.06.20:347][278]Job is a success!
+[2014.10.21-10.06.21:515][279]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.06.22:158][279]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.06.23:593][279]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.10.21-10.06.24:007][279]LogStaticLightingSystem:Warning: Illumination: 11.7 sec (3.04 sec encoding lightmaps)
+[2014.10.21-10.06.24:007][279]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.06.24:007][279]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 13 textures
+[2014.10.21-10.06.24:429][280]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.06.24:429][280]MapCheck: New page: TheRoom - Oct 21, 2014, 2:06:24 PM
+[2014.10.21-10.06.24:491][280]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [61.829ms] ==========
+[2014.10.21-10.06.29:125][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.06.31:029][584]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.06.31:029][584]PIE: New page: SIE session: TheRoom (Oct 21, 2014, 2:06:31 PM)
+[2014.10.21-10.06.31:031][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001455s)
+[2014.10.21-10.06.31:032][584]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2014.10.21-10.06.31:032][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003049s)
+[2014.10.21-10.06.31:033][584]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-10.06.31:061][584]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.06.31:062][584]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.06.31:063][584]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.06.31
+[2014.10.21-10.06.31:064][584]LogWorld: Bringing up level for play took: 0.001265
+[2014.10.21-10.06.31:064][584]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.10.21-10.06.31:065][584]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.144
+[2014.10.21-10.06.31:085][584]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_TheRoom.TheRoom:PersistentLevel.WallBoxMesh_6"
+[2014.10.21-10.06.32:389][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B760C0
+[2014.10.21-10.06.33:823][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.06.38:212][  4]MapCheck: New page: Map Check
+[2014.10.21-10.06.38:246][  4]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.06.38:246][  4]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.06.38:298][  4]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:06:38 PM
+[2014.10.21-10.06.42:846][  4]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.06.42:850][  4]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.06.42:850][  4]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.06.42:850][  4]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.06.42:850][  4]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.06.42:850][  4]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.06.42:895][  4]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.06.44:746][ 69]Job is a success!
+[2014.10.21-10.06.44:819][ 70]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.06.44:827][ 70]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.06.44:844][ 70]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.10.21-10.06.44:878][ 70]LogStaticLightingSystem:Warning: Illumination: 6.54 sec (35 ms encoding lightmaps)
+[2014.10.21-10.06.44:878][ 70]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.06.44:878][ 70]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 14 textures
+[2014.10.21-10.06.45:887][ 71]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.06.45:887][ 71]MapCheck: New page: TheRoom - Oct 21, 2014, 2:06:45 PM
+[2014.10.21-10.06.45:959][ 71]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [71.702ms] ==========
+[2014.10.21-10.08.03:162][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.08.03:369][579]LogSavePackage: Save=196.690781ms
+[2014.10.21-10.08.03:369][579]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh8AF2722C448046BE3562549E87AC4C1B.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.08.18:708][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.08.18:735][324]LogSavePackage: Save=21.432892ms
+[2014.10.21-10.08.18:735][324]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh5E8D2D7F4A28163F00707FA4B757957A.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.08.21:986][485]MapCheck: New page: Map Check
+[2014.10.21-10.08.22:020][485]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.08.22:021][485]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.08.22:085][485]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:08:22 PM
+[2014.10.21-10.08.26:651][485]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.08.26:655][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.08.26:655][485]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.08.26:655][485]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.08.26:655][485]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.08.26:655][485]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.08.26:705][485]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.08.27:037][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DCEF740
+[2014.10.21-10.08.28:829][554]Job is a success!
+[2014.10.21-10.08.28:918][556]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.08.28:930][556]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.08.28:949][556]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.10.21-10.08.28:985][556]LogStaticLightingSystem:Warning: Illumination: 6.87 sec (44 ms encoding lightmaps)
+[2014.10.21-10.08.28:985][556]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.08.28:985][556]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 15 textures
+[2014.10.21-10.08.29:650][556]Lightmass on 2011-KURS-09: 1.77 sec total, 1.27 sec importing, 0 ms setup, 134 ms photons, 340 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.00 sec total, 10 ms processing.
+[2014.10.21-10.08.29:683][557]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.08.29:683][557]MapCheck: New page: TheRoom - Oct 21, 2014, 2:08:29 PM
+[2014.10.21-10.08.29:742][557]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.755ms] ==========
+[2014.10.21-10.09.16:225][817]MapCheck: New page: Map Check
+[2014.10.21-10.09.16:239][817]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.09.16:239][817]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.09.16:314][817]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:09:16 PM
+[2014.10.21-10.09.20:882][817]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.09.20:886][817]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.09.20:886][817]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.09.20:886][817]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.09.20:886][817]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.09.20:886][817]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.09.20:930][817]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.09.23:397][861]Job is a success!
+[2014.10.21-10.09.23:476][862]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.09.23:491][862]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.09.23:515][862]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.10.21-10.09.23:557][862]LogStaticLightingSystem:Warning: Illumination: 7.20 sec (52 ms encoding lightmaps)
+[2014.10.21-10.09.23:557][862]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.09.23:557][862]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 16 textures
+[2014.10.21-10.09.23:963][862]Lightmass on 2011-KURS-09: 1.83 sec total, 1.11 sec importing, 0 ms setup, 86 ms photons, 266 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 788 ms total, 7 ms processing.
+[2014.10.21-10.09.23:984][863]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.09.23:984][863]MapCheck: New page: TheRoom - Oct 21, 2014, 2:09:23 PM
+[2014.10.21-10.09.24:044][863]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.586ms] ==========
+[2014.10.21-10.09.59:911][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.11.26:634][326]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-10.11.26:634][326]LogStaticMesh: Built static mesh [1.625556ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-10.11.40:031][943]MapCheck: New page: Map Check
+[2014.10.21-10.11.40:071][943]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.11.40:071][943]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.11.40:152][943]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:11:40 PM
+[2014.10.21-10.11.44:722][943]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.11.44:725][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.11.44:725][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.11.44:725][943]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.11.44:725][943]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.11.44:725][943]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.11.44:774][943]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.11.45:033][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001318FEC0
+[2014.10.21-10.11.46:709][ 13]Job is a success!
+[2014.10.21-10.11.46:810][ 15]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.11.46:819][ 15]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.11.46:850][ 15]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.10.21-10.11.46:885][ 15]Lightmass on 2011-KURS-09: 1.66 sec total, 1.16 sec importing, 1 ms setup, 166 ms photons, 306 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 901 ms total, 8 ms processing.
+[2014.10.21-10.11.46:893][ 15]LogStaticLightingSystem:Warning: Illumination: 6.69 sec (52 ms encoding lightmaps)
+[2014.10.21-10.11.46:893][ 15]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.11.46:893][ 15]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 17 textures
+[2014.10.21-10.11.47:762][ 16]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.11.47:762][ 16]MapCheck: New page: TheRoom - Oct 21, 2014, 2:11:47 PM
+[2014.10.21-10.11.47:820][ 16]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.269ms] ==========
+[2014.10.21-10.12.12:901][235]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-10.12.12:911][235]LogStaticMesh: Built static mesh [10.621601ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-10.12.16:566][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.12.16:598][380]LogSavePackage: Save=25.484804ms
+[2014.10.21-10.12.16:598][380]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMeshF520098F424503A716FF759F27090CFF.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.12.27:372][ 11]MapCheck: New page: Map Check
+[2014.10.21-10.12.27:406][ 11]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.12.27:406][ 11]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.12.27:502][ 11]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:12:27 PM
+[2014.10.21-10.12.32:063][ 11]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.12.32:067][ 11]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.12.32:067][ 11]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.12.32:067][ 11]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.12.32:067][ 11]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.12.32:067][ 11]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.12.32:115][ 11]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.12.32:395][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F7876A0
+[2014.10.21-10.12.34:270][ 97]Job is a success!
+[2014.10.21-10.12.34:328][ 98]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.12.34:337][ 98]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.12.34:357][ 98]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.10.21-10.12.34:396][ 98]LogStaticLightingSystem:Warning: Illumination: 6.86 sec (42 ms encoding lightmaps)
+[2014.10.21-10.12.34:396][ 98]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.12.34:396][ 98]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 18 textures
+[2014.10.21-10.12.35:067][ 98]Lightmass on 2011-KURS-09: 1.82 sec total, 1.19 sec importing, 0 ms setup, 380 ms photons, 232 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 670 ms total, 7 ms processing.
+[2014.10.21-10.12.35:099][ 99]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.12.35:099][ 99]MapCheck: New page: TheRoom - Oct 21, 2014, 2:12:35 PM
+[2014.10.21-10.12.35:156][ 99]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [56.824ms] ==========
+[2014.10.21-10.13.35:478][879]Cmd: MAP CHECK
+[2014.10.21-10.13.35:478][879]MapCheck: New page: TheRoom - Oct 21, 2014, 2:13:35 PM
+[2014.10.21-10.13.35:534][879]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [56.202ms] ==========
+[2014.10.21-10.13.51:181][638]LogEditorViewport: Clicking Background
+[2014.10.21-10.13.51:805][682]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2014.10.21-10.13.55:540][888]MapCheck: New page: Map Check
+[2014.10.21-10.13.55:576][888]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.13.55:576][888]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.13.55:682][888]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:13:55 PM
+[2014.10.21-10.14.00:252][888]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.14.00:255][888]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.14.00:255][888]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.14.00:255][888]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.14.00:255][888]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.14.00:255][888]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.14.00:323][888]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.14.02:932][940]Job is a success!
+[2014.10.21-10.14.03:059][942]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.14.03:080][942]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.14.03:120][942]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.10.21-10.14.03:163][942]LogStaticLightingSystem:Warning: Illumination: 7.43 sec (90 ms encoding lightmaps)
+[2014.10.21-10.14.03:163][942]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.14.03:163][942]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 19 textures
+[2014.10.21-10.14.04:265][942]Lightmass on 2011-KURS-09: 1.82 sec total, 1.27 sec importing, 0 ms setup, 115 ms photons, 380 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.12 sec total, 7 ms processing.
+[2014.10.21-10.14.04:304][943]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.14.04:304][943]MapCheck: New page: TheRoom - Oct 21, 2014, 2:14:04 PM
+[2014.10.21-10.14.04:379][943]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [74.823ms] ==========
+[2014.10.21-10.14.19:327][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.14.19:861][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.14.19:955][678]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.14.33:838][310]LogRenderer:Warning: Reallocating scene render targets to support 1288x904.
+[2014.10.21-10.14.41:232][603]LogSavePackage: Save=57.127651ms
+[2014.10.21-10.14.41:232][603]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto5E0CA3638433C461A1AE9259F9D8E2B8A.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto5.umap'
+[2014.10.21-10.14.41:252][603]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.126
+[2014.10.21-10.14.41:252][603]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2014.10.21-10.14.57:601][342]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-10.14.57:601][342]LogStaticMesh: Built static mesh [1.786400ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-10.15.04:322][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.15.04:537][622]LogSavePackage: Save=205.119232ms
+[2014.10.21-10.15.04:537][622]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh44922AF244E97C654D4379A406B18F02.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.15.07:556][773]MapCheck: New page: Map Check
+[2014.10.21-10.15.07:583][773]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.15.07:583][773]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.15.07:701][773]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:15:07 PM
+[2014.10.21-10.15.12:260][773]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.15.12:264][773]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.15.12:264][773]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.15.12:264][773]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.15.12:264][773]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.15.12:264][773]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.15.12:313][773]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.15.12:580][774]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F786E80
+[2014.10.21-10.15.14:416][844]Job is a success!
+[2014.10.21-10.15.14:500][846]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.15.14:508][846]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.15.14:528][846]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.10.21-10.15.14:565][846]LogStaticLightingSystem:Warning: Illumination: 6.82 sec (39 ms encoding lightmaps)
+[2014.10.21-10.15.14:565][846]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.15.14:565][846]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 20 textures
+[2014.10.21-10.15.15:270][846]Lightmass on 2011-KURS-09: 1.80 sec total, 1.32 sec importing, 1 ms setup, 100 ms photons, 287 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 843 ms total, 9 ms processing.
+[2014.10.21-10.15.15:300][847]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.15.15:300][847]MapCheck: New page: TheRoom - Oct 21, 2014, 2:15:15 PM
+[2014.10.21-10.15.15:358][847]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [57.972ms] ==========
+[2014.10.21-10.15.25:116][456]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.21-10.15.26:041][513]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-10.15.26:879][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.21-10.15.28:631][667]LogMaterial: Missing cached shader map for material crosshair_Mat, compiling.
+[2014.10.21-10.15.28:662][667]LogMaterial:Warning: Material /Game/Textures/crosshair_Mat.crosshair_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.10.21-10.15.28:679][667]LogMaterial: Missing cached shader map for material crosshair_Mat, compiling.
+[2014.10.21-10.15.28:700][667]LogMaterial: 0.000286 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.21-10.15.31:522][768]MapCheck: New page: Map Check
+[2014.10.21-10.15.31:563][768]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.15.31:563][768]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.15.31:695][768]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:15:31 PM
+[2014.10.21-10.15.36:301][768]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.15.36:305][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.15.36:305][768]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.15.36:305][768]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.15.36:305][768]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.15.36:305][768]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.15.36:456][768]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.15.36:460][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer crosshair_Mat, compiling.
+[2014.10.21-10.15.36:462][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer crosshair_Mat, compiling.
+[2014.10.21-10.15.36:467][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer crosshair_Mat, compiling.
+[2014.10.21-10.15.41:246][773]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.10.21-10.15.43:693][878]Job is a success!
+[2014.10.21-10.15.43:756][879]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.15.43:764][879]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.15.43:781][879]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.10.21-10.15.43:819][879]LogStaticLightingSystem:Warning: Illumination: 12.0 sec (37 ms encoding lightmaps)
+[2014.10.21-10.15.43:819][879]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.15.43:819][879]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 21 textures
+[2014.10.21-10.15.44:328][879]Lightmass on 2011-KURS-09: 2.07 sec total, 1.55 sec importing, 0 ms setup, 168 ms photons, 261 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 757 ms total, 5 ms processing.
+[2014.10.21-10.15.44:365][880]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.15.44:365][880]MapCheck: New page: TheRoom - Oct 21, 2014, 2:15:44 PM
+[2014.10.21-10.15.44:423][880]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [58.368ms] ==========
+[2014.10.21-10.15.46:673][990]MapCheck: New page: Map Check
+[2014.10.21-10.15.46:705][990]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.15.46:705][990]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.15.46:856][990]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:15:46 PM
+[2014.10.21-10.15.51:451][990]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.15.51:454][990]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.15.51:454][990]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.15.51:454][990]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.15.51:454][990]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.15.51:454][990]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.15.51:570][990]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.15.54:613][107]Job is a success!
+[2014.10.21-10.15.54:714][109]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2014.10.21-10.15.54:723][109]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.15.54:742][109]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2014.10.21-10.15.54:777][109]LogStaticLightingSystem:Warning: Illumination: 7.88 sec (37 ms encoding lightmaps)
+[2014.10.21-10.15.54:777][109]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.15.54:777][109]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 22 textures
+[2014.10.21-10.15.55:442][109]Lightmass on 2011-KURS-09: 2.26 sec total, 1.79 sec importing, 4 ms setup, 116 ms photons, 252 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 739 ms total, 10 ms processing.
+[2014.10.21-10.15.55:475][110]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.15.55:475][110]MapCheck: New page: TheRoom - Oct 21, 2014, 2:15:55 PM
+[2014.10.21-10.15.55:530][110]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [55.288ms] ==========
+[2014.10.21-10.16.47:893][503]LogD3D9MeshUtils:Warning: D3DXUVAtlasPack() returned 2289436780.
+[2014.10.21-10.16.58:909][980]LogStaticMesh: Building static mesh WallBoxMesh...
+[2014.10.21-10.16.58:910][980]LogStaticMesh: Built static mesh [1.558578ms] /Game/Meshes/WallBoxMesh.WallBoxMesh
+[2014.10.21-10.17.11:242][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.17.11:465][584]LogSavePackage: Save=215.623978ms
+[2014.10.21-10.17.11:466][584]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh601307E649E06320F94200BB8130DD1E.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.17.30:607][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WallBoxMesh" FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset" SILENT=true
+[2014.10.21-10.17.30:633][460]LogSavePackage: Save=19.828358ms
+[2014.10.21-10.17.30:633][460]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/WallBoxMesh311DC433487E5BD68B54A79C654CE428.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/WallBoxMesh.uasset'
+[2014.10.21-10.17.33:163][584]MapCheck: New page: Map Check
+[2014.10.21-10.17.33:199][584]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.17.33:199][584]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.17.33:345][584]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:17:33 PM
+[2014.10.21-10.17.37:897][584]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.17.37:900][584]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.17.37:900][584]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.17.37:900][584]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.17.37:900][584]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.17.37:900][584]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.17.37:950][584]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.17.38:019][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013171080
+[2014.10.21-10.17.40:561][692]Job is a success!
+[2014.10.21-10.17.40:717][693]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.17.40:727][693]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.17.40:743][693]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2014.10.21-10.17.40:778][693]LogStaticLightingSystem:Warning: Illumination: 7.40 sec (133 ms encoding lightmaps)
+[2014.10.21-10.17.40:778][693]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.17.40:778][693]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 23 textures
+[2014.10.21-10.17.41:902][693]Lightmass on 2011-KURS-09: 2.37 sec total, 1.77 sec importing, 44 ms setup, 164 ms photons, 356 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.05 sec total, 0 ms processing.
+[2014.10.21-10.17.41:941][694]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.17.41:941][694]MapCheck: New page: TheRoom - Oct 21, 2014, 2:17:41 PM
+[2014.10.21-10.17.42:009][694]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [67.619ms] ==========
+[2014.10.21-10.17.44:619][845]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush8)
+[2014.10.21-10.17.45:519][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallBoxMesh)
+[2014.10.21-10.17.46:168][938]Cmd: DELETE
+[2014.10.21-10.17.46:168][938]Cmd: ACTOR DELETE
+[2014.10.21-10.17.46:169][938]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.21-10.17.46:194][938]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2014.10.21-10.17.47:330][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.10.21-10.17.47:717][ 59]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-10.17.49:247][154]LogActorFactory: Actor Factory created TemplateCube_Rounded
+[2014.10.21-10.17.50:168][225]LogActorFactory: Actor Factory created TemplateCube_Rounded
+[2014.10.21-10.17.57:384][619]MapCheck: New page: Map Check
+[2014.10.21-10.17.57:404][619]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.17.57:405][619]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.17.57:566][619]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:17:57 PM
+[2014.10.21-10.18.02:120][619]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.18.02:124][619]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.18.02:124][619]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.18.02:124][619]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.18.02:124][619]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.18.02:124][619]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.18.02:175][619]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.18.02:224][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.21-10.18.04:784][727]Job is a success!
+[2014.10.21-10.18.04:975][729]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.18.04:983][729]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.18.05:028][729]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.10.21-10.18.05:077][729]Lightmass on 2011-KURS-09: 2.38 sec total, 1.68 sec importing, 2 ms setup, 165 ms photons, 513 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.47 sec total, 82 ms processing.
+[2014.10.21-10.18.05:113][729]LogStaticLightingSystem:Warning: Illumination: 7.51 sec (196 ms encoding lightmaps)
+[2014.10.21-10.18.05:113][729]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.18.05:113][729]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 24 textures
+[2014.10.21-10.18.06:160][730]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.18.06:160][730]MapCheck: New page: TheRoom - Oct 21, 2014, 2:18:06 PM
+[2014.10.21-10.18.06:227][730]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [67.55ms] ==========
+[2014.10.21-10.18.11:690][ 22]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.18.11:690][ 22]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:18:11 PM)
+[2014.10.21-10.18.11:692][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001767s)
+[2014.10.21-10.18.11:694][ 22]LogPlayLevel: PIE: World Init took: (0.002119s)
+[2014.10.21-10.18.11:694][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.004084s)
+[2014.10.21-10.18.11:721][ 22]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.18.11:723][ 22]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.18.11:724][ 22]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.18.11
+[2014.10.21-10.18.11:724][ 22]LogWorld: Bringing up level for play took: 0.001863
+[2014.10.21-10.18.11:727][ 22]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.488
+[2014.10.21-10.18.13:413][135]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BAA4400
+[2014.10.21-10.18.17:439][370]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-10.18.23:274][689]LogEditorViewport: Clicking Background
+[2014.10.21-10.18.23:822][722]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.10.21-10.18.24:238][734]Cmd: DELETE
+[2014.10.21-10.18.24:238][734]Cmd: ACTOR DELETE
+[2014.10.21-10.18.24:239][734]LogEditorActor: Deleted Actor: MyCharacter_C
+[2014.10.21-10.18.24:293][734]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2014.10.21-10.18.32:672][365]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.21-10.18.34:208][458]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.18.34:208][458]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:18:34 PM)
+[2014.10.21-10.18.34:210][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2014.10.21-10.18.34:212][458]LogPlayLevel: PIE: World Init took: (0.002058s)
+[2014.10.21-10.18.34:212][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003876s)
+[2014.10.21-10.18.34:241][458]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.18.34:242][458]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.18.34:243][458]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.18.34
+[2014.10.21-10.18.34:243][458]LogWorld: Bringing up level for play took: 0.000754
+[2014.10.21-10.18.34:245][458]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 1.004
+[2014.10.21-10.18.39:873][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.10.21-10.18.39:896][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003A928E0
+[2014.10.21-10.19.00:531][223]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.21-10.19.10:604][681]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.10.21-10.19.12:179][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.21-10.19.12:815][798]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.10.21-10.19.13:091][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.10.21-10.19.13:698][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.10.21-10.19.14:105][871]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.21-10.19.50:841][104]BlueprintLog: New page: Compile MyCharacter
+[2014.10.21-10.19.51:035][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.21-10.19.51:036][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.10.21-10.19.51:068][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005DAD7240
+[2014.10.21-10.19.51:202][104]BlueprintEditorCompileResults: Info [5980.51] Compile of MyCharacter successful! [in 81 ms]
+[2014.10.21-10.19.53:976][219]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.19.53:977][219]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:19:53 PM)
+[2014.10.21-10.19.53:978][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000822s)
+[2014.10.21-10.19.53:979][219]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2014.10.21-10.19.53:979][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002234s)
+[2014.10.21-10.19.54:007][219]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.19.54:009][219]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.19.54:009][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.19.54
+[2014.10.21-10.19.54:010][219]LogWorld: Bringing up level for play took: 0.000759
+[2014.10.21-10.19.54:011][219]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.767
+[2014.10.21-10.19.57:479][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.10.21-10.19.57:506][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056CAAC00
+[2014.10.21-10.20.02:090][672]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.10.21-10.20.09:214][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.10.21-10.20.09:214][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.10.21-10.20.13:929][117]BlueprintLog: New page: Compile MyCharacter
+[2014.10.21-10.20.14:044][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.10.21-10.20.14:111][117]BlueprintEditorCompileResults: Info [6003.52] Compile of MyCharacter successful! [in 43 ms]
+[2014.10.21-10.20.16:081][213]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.20.16:081][213]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:20:16 PM)
+[2014.10.21-10.20.16:082][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000839s)
+[2014.10.21-10.20.16:083][213]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2014.10.21-10.20.16:083][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002165s)
+[2014.10.21-10.20.16:114][213]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.20.16:115][213]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.20.16:116][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.20.16
+[2014.10.21-10.20.16:116][213]LogWorld: Bringing up level for play took: 0.000720
+[2014.10.21-10.20.16:118][213]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.873
+[2014.10.21-10.20.17:196][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.10.21-10.20.17:220][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057A1A160
+[2014.10.21-10.20.19:599][407]MapCheck: New page: Map Check
+[2014.10.21-10.20.19:625][407]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.20.19:625][407]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.20.19:778][407]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:20:19 PM
+[2014.10.21-10.20.24:349][407]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.20.24:360][407]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.20.24:360][407]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.20.24:360][407]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.20.24:360][407]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.20.24:360][407]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.20.24:422][407]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.20.27:920][544]Job is a success!
+[2014.10.21-10.20.28:019][546]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-10.20.28:030][546]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-10.20.28:050][546]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2014.10.21-10.20.28:059][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.10.21-10.20.28:059][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.10.21-10.20.28:088][546]Lightmass on 2011-KURS-09: 3.16 sec total, 2.20 sec importing, 4 ms setup, 186 ms photons, 747 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.07 sec total, 63 ms processing.
+[2014.10.21-10.20.28:094][546]LogStaticLightingSystem:Warning: Illumination: 8.27 sec (40 ms encoding lightmaps)
+[2014.10.21-10.20.28:094][546]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.20.28:094][546]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 25 textures
+[2014.10.21-10.20.28:395][547]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.20.28:395][547]MapCheck: New page: TheRoom - Oct 21, 2014, 2:20:28 PM
+[2014.10.21-10.20.28:454][547]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.544ms] ==========
+[2014.10.21-10.20.30:843][662]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-10.20.30:843][662]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 2:20:30 PM)
+[2014.10.21-10.20.30:844][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001000s)
+[2014.10.21-10.20.30:846][662]LogPlayLevel: PIE: World Init took: (0.002448s)
+[2014.10.21-10.20.30:847][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.003657s)
+[2014.10.21-10.20.30:914][662]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-10.20.30:915][662]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-10.20.30:916][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-12.20.30
+[2014.10.21-10.20.30:916][662]LogWorld: Bringing up level for play took: 0.000747
+[2014.10.21-10.20.30:918][662]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.327
+[2014.10.21-10.20.39:277][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.10.21-10.20.39:277][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.10.21-10.20.39:300][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057A1A660
+[2014.10.21-10.20.55:068][194]MapCheck: New page: Map Check
+[2014.10.21-10.20.55:093][194]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-10.20.55:093][194]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-10.20.55:273][194]LightingResults: New page: Lighting Build - Oct 21, 2014, 2:20:55 PM
+[2014.10.21-10.20.59:837][194]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-10.20.59:843][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-10.20.59:843][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-10.20.59:843][194]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-10.20.59:843][194]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-10.20.59:843][194]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-10.20.59:938][194]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.21-10.21.02:213][272]Job is a success!
+[2014.10.21-10.21.02:320][274]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2014.10.21-10.21.02:336][274]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.21-10.21.02:354][274]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.21-10.21.02:382][274]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.10.21-10.21.02:428][274]LogStaticLightingSystem:Warning: Illumination: 7.11 sec (82 ms encoding lightmaps)
+[2014.10.21-10.21.02:428][274]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-10.21.02:428][274]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 26 textures
+[2014.10.21-10.21.02:858][274]Lightmass on 2011-KURS-09: 2.04 sec total, 1.28 sec importing, 0 ms setup, 215 ms photons, 472 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.35 sec total, 82 ms processing.
+[2014.10.21-10.21.02:900][275]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-10.21.02:900][275]MapCheck: New page: TheRoom - Oct 21, 2014, 2:21:02 PM
+[2014.10.21-10.21.02:960][275]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.435ms] ==========
+[2014.10.21-10.21.04:579][347]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush5)
+[2014.10.21-10.21.05:929][418]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2014.10.21-10.21.06:737][458]Cmd: DELETE
+[2014.10.21-10.21.06:737][458]Cmd: ACTOR DELETE
+[2014.10.21-10.21.06:738][458]LogEditorActor: Deleted Actor: PointLight
+[2014.10.21-10.21.06:768][458]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2014.10.21-10.21.07:440][504]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight3)
+[2014.10.21-10.21.07:973][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded)
+[2014.10.21-10.21.08:777][571]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight3)
+[2014.10.21-10.21.28:086][697]LogEditorViewport: Clicking Background
+[2014.10.21-10.21.29:921][833]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight3)
+[2014.10.21-10.21.30:228][848]Cmd: DELETE
+[2014.10.21-10.21.30:228][848]Cmd: ACTOR DELETE
+[2014.10.21-10.21.30:228][848]LogEditorActor: Deleted Actor: SkyLight
+[2014.10.21-10.21.30:255][848]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.10.21-10.21.32:886][998]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.10.21-10.21.55:513][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded)
+[2014.10.21-10.25.08:473][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.10.21-10.25.08:473][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.10.21-10.25.08:613][ 26]LogSavePackage: Save=52.005074ms
+[2014.10.21-10.25.08:613][ 26]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/TheRoom_Auto6859297504B8D67557238D79C118DFA91.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Autosaves/Game/Maps/TheRoom_Auto6.umap'
+[2014.10.21-10.25.08:626][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.153
+[2014.10.21-10.25.08:626][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
+[2014.10.21-10.25.08:637][ 26]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.10.21-10.25.08:671][ 26]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.10.21-10.25.08:671][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.10.21-10.25.08:854][ 26]LogSavePackage: Save=153.873398ms
+[2014.10.21-10.25.08:854][ 26]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/The
