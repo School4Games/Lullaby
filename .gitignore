@@ -1,7 +1,10 @@
+# Ignored directories
 DerivedDataCache
 Binaries/
 Intermediate/
 Saved/
+
+# Ignored files
 Nightterror.opensdf
 Nightterror.sdf
 Nightterror.sln
