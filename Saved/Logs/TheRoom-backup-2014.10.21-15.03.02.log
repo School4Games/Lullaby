@@ -1,0 +1,238 @@
+Log file open, 10/21/14 14:48:24
+LogInit:Display: Running engine for game: TheRoom
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.21-12.48.24:239][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.21-12.48.24:266][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.21-12.48.24:274][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.21-12.48.24:283][  0]LogInit: Object subsystem initialized
+[2014.10.21-12.48.24:285][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.21-12.48.24:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.21-12.48.24:308][  0]LogInit: Computer: 2011-KURS-09
+[2014.10.21-12.48.24:308][  0]LogInit: User: lennartdaldrup
+[2014.10.21-12.48.24:309][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.21-12.48.24:309][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.10.21-12.48.24:309][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.10.21-12.48.24:309][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.21-12.48.24:309][  0]LogMemory: Process Physical Memory: 60.81 MB used, 60.81 MB peak
+[2014.10.21-12.48.24:309][  0]LogMemory: Process Virtual Memory: 36.79 MB used, 36.79 MB peak
+[2014.10.21-12.48.24:309][  0]LogMemory: Physical Memory: 3492.42 MB used, 8191.18 MB total
+[2014.10.21-12.48.24:309][  0]LogMemory: Virtual Memory: 256.66 MB used, 8388608.00 MB total
+[2014.10.21-12.48.24:351][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.10.21-12.48.24:351][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.10.21-12.48.24:351][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.21-12.48.24:358][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.10.21-12.48.24:367][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.21-12.48.24:410][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.10.21-12.48.24:509][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.21-12.48.26:522][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-12.48.27:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-12.48.27:077][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.21-12.48.27:163][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.21-12.48.27:163][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.21-12.48.27:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.21-12.48.27:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.21-12.48.27:181][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.21-12.48.27:193][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.21-12.48.27:393][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.21-12.48.27:393][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.21-12.48.27:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.21-12.48.28:792][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.21-12.48.28:890][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1754_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1640_0///////STATCAT_Advanced////
+[2014.10.21-12.48.28:890][  0]SourceControl: Info Source control is disabled
+[2014.10.21-12.48.28:890][  0]SourceControl: Info Source control is disabled
+[2014.10.21-12.48.28:896][  0]SourceControl: Info Source control is disabled
+[2014.10.21-12.48.29:071][  0]BlueprintLog: New page: Editor Load
+[2014.10.21-12.48.29:166][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.21-12.48.29:166][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.21-12.48.29:480][  0]LogEngine: Initializing Engine...
+[2014.10.21-12.48.29:636][  0]LogInit: XAudio2 using 'Kopfhörer (High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.21-12.48.29:645][  0]LogInit: FAudioDevice initialized.
+[2014.10.21-12.48.29:663][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.21-12.48.29:706][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/lennart.daldrup/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.21-12.48.29:723][  0]LogInit: Texture streaming: Enabled
+[2014.10.21-12.48.29:753][  0]LogInit: Transaction tracking system initialized
+[2014.10.21-12.48.29:858][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.10.21-12.48.30:391][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-12.48.30:876][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-12.48.30:997][  0]LogConsoleResponse:Display: 
+[2014.10.21-12.48.31:202][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_17a4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1640_0///////STATCAT_Advanced////
+[2014.10.21-12.48.31:202][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1500_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1640_0///////STATCAT_Advanced////
+[2014.10.21-12.48.31:202][  0]SourceControl: Info Source control is disabled
+[2014.10.21-12.49.45:292][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.21-12.49.45:292][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/Example_Map.umap'
+[2014.10.21-12.49.45:292][  0]Cmd: MAP CHECKDEP
+[2014.10.21-12.49.45:292][  0]MapCheck: New page: Untitled_0 - Oct 21, 2014, 4:49:45 PM
+[2014.10.21-12.49.46:036][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [743.294ms] ==========
+[2014.10.21-12.49.46:036][  0]LogFileHelpers: Loading map 'Example_Map' took 0.744
+[2014.10.21-12.49.46:250][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_a7c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_1310_0///////STATCAT_Advanced////
+[2014.10.21-12.49.46:250][  0]LogCollectionManager: Loaded 0 collections in 0.001181 seconds
+[2014.10.21-12.49.46:670][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.21-12.49.46:845][  0]LogLoad: Full Startup: 85.41 seconds (BP compile: 0.00 seconds)
+[2014.10.21-12.49.47:270][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.10.21-12.49.47:525][  1]LogAssetRegistry: Asset discovery search completed in 77.6813 seconds
+[2014.10.21-12.50.02:996][251]Cmd: MAP LOAD FILE="../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Maps/TheRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.21-12.50.02:997][251]LightingResults: New page: Lighting Build
+[2014.10.21-12.50.03:035][251]LoadErrors: New page: Loading map: TheRoom.umap
+[2014.10.21-12.50.03:035][251]MapCheck: New page: Map Check
+[2014.10.21-12.50.03:035][251]LightingResults: New page: Lighting Build
+[2014.10.21-12.50.03:065][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012F187C0
+[2014.10.21-12.50.03:286][251]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.21-12.50.03:287][251]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-12.50.03:348][251]Cmd: MAP CHECKDEP
+[2014.10.21-12.50.03:348][251]MapCheck: New page: TheRoom - Oct 21, 2014, 4:50:03 PM
+[2014.10.21-12.50.03:398][251]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [49.969ms] ==========
+[2014.10.21-12.50.03:398][251]LogFileHelpers: Loading map 'TheRoom' took 0.402
+[2014.10.21-12.50.10:318][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded)
+[2014.10.21-12.50.22:084][240]MapCheck: New page: Map Check
+[2014.10.21-12.50.22:115][240]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.21-12.50.22:115][240]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.21-12.50.22:130][240]LightingResults: New page: Lighting Build - Oct 21, 2014, 4:50:22 PM
+[2014.10.21-12.50.40:255][240]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.21-12.50.40:260][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.21-12.50.40:260][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.21-12.50.40:260][240]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.21-12.50.40:260][240]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.21-12.50.40:260][240]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.21-12.50.40:431][240]LogEditorBuildUtils: Build time 0:00:18
+[2014.10.21-12.50.43:205][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded)
+[2014.10.21-12.50.44:841][314]Job is a success!
+[2014.10.21-12.50.45:002][316]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.21-12.50.45:010][316]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.21-12.50.45:029][316]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.21-12.50.55:297][316]Lightmass on 2011-KURS-09: 1.35 sec total, 332 ms importing, 2 ms setup, 118 ms photons, 436 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.27 sec total, 162 ms processing.
+[2014.10.21-12.50.55:319][316]LogStaticLightingSystem:Warning: Illumination: 33.1 sec (134 ms encoding lightmaps)
+[2014.10.21-12.50.55:319][316]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.21-12.50.55:319][316]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2014.10.21-12.50.56:265][317]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.21-12.50.56:265][317]MapCheck: New page: TheRoom - Oct 21, 2014, 4:50:56 PM
+[2014.10.21-12.50.56:321][317]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [56.557ms] ==========
+[2014.10.21-12.51.05:800][893]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.21-12.51.10:458][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded)
+[2014.10.21-12.51.16:972][543]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart1)
+[2014.10.21-12.52.11:802][447]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.52.24:853][187]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.21-12.52.26:274][277]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.21-12.52.26:274][277]PIE: New page: PIE session: TheRoom (Oct 21, 2014, 4:52:26 PM)
+[2014.10.21-12.52.26:275][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000902s)
+[2014.10.21-12.52.26:276][277]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2014.10.21-12.52.26:276][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.002112s)
+[2014.10.21-12.52.26:608][277]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.10.21-12.52.26:609][277]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.21-12.52.26:609][277]LogWorld: Game class is 'MyGame_C'
+[2014.10.21-12.52.26:622][277]LogAIModule: Creating AISystem for world TheRoom
+[2014.10.21-12.52.26:623][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.10.21-14.52.26
+[2014.10.21-12.52.26:624][277]LogWorld: Bringing up level for play took: 0.001174
+[2014.10.21-12.52.26:625][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.284
+[2014.10.21-12.52.26:858][278]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.10.21-12.53.55:136][830]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Furniture_Liege_lowpoly.FBX)
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: Model, ItemCount : 1
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: Material, ItemCount : 1
+[2014.10.21-12.53.56:029][830]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.10.21-12.54.01:629][830]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Furniture_Liege_lowpoly.FBX
+[2014.10.21-12.54.01:738][830]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.21-12.54.01:820][830]LogFbx: == Initial material list:
+[2014.10.21-12.54.01:820][830]LogFbx: 0: Material #35
+[2014.10.21-12.54.01:820][830]LogFbx: == After sorting:
+[2014.10.21-12.54.01:820][830]LogFbx: 0: Material #35
+[2014.10.21-12.54.01:820][830]LogFbx: == Mapping table:
+[2014.10.21-12.54.01:820][830]LogFbx:   sort 0 -> 0
+[2014.10.21-12.54.01:848][830]LogStaticMesh: Building static mesh Furniture_Liege_lowpoly...
+[2014.10.21-12.54.01:885][830]LogStaticMesh: Built static mesh [37.908451ms] /Game/Meshes/Furniture_Liege_lowpoly.Furniture_Liege_lowpoly
+[2014.10.21-12.54.01:941][830]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Furniture_Secretary_Lowpoly.FBX)
+[2014.10.21-12.54.02:033][830]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Furniture_Secretary_Lowpoly.FBX
+[2014.10.21-12.54.02:050][830]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.21-12.54.02:055][830]LogFbx: == Initial material list:
+[2014.10.21-12.54.02:055][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:055][830]LogFbx: == After sorting:
+[2014.10.21-12.54.02:055][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:055][830]LogFbx: == Mapping table:
+[2014.10.21-12.54.02:055][830]LogFbx:   sort 0 -> 0
+[2014.10.21-12.54.02:062][830]LogStaticMesh: Building static mesh Furniture_Secretary_Lowpoly...
+[2014.10.21-12.54.02:072][830]LogStaticMesh: Built static mesh [11.459557ms] /Game/Meshes/Furniture_Secretary_Lowpoly.Furniture_Secretary_Lowpoly
+[2014.10.21-12.54.02:088][830]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Environment_Door_Lowpoly.FBX)
+[2014.10.21-12.54.02:170][830]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Environment_Door_Lowpoly.FBX
+[2014.10.21-12.54.02:183][830]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.21-12.54.02:186][830]LogFbx: == Initial material list:
+[2014.10.21-12.54.02:186][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:186][830]LogFbx: == After sorting:
+[2014.10.21-12.54.02:186][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:186][830]LogFbx: == Mapping table:
+[2014.10.21-12.54.02:186][830]LogFbx:   sort 0 -> 0
+[2014.10.21-12.54.02:193][830]LogStaticMesh: Building static mesh Environment_Door_Lowpoly...
+[2014.10.21-12.54.02:195][830]LogStaticMesh: Built static mesh [2.882978ms] /Game/Meshes/Environment_Door_Lowpoly.Environment_Door_Lowpoly
+[2014.10.21-12.54.02:201][830]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Furniture_Closet_Lowpoly.FBX)
+[2014.10.21-12.54.02:268][830]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Furniture_Closet_Lowpoly.FBX
+[2014.10.21-12.54.02:283][830]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.21-12.54.02:286][830]LogFbx: == Initial material list:
+[2014.10.21-12.54.02:286][830]LogFbx: 0: Material #0
+[2014.10.21-12.54.02:286][830]LogFbx: 1: Material #1
+[2014.10.21-12.54.02:286][830]LogFbx: 2: Material #2
+[2014.10.21-12.54.02:286][830]LogFbx: 3: Material #3
+[2014.10.21-12.54.02:286][830]LogFbx: 4: Material #4
+[2014.10.21-12.54.02:286][830]LogFbx: 5: Material #5
+[2014.10.21-12.54.02:286][830]LogFbx: 6: 01 - Default
+[2014.10.21-12.54.02:286][830]LogFbx: == After sorting:
+[2014.10.21-12.54.02:286][830]LogFbx: 0: Material #0
+[2014.10.21-12.54.02:286][830]LogFbx: 1: Material #1
+[2014.10.21-12.54.02:286][830]LogFbx: 2: Material #2
+[2014.10.21-12.54.02:286][830]LogFbx: 3: Material #3
+[2014.10.21-12.54.02:286][830]LogFbx: 4: Material #4
+[2014.10.21-12.54.02:286][830]LogFbx: 5: Material #5
+[2014.10.21-12.54.02:286][830]LogFbx: 6: 01 - Default
+[2014.10.21-12.54.02:286][830]LogFbx: == Mapping table:
+[2014.10.21-12.54.02:286][830]LogFbx:   sort 0 -> 0
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 1 -> 1
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 2 -> 2
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 3 -> 3
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 4 -> 4
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 5 -> 5
+[2014.10.21-12.54.02:287][830]LogFbx:   sort 6 -> 6
+[2014.10.21-12.54.02:293][830]LogStaticMesh: Building static mesh Furniture_Closet_Lowpoly...
+[2014.10.21-12.54.02:298][830]LogStaticMesh: Built static mesh [5.862756ms] /Game/Meshes/Furniture_Closet_Lowpoly.Furniture_Closet_Lowpoly
+[2014.10.21-12.54.02:317][830]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Furniture_Dresser_Lowpoly.FBX)
+[2014.10.21-12.54.02:400][830]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Furniture_Dresser_Lowpoly.FBX
+[2014.10.21-12.54.02:419][830]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.21-12.54.02:424][830]LogFbx: == Initial material list:
+[2014.10.21-12.54.02:424][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:424][830]LogFbx: 1: 01 - Default
+[2014.10.21-12.54.02:424][830]LogFbx:   remap 1 -> 0
+[2014.10.21-12.54.02:424][830]LogFbx: == After sorting:
+[2014.10.21-12.54.02:424][830]LogFbx: 0: 01 - Default
+[2014.10.21-12.54.02:424][830]LogFbx: == Mapping table:
+[2014.10.21-12.54.02:424][830]LogFbx:   sort 0 -> 0
+[2014.10.21-12.54.02:424][830]LogFbx:   sort 1 -> 0
+[2014.10.21-12.54.02:432][830]LogStaticMesh: Building static mesh Furniture_Dresser_Lowpoly...
+[2014.10.21-12.54.02:453][830]LogStaticMesh: Built static mesh [22.104136ms] /Game/Meshes/Furniture_Dresser_Lowpoly.Furniture_Dresser_Lowpoly
+[2014.10.21-12.54.02:487][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.21-12.54.02:488][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.54.02:496][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.54.02:496][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.54.02:496][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.54.02:496][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.21-12.54.06:421][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C51B9C0
+[2014.10.21-12.54.34:780][370]LogEditorTransaction: Undo Create Sphere Collision
+[2014.10.21-12.54.41:881][675]LogSavePackage: Save=128.314285ms
+[2014.10.21-12.54.41:881][675]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Environment_Door_LowpolyA78FAFC34E80908E0704658A2325747D.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/Environment_Door_Lowpoly.uasset'
+[2014.10.21-12.55.04:875][787]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.55.16:016][267]LogSavePackage: Save=142.740417ms
+[2014.10.21-12.55.16:016][267]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Furniture_Closet_Lowpoly14DA615242414C4071873A9ACBE888AF.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/Furniture_Closet_Lowpoly.uasset'
+[2014.10.21-12.55.29:217][934]LogSavePackage: Save=18.661381ms
+[2014.10.21-12.55.29:217][934]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Furniture_Closet_LowpolyD158B0E04B7B89C3686F6BBB2800582F.tmp' to '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Content/Meshes/Furniture_Closet_Lowpoly.uasset'
+[2014.10.21-12.55.43:854][635]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.56.17:959][165]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.56.18:443][178]LogEditorTransaction: Undo Create Box Collision
+[2014.10.21-12.56.35:227][965]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.56.37:980][ 91]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.56.41:201][234]LogEditorTransaction: Undo Create Convex Collision
+[2014.10.21-12.56.46:459][460]LogSavePackage: Save=140.271042ms
+[2014.10.21-12.56.46:459][460]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup/Documents/Unreal Projects/TheRoom/Saved/Furniture_Dresser_LowpolyDC8
