@@ -1,11 +1,15 @@
 # Ignored directories
-DerivedDataCache
+DerivedDataCache/
 Binaries/
 Intermediate/
 Saved/
+Content/Textures/*
 
 # Ignored files
 Nightterror.opensdf
 Nightterror.sdf
 Nightterror.sln
 Nightterror.v12.suo
+
+# Exceptions
+!Content/Textures/crosshair.uasset
