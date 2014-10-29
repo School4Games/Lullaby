@@ -3,7 +3,7 @@ DerivedDataCache/
 Binaries/
 Intermediate/
 Saved/
-Content/Textures/*
+Content/Textures/
 
 # Ignored files
 Nightterror.opensdf
@@ -12,4 +12,3 @@ Nightterror.sln
 Nightterror.v12.suo
 
 # Exceptions
-!Content/Textures/crosshair.uasset
