@@ -3,8 +3,9 @@ DerivedDataCache/
 Binaries/
 Intermediate/
 Saved/
-Content/Textures/*
 Build/
+Content/Textures
+Content/Materials
 
 # Ignored files
 Nightterror.opensdf
@@ -13,4 +14,4 @@ Nightterror.sln
 Nightterror.v12.suo
 
 # Exceptions
-!Content/Textures/UsedTex/
+
