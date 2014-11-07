@@ -1,0 +1,1050 @@
+Log file open, 11/05/14 17:15:46
+LogInit:Display: Running engine for game: TheRoom
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.05-16.15.46:329][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.05-16.15.46:355][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.05-16.15.46:364][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.05-16.15.46:372][  0]LogInit: Object subsystem initialized
+[2014.11.05-16.15.46:374][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.05-16.15.46:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.05-16.15.46:394][  0]LogInit: Computer: 2013-KURS-09
+[2014.11.05-16.15.46:394][  0]LogInit: User: lennartdaldrup
+[2014.11.05-16.15.46:395][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.05-16.15.46:395][  0]LogInit: High frequency timer resolution =3.320390 MHz
+[2014.11.05-16.15.46:395][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.05-16.15.46:396][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.05-16.15.46:396][  0]LogMemory: Process Physical Memory: 61.46 MB used, 61.46 MB peak
+[2014.11.05-16.15.46:396][  0]LogMemory: Process Virtual Memory: 37.05 MB used, 37.05 MB peak
+[2014.11.05-16.15.46:396][  0]LogMemory: Physical Memory: 2776.12 MB used, 8185.95 MB total
+[2014.11.05-16.15.46:396][  0]LogMemory: Virtual Memory: 262.12 MB used, 8388608.00 MB total
+[2014.11.05-16.15.46:455][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.11.05-16.15.46:455][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.11.05-16.15.46:455][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.05-16.15.46:462][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2014.11.05-16.15.46:468][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.05-16.15.46:529][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.11.05-16.15.46:618][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.05-16.15.48:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.15.48:618][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.15.48:656][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.05-16.15.48:735][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.05-16.15.48:735][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.05-16.15.48:735][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.05-16.15.48:735][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.05-16.15.48:752][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.05-16.15.48:763][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.05-16.15.48:944][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.05-16.15.48:944][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.05-16.15.49:334][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.05-16.15.50:054][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_f38_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d80_0///////STATCAT_Advanced////
+[2014.11.05-16.15.50:054][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.05-16.15.50:159][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.15.50:159][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.15.50:164][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.15.50:345][  0]BlueprintLog: New page: Editor Load
+[2014.11.05-16.15.50:446][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.05-16.15.50:446][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.05-16.15.50:704][  0]LogEngine: Initializing Engine...
+[2014.11.05-16.15.50:836][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.05-16.15.50:869][  0]LogInit: FAudioDevice initialized.
+[2014.11.05-16.15.50:884][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.05-16.15.50:920][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.05-16.15.50:933][  0]LogInit: Texture streaming: Enabled
+[2014.11.05-16.15.50:966][  0]LogInit: Transaction tracking system initialized
+[2014.11.05-16.15.51:079][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2014.11.05-16.15.51:623][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.15.52:001][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.15.52:130][  0]LogConsoleResponse:Display: 
+[2014.11.05-16.15.52:302][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_49c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d80_0///////STATCAT_Advanced////
+[2014.11.05-16.15.52:302][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_5e8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d80_0///////STATCAT_Advanced////
+[2014.11.05-16.15.52:302][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.15.52:302][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.05-16.15.52:303][  0]LightingResults: New page: Lighting Build
+[2014.11.05-16.15.52:310][  0]MapCheck: New page: Map Check
+[2014.11.05-16.15.52:310][  0]LightingResults: New page: Lighting Build
+[2014.11.05-16.15.52:326][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013809300
+[2014.11.05-16.15.54:209][  0]LogStaticMesh: Building static mesh Key...
+[2014.11.05-16.15.54:252][  0]LogStaticMesh: Built static mesh [52.650742ms] /Game/Meshes/TestPlaceholder/Key.Key
+[2014.11.05-16.15.54:502][  0]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling.
+[2014.11.05-16.15.54:598][  0]LogStaticMesh: Building static mesh lamp...
+[2014.11.05-16.15.54:606][  0]LogStaticMesh: Built static mesh [27.866606ms] /Game/Meshes/TestPlaceholder/lamp.lamp
+[2014.11.05-16.15.56:817][  0]LogTexture:Display: Building textures: HQ_Lightmap2_1 (AutoDXT)
+[2014.11.05-16.15.56:851][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.05-16.15.56:884][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.05-16.15.56:884][  0]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.15.56:884][  0]Cmd: MAP CHECKDEP
+[2014.11.05-16.15.56:884][  0]MapCheck: New page: TheRoom - Nov 5, 2014, 6:15:56 PM
+[2014.11.05-16.15.56:944][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.061ms] ==========
+[2014.11.05-16.15.56:944][  0]LogFileHelpers: Loading map 'TheRoom' took 4.642
+[2014.11.05-16.15.57:237][  0]LogCollectionManager: Loaded 0 collections in 0.001384 seconds
+[2014.11.05-16.15.57:250][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.05-16.15.57:533][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.05-16.15.57:612][  0]LogLoad: Full Startup: 12.23 seconds (BP compile: 0.14 seconds)
+[2014.11.05-16.15.58:857][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.11.05-16.15.59:273][  2]LogAssetRegistry: Asset discovery search completed in 8.2043 seconds
+[2014.11.05-16.16.35:757][143]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.16.35:757][143]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.16.35:914][143]LogPlayLevel: PIE:  Blueprint regeneration took 156 ms (1 blueprints)
+[2014.11.05-16.16.35:914][143]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:16:35 PM)
+[2014.11.05-16.16.35:924][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008947s)
+[2014.11.05-16.16.35:924][143]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2014.11.05-16.16.35:925][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010083s)
+[2014.11.05-16.16.36:022][143]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.11.05-16.16.36:081][143]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.11.05-16.16.36:081][143]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.16.36:087][143]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.16.36:095][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.16.36
+[2014.11.05-16.16.36:131][143]LogWorld: Bringing up level for play took: 0.043712
+[2014.11.05-16.16.36:136][143]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.922
+[2014.11.05-16.16.42:428][739]Cmd: sg.ResolutionQuality 400
+[2014.11.05-16.16.42:428][739]sg.ResolutionQuality = "400"
+[2014.11.05-16.16.42:429][739]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.16.42:429][739]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.16.42:429][739]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.16.42:429][739]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.16.42:429][739]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.16.42:429][739]sg.PostProcessQuality = "3"
+[2014.11.05-16.16.42:429][739]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.16.42:429][739]sg.ShadowQuality = "3"
+[2014.11.05-16.16.42:429][739]Cmd: sg.TextureQuality 3
+[2014.11.05-16.16.42:429][739]sg.TextureQuality = "3"
+[2014.11.05-16.16.42:429][739]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.16.42:429][739]sg.EffectsQuality = "3"
+[2014.11.05-16.16.42:433][739]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.16.42:433][739]r.PostProcessAAQuality = "6"
+[2014.11.05-16.16.42:434][739]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.16.42:434][739]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.16.42:434][739]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.16.42:434][739]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.16.42:434][739]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-16.16.42:456][740]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.11.05-16.16.42:572][742]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.18.04:035][996]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.18.04:035][996]sg.ResolutionQuality = "100"
+[2014.11.05-16.18.04:035][996]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.18.04:035][996]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.18.04:036][996]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.18.04:036][996]sg.PostProcessQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.18.04:036][996]sg.ShadowQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: sg.TextureQuality 3
+[2014.11.05-16.18.04:036][996]sg.TextureQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.18.04:036][996]sg.EffectsQuality = "3"
+[2014.11.05-16.18.04:036][996]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.18.04:036][996]r.PostProcessAAQuality = "4"
+[2014.11.05-16.18.04:036][996]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.18.04:036][996]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.18.04:036][996]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.18.04:036][996]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.18.04:036][996]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.18.05:116][ 70]sg.ResolutionQuality = "75"
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.18.05:116][ 70]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.18.05:116][ 70]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.18.05:116][ 70]sg.PostProcessQuality = "2"
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.18.05:116][ 70]sg.ShadowQuality = "2"
+[2014.11.05-16.18.05:116][ 70]Cmd: sg.TextureQuality 2
+[2014.11.05-16.18.05:116][ 70]sg.TextureQuality = "2"
+[2014.11.05-16.18.05:117][ 70]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.18.05:117][ 70]sg.EffectsQuality = "2"
+[2014.11.05-16.18.05:135][ 70]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.18.05:135][ 70]r.PostProcessAAQuality = "3"
+[2014.11.05-16.18.05:135][ 70]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.18.05:135][ 70]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.18.05:135][ 70]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.18.05:135][ 70]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.18.05:135][ 70]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.18.05:145][ 71]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.11.05-16.18.05:194][ 73]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.18.06:024][147]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.18.06:024][147]sg.ResolutionQuality = "100"
+[2014.11.05-16.18.06:024][147]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.18.06:024][147]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.18.06:024][147]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.18.06:024][147]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.18.06:024][147]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.18.06:024][147]sg.PostProcessQuality = "3"
+[2014.11.05-16.18.06:024][147]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.18.06:024][147]sg.ShadowQuality = "3"
+[2014.11.05-16.18.06:024][147]Cmd: sg.TextureQuality 3
+[2014.11.05-16.18.06:024][147]sg.TextureQuality = "3"
+[2014.11.05-16.18.06:025][147]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.18.06:025][147]sg.EffectsQuality = "3"
+[2014.11.05-16.18.06:028][147]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.18.06:028][147]r.PostProcessAAQuality = "4"
+[2014.11.05-16.18.06:028][147]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.18.06:028][147]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.18.06:028][147]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.18.06:028][147]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.18.06:028][147]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.18.06:039][148]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.11.05-16.18.06:040][148]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.18.23:108][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015EBA5C0
+[2014.11.05-16.18.27:330][507]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.05-16.21.59:100][699]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.22.03:674][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.05-16.22.12:286][ 73]LogSavePackage: Save=144.786301ms
+[2014.11.05-16.22.12:286][ 73]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom8AEA56154A43D5F9C7C95AA681D1CAF8.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.22.12:312][ 73]LogFileHelpers: Saving map 'TheRoom' took 0.265
+[2014.11.05-16.22.12:338][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tischlampe" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset" SILENT=true
+[2014.11.05-16.22.12:622][ 73]LogSavePackage: Save=275.919098ms
+[2014.11.05-16.22.12:622][ 73]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TischlampeC75EABC24D6AD5FB36462B8A78C58901.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset'
+[2014.11.05-16.22.13:308][ 86]BlueprintLog: New page: Compile Tischlampe
+[2014.11.05-16.22.13:461][ 86]BlueprintEditorCompileResults: Info [0388.00] Compile of Tischlampe successful! [in 0 ms]
+[2014.11.05-16.22.20:146][258]MapCheck: New page: Map Check
+[2014.11.05-16.22.20:170][258]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.05-16.22.20:170][258]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.05-16.22.20:187][258]LightingResults: New page: Lighting Build - Nov 5, 2014, 6:22:20 PM
+[2014.11.05-16.22.35:611][258]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.05-16.22.35:678][258]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.05-16.22.35:678][258]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.05-16.22.35:678][258]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.05-16.22.35:678][258]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.05-16.22.35:678][258]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.05-16.22.35:984][258]LogEditorBuildUtils: Build time 0:00:15
+[2014.11.05-16.22.41:502][348]Job is a success!
+[2014.11.05-16.22.41:691][349]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.05-16.22.41:779][349]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.05-16.22.42:094][349]Lightmass on 2013-KURS-09: 3.21 sec total, 676 ms importing, 9 ms setup, 123 ms photons, 2.13 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 6.37 sec total, 3.20 sec processing.
+[2014.11.05-16.22.42:142][349]LogStaticLightingSystem:Warning: Illumination: 21.8 sec (204 ms encoding lightmaps)
+[2014.11.05-16.22.42:142][349]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.11.05-16.22.42:142][349]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.11.05-16.22.42:691][350]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.05-16.22.42:691][350]MapCheck: New page: TheRoom - Nov 5, 2014, 6:22:42 PM
+[2014.11.05-16.22.42:803][350]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [112.173ms] ==========
+[2014.11.05-16.22.45:175][400]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.22.45:175][400]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.22.45:333][400]LogPlayLevel: PIE:  Blueprint regeneration took 158 ms (1 blueprints)
+[2014.11.05-16.22.45:333][400]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:22:45 PM)
+[2014.11.05-16.22.45:343][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009130s)
+[2014.11.05-16.22.45:346][400]LogPlayLevel: PIE: World Init took: (0.002920s)
+[2014.11.05-16.22.45:346][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.012268s)
+[2014.11.05-16.22.45:372][400]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.22.45:373][400]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.22.45:375][400]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.22.45
+[2014.11.05-16.22.45:376][400]LogWorld: Bringing up level for play took: 0.002795
+[2014.11.05-16.22.45:377][400]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.177
+[2014.11.05-16.22.47:859][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B45AF20
+[2014.11.05-16.23.12:315][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.05-16.23.21:358][506]LogSavePackage: Save=138.635818ms
+[2014.11.05-16.23.21:358][506]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom6A69EDBB465924997F6D9E97D968BF27.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.23.21:383][506]LogFileHelpers: Saving map 'TheRoom' took 0.257
+[2014.11.05-16.23.21:766][506]LogSavePackage: Save=350.028748ms
+[2014.11.05-16.23.21:766][506]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Schreibtischlampe3062865442A792EFDBC15B89F8AB0DBD.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Schreibtischlampe.uasset'
+[2014.11.05-16.23.22:929][531]BlueprintLog: New page: Compile Schreibtischlampe
+[2014.11.05-16.23.23:039][531]BlueprintEditorCompileResults: Info [0457.57] Compile of Schreibtischlampe successful! [in 0 ms]
+[2014.11.05-16.23.42:953][995]LogSavePackage: Save=139.181244ms
+[2014.11.05-16.23.42:953][995]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomFDDCFE124808CD09AD23AC98BFD244E9.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.23.42:976][995]LogFileHelpers: Saving map 'TheRoom' took 0.256
+[2014.11.05-16.23.43:001][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tischlampe" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset" SILENT=true
+[2014.11.05-16.23.43:229][995]LogSavePackage: Save=223.485489ms
+[2014.11.05-16.23.43:229][995]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Tischlampe1B0E9FD342FDF693626EBA805DEC6767.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset'
+[2014.11.05-16.23.52:488][168]MapCheck: New page: Map Check
+[2014.11.05-16.23.52:509][168]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.05-16.23.52:509][168]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.05-16.23.52:527][168]LightingResults: New page: Lighting Build - Nov 5, 2014, 6:23:52 PM
+[2014.11.05-16.23.57:122][168]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.05-16.23.57:185][168]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.05-16.23.57:185][168]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.05-16.23.57:185][168]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.05-16.23.57:185][168]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.05-16.23.57:185][168]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.05-16.23.57:252][168]LogEditorBuildUtils: Build time 0:00:04
+[2014.11.05-16.23.57:272][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.05-16.24.00:093][231]Job is a success!
+[2014.11.05-16.24.00:290][232]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.05-16.24.00:353][232]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.05-16.24.00:460][232]Lightmass on 2013-KURS-09: 2.77 sec total, 360 ms importing, 25 ms setup, 135 ms photons, 2.22 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 6.66 sec total, 3.51 sec processing.
+[2014.11.05-16.24.00:467][232]LogStaticLightingSystem:Warning: Illumination: 7.83 sec (179 ms encoding lightmaps)
+[2014.11.05-16.24.00:467][232]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.11.05-16.24.00:467][232]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.11.05-16.24.01:187][233]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.05-16.24.01:187][233]MapCheck: New page: TheRoom - Nov 5, 2014, 6:24:01 PM
+[2014.11.05-16.24.01:244][233]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [57.338ms] ==========
+[2014.11.05-16.24.03:820][274]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.24.03:833][274]LogPlayLevel: [PIE] Compiling Tischlampe before PIE...
+[2014.11.05-16.24.03:976][274]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.24.04:128][274]LogPlayLevel: PIE:  Blueprint regeneration took 307 ms (2 blueprints)
+[2014.11.05-16.24.04:128][274]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:24:04 PM)
+[2014.11.05-16.24.04:137][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008566s)
+[2014.11.05-16.24.04:138][274]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2014.11.05-16.24.04:138][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.009701s)
+[2014.11.05-16.24.04:168][274]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.24.04:169][274]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.24.04:171][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.24.04
+[2014.11.05-16.24.04:172][274]LogWorld: Bringing up level for play took: 0.002607
+[2014.11.05-16.24.04:173][274]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.976
+[2014.11.05-16.24.07:807][503]Cmd: sg.ResolutionQuality 150
+[2014.11.05-16.24.07:807][503]sg.ResolutionQuality = "150"
+[2014.11.05-16.24.07:807][503]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.07:807][503]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.07:807][503]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.07:807][503]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.07:807][503]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.07:807][503]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.07:807][503]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.07:807][503]sg.ShadowQuality = "3"
+[2014.11.05-16.24.07:807][503]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.07:807][503]sg.TextureQuality = "3"
+[2014.11.05-16.24.07:807][503]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.07:808][503]sg.EffectsQuality = "3"
+[2014.11.05-16.24.07:808][503]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.24.07:808][503]r.PostProcessAAQuality = "6"
+[2014.11.05-16.24.07:808][503]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.07:808][503]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.07:808][503]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.07:808][503]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.07:808][503]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-16.24.08:930][576]Cmd: sg.ResolutionQuality 400
+[2014.11.05-16.24.08:930][576]sg.ResolutionQuality = "400"
+[2014.11.05-16.24.08:930][576]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.08:930][576]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.08:930][576]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.08:930][576]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.08:930][576]sg.ShadowQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.08:930][576]sg.TextureQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.08:930][576]sg.EffectsQuality = "3"
+[2014.11.05-16.24.08:930][576]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.24.08:930][576]r.PostProcessAAQuality = "6"
+[2014.11.05-16.24.08:930][576]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.08:930][576]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.08:930][576]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.08:930][576]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.08:930][576]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-16.24.09:360][604]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.24.09:360][604]sg.ResolutionQuality = "100"
+[2014.11.05-16.24.09:360][604]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.09:360][604]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.09:360][604]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.09:360][604]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.09:360][604]sg.ShadowQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.09:360][604]sg.TextureQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.09:360][604]sg.EffectsQuality = "3"
+[2014.11.05-16.24.09:360][604]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.24.09:360][604]r.PostProcessAAQuality = "4"
+[2014.11.05-16.24.09:360][604]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.09:360][604]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.09:360][604]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.09:360][604]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.09:360][604]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.24.09:698][626]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.24.09:698][626]sg.ResolutionQuality = "75"
+[2014.11.05-16.24.09:698][626]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.24.09:698][626]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.24.09:698][626]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.24.09:698][626]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.24.09:698][626]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.24.09:698][626]sg.PostProcessQuality = "2"
+[2014.11.05-16.24.09:698][626]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.24.09:698][626]sg.ShadowQuality = "2"
+[2014.11.05-16.24.09:698][626]Cmd: sg.TextureQuality 2
+[2014.11.05-16.24.09:698][626]sg.TextureQuality = "2"
+[2014.11.05-16.24.09:698][626]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.24.09:698][626]sg.EffectsQuality = "2"
+[2014.11.05-16.24.09:717][626]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.24.09:717][626]r.PostProcessAAQuality = "3"
+[2014.11.05-16.24.09:717][626]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.09:717][626]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.09:717][626]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.24.09:717][626]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.24.09:717][626]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.24.09:718][626]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.24.09:728][627]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.10:333][673]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.24.10:333][673]sg.ResolutionQuality = "100"
+[2014.11.05-16.24.10:333][673]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.10:333][673]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.10:333][673]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.10:333][673]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.10:333][673]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.10:333][673]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.10:333][673]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.10:333][673]sg.ShadowQuality = "3"
+[2014.11.05-16.24.10:333][673]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.10:333][673]sg.TextureQuality = "3"
+[2014.11.05-16.24.10:333][673]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.10:333][673]sg.EffectsQuality = "3"
+[2014.11.05-16.24.10:339][673]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.24.10:339][673]r.PostProcessAAQuality = "4"
+[2014.11.05-16.24.10:339][673]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.10:339][673]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.10:339][673]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.10:339][673]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.10:339][673]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.24.10:353][674]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.10:385][676]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.24.10:823][705]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.24.10:823][705]sg.ResolutionQuality = "75"
+[2014.11.05-16.24.10:824][705]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.24.10:824][705]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.24.10:824][705]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.24.10:824][705]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.24.10:824][705]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.24.10:824][705]sg.PostProcessQuality = "2"
+[2014.11.05-16.24.10:824][705]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.24.10:824][705]sg.ShadowQuality = "2"
+[2014.11.05-16.24.10:824][705]Cmd: sg.TextureQuality 2
+[2014.11.05-16.24.10:824][705]sg.TextureQuality = "2"
+[2014.11.05-16.24.10:824][705]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.24.10:824][705]sg.EffectsQuality = "2"
+[2014.11.05-16.24.10:842][705]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.24.10:842][705]r.PostProcessAAQuality = "3"
+[2014.11.05-16.24.10:842][705]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.10:842][705]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.10:842][705]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.24.10:842][705]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.24.10:843][705]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.24.10:853][706]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.10:854][706]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.24.11:486][756]Cmd: sg.ResolutionQuality 50
+[2014.11.05-16.24.11:486][756]sg.ResolutionQuality = "50"
+[2014.11.05-16.24.11:486][756]Cmd: sg.ViewDistanceQuality 1
+[2014.11.05-16.24.11:486][756]sg.ViewDistanceQuality = "1"
+[2014.11.05-16.24.11:486][756]Cmd: sg.AntiAliasingQuality 1
+[2014.11.05-16.24.11:486][756]sg.AntiAliasingQuality = "1"
+[2014.11.05-16.24.11:486][756]Cmd: sg.PostProcessQuality 1
+[2014.11.05-16.24.11:486][756]sg.PostProcessQuality = "1"
+[2014.11.05-16.24.11:486][756]Cmd: sg.ShadowQuality 1
+[2014.11.05-16.24.11:486][756]sg.ShadowQuality = "1"
+[2014.11.05-16.24.11:486][756]Cmd: sg.TextureQuality 1
+[2014.11.05-16.24.11:486][756]sg.TextureQuality = "1"
+[2014.11.05-16.24.11:487][756]Cmd: sg.EffectsQuality 1
+[2014.11.05-16.24.11:487][756]sg.EffectsQuality = "1"
+[2014.11.05-16.24.11:487][756]Cmd: r.PostProcessAAQuality 2
+[2014.11.05-16.24.11:487][756]r.PostProcessAAQuality = "2"
+[2014.11.05-16.24.11:487][756]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.11:487][756]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.11:487][756]Cmd: r.SSR.MaxRoughness 0.6
+[2014.11.05-16.24.11:487][756]r.SSR.MaxRoughness = "0.6"
+[2014.11.05-16.24.11:487][756]LogBlueprintUserMessages: MID!!
+[2014.11.05-16.24.11:487][756]LogContentStreaming: Texture pool size now 400 MB
+[2014.11.05-16.24.11:500][757]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.11:801][780]Cmd: sg.ResolutionQuality 25
+[2014.11.05-16.24.11:801][780]sg.ResolutionQuality = "25"
+[2014.11.05-16.24.11:802][780]Cmd: sg.ViewDistanceQuality 0
+[2014.11.05-16.24.11:802][780]sg.ViewDistanceQuality = "0"
+[2014.11.05-16.24.11:802][780]Cmd: sg.AntiAliasingQuality 0
+[2014.11.05-16.24.11:802][780]sg.AntiAliasingQuality = "0"
+[2014.11.05-16.24.11:802][780]Cmd: sg.PostProcessQuality 0
+[2014.11.05-16.24.11:802][780]sg.PostProcessQuality = "0"
+[2014.11.05-16.24.11:802][780]Cmd: sg.ShadowQuality 0
+[2014.11.05-16.24.11:802][780]sg.ShadowQuality = "0"
+[2014.11.05-16.24.11:802][780]Cmd: sg.TextureQuality 0
+[2014.11.05-16.24.11:802][780]sg.TextureQuality = "0"
+[2014.11.05-16.24.11:802][780]Cmd: sg.EffectsQuality 0
+[2014.11.05-16.24.11:802][780]sg.EffectsQuality = "0"
+[2014.11.05-16.24.11:874][780]Cmd: r.PostProcessAAQuality 1
+[2014.11.05-16.24.11:874][780]r.PostProcessAAQuality = "1"
+[2014.11.05-16.24.11:874][780]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.11:874][780]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.11:874][780]Cmd: r.SSR.MaxRoughness 0.2
+[2014.11.05-16.24.11:874][780]r.SSR.MaxRoughness = "0.2"
+[2014.11.05-16.24.11:874][780]LogBlueprintUserMessages: LOW!!
+[2014.11.05-16.24.11:888][781]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.11:890][781]LogContentStreaming: Texture pool size now 200 MB
+[2014.11.05-16.24.12:467][827]Cmd: sg.ResolutionQuality 50
+[2014.11.05-16.24.12:467][827]sg.ResolutionQuality = "50"
+[2014.11.05-16.24.12:467][827]Cmd: sg.ViewDistanceQuality 1
+[2014.11.05-16.24.12:467][827]sg.ViewDistanceQuality = "1"
+[2014.11.05-16.24.12:467][827]Cmd: sg.AntiAliasingQuality 1
+[2014.11.05-16.24.12:467][827]sg.AntiAliasingQuality = "1"
+[2014.11.05-16.24.12:467][827]Cmd: sg.PostProcessQuality 1
+[2014.11.05-16.24.12:467][827]sg.PostProcessQuality = "1"
+[2014.11.05-16.24.12:467][827]Cmd: sg.ShadowQuality 1
+[2014.11.05-16.24.12:467][827]sg.ShadowQuality = "1"
+[2014.11.05-16.24.12:467][827]Cmd: sg.TextureQuality 1
+[2014.11.05-16.24.12:467][827]sg.TextureQuality = "1"
+[2014.11.05-16.24.12:467][827]Cmd: sg.EffectsQuality 1
+[2014.11.05-16.24.12:467][827]sg.EffectsQuality = "1"
+[2014.11.05-16.24.12:539][827]Cmd: r.PostProcessAAQuality 2
+[2014.11.05-16.24.12:540][827]r.PostProcessAAQuality = "2"
+[2014.11.05-16.24.12:540][827]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.12:540][827]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.12:540][827]Cmd: r.SSR.MaxRoughness 0.6
+[2014.11.05-16.24.12:540][827]r.SSR.MaxRoughness = "0.6"
+[2014.11.05-16.24.12:540][827]LogBlueprintUserMessages: MID!!
+[2014.11.05-16.24.12:553][828]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.12:595][831]LogContentStreaming: Texture pool size now 400 MB
+[2014.11.05-16.24.12:713][841]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.24.12:713][841]sg.ResolutionQuality = "75"
+[2014.11.05-16.24.12:713][841]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.24.12:713][841]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.24.12:713][841]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.24.12:713][841]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.24.12:713][841]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.24.12:713][841]sg.PostProcessQuality = "2"
+[2014.11.05-16.24.12:714][841]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.24.12:714][841]sg.ShadowQuality = "2"
+[2014.11.05-16.24.12:714][841]Cmd: sg.TextureQuality 2
+[2014.11.05-16.24.12:714][841]sg.TextureQuality = "2"
+[2014.11.05-16.24.12:714][841]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.24.12:714][841]sg.EffectsQuality = "2"
+[2014.11.05-16.24.12:714][841]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.24.12:714][841]r.PostProcessAAQuality = "3"
+[2014.11.05-16.24.12:714][841]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.12:714][841]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.12:714][841]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.24.12:714][841]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.24.12:714][841]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.24.12:715][841]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.24.12:727][842]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.13:022][867]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.24.13:022][867]sg.ResolutionQuality = "100"
+[2014.11.05-16.24.13:022][867]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.13:022][867]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.13:022][867]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.13:022][867]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.13:022][867]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.13:022][867]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.13:022][867]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.13:022][867]sg.ShadowQuality = "3"
+[2014.11.05-16.24.13:022][867]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.13:022][867]sg.TextureQuality = "3"
+[2014.11.05-16.24.13:023][867]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.13:023][867]sg.EffectsQuality = "3"
+[2014.11.05-16.24.13:026][867]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.24.13:026][867]r.PostProcessAAQuality = "4"
+[2014.11.05-16.24.13:026][867]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.13:026][867]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.13:026][867]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.13:026][867]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.13:026][867]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.24.13:040][868]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.13:082][871]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.24.13:405][892]Cmd: sg.ResolutionQuality 150
+[2014.11.05-16.24.13:405][892]sg.ResolutionQuality = "150"
+[2014.11.05-16.24.13:405][892]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.13:405][892]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.13:405][892]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.13:405][892]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.13:405][892]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.13:405][892]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.13:405][892]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.13:405][892]sg.ShadowQuality = "3"
+[2014.11.05-16.24.13:405][892]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.13:406][892]sg.TextureQuality = "3"
+[2014.11.05-16.24.13:406][892]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.13:406][892]sg.EffectsQuality = "3"
+[2014.11.05-16.24.13:406][892]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.24.13:406][892]r.PostProcessAAQuality = "6"
+[2014.11.05-16.24.13:406][892]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.13:406][892]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.13:406][892]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.13:406][892]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.13:406][892]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-16.24.13:834][920]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.24.13:834][920]sg.ResolutionQuality = "100"
+[2014.11.05-16.24.13:834][920]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.13:834][920]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.13:834][920]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.13:834][920]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.13:834][920]sg.ShadowQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.13:834][920]sg.TextureQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.13:834][920]sg.EffectsQuality = "3"
+[2014.11.05-16.24.13:834][920]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.24.13:834][920]r.PostProcessAAQuality = "4"
+[2014.11.05-16.24.13:834][920]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.13:834][920]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.13:834][920]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.13:834][920]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.13:834][920]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.24.17:259][142]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.24.17:259][142]sg.ResolutionQuality = "75"
+[2014.11.05-16.24.17:259][142]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.24.17:259][142]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.24.17:259][142]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.24.17:259][142]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.24.17:259][142]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.24.17:259][142]sg.PostProcessQuality = "2"
+[2014.11.05-16.24.17:259][142]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.24.17:259][142]sg.ShadowQuality = "2"
+[2014.11.05-16.24.17:259][142]Cmd: sg.TextureQuality 2
+[2014.11.05-16.24.17:259][142]sg.TextureQuality = "2"
+[2014.11.05-16.24.17:259][142]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.24.17:259][142]sg.EffectsQuality = "2"
+[2014.11.05-16.24.17:277][142]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.24.17:278][142]r.PostProcessAAQuality = "3"
+[2014.11.05-16.24.17:278][142]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.17:278][142]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.17:278][142]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.24.17:278][142]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.24.17:278][142]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.24.17:291][143]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.17:337][146]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.24.18:026][200]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.24.18:027][200]sg.ResolutionQuality = "100"
+[2014.11.05-16.24.18:027][200]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.24.18:027][200]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.24.18:027][200]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.24.18:027][200]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.24.18:027][200]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.24.18:027][200]sg.PostProcessQuality = "3"
+[2014.11.05-16.24.18:027][200]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.24.18:027][200]sg.ShadowQuality = "3"
+[2014.11.05-16.24.18:027][200]Cmd: sg.TextureQuality 3
+[2014.11.05-16.24.18:027][200]sg.TextureQuality = "3"
+[2014.11.05-16.24.18:027][200]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.24.18:027][200]sg.EffectsQuality = "3"
+[2014.11.05-16.24.18:031][200]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.24.18:032][200]r.PostProcessAAQuality = "4"
+[2014.11.05-16.24.18:032][200]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.24.18:032][200]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.24.18:032][200]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.24.18:032][200]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.24.18:032][200]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.24.18:046][201]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.24.18:047][201]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.24.22:647][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D762B60
+[2014.11.05-16.26.15:604][275]LogSavePackage: Save=137.499512ms
+[2014.11.05-16.26.15:604][275]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomDEF34BD6446EBC3C240761BE85976DFB.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.26.15:631][275]LogFileHelpers: Saving map 'TheRoom' took 0.257
+[2014.11.05-16.26.15:657][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tischlampe" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset" SILENT=true
+[2014.11.05-16.26.15:883][275]LogSavePackage: Save=221.568558ms
+[2014.11.05-16.26.15:883][275]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Tischlampe0238C78C48CD6F725C2EF4B6282AA543.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Tischlampe.uasset'
+[2014.11.05-16.26.16:368][283]BlueprintLog: New page: Compile Tischlampe
+[2014.11.05-16.26.16:478][283]BlueprintEditorCompileResults: Info [0631.01] Compile of Tischlampe successful! [in 0 ms]
+[2014.11.05-16.26.25:477][504]LogSavePackage: Save=136.089127ms
+[2014.11.05-16.26.25:477][504]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom23618C514F3B71B2D33694A79219D531.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.26.25:564][504]LogFileHelpers: Saving map 'TheRoom' took 0.314
+[2014.11.05-16.28.41:162][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2014.11.05-16.28.41:954][ 76]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.28.41:954][ 76]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.28.42:104][ 76]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (1 blueprints)
+[2014.11.05-16.28.42:104][ 76]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:28:42 PM)
+[2014.11.05-16.28.42:113][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009005s)
+[2014.11.05-16.28.42:114][ 76]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2014.11.05-16.28.42:114][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010183s)
+[2014.11.05-16.28.42:146][ 76]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.28.42:147][ 76]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.28.42:149][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.28.42
+[2014.11.05-16.28.42:150][ 76]LogWorld: Bringing up level for play took: 0.002663
+[2014.11.05-16.28.42:151][ 76]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.95
+[2014.11.05-16.29.14:016][143]Cmd: sg.ResolutionQuality 150
+[2014.11.05-16.29.14:016][143]sg.ResolutionQuality = "150"
+[2014.11.05-16.29.14:016][143]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.29.14:016][143]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.29.14:016][143]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.29.14:016][143]sg.PostProcessQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.29.14:016][143]sg.ShadowQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: sg.TextureQuality 3
+[2014.11.05-16.29.14:016][143]sg.TextureQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.29.14:016][143]sg.EffectsQuality = "3"
+[2014.11.05-16.29.14:016][143]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.29.14:016][143]r.PostProcessAAQuality = "6"
+[2014.11.05-16.29.14:016][143]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.29.14:016][143]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.29.14:016][143]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.29.14:017][143]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.29.14:017][143]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-16.29.17:596][374]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.29.17:596][374]sg.ResolutionQuality = "100"
+[2014.11.05-16.29.17:596][374]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.29.17:596][374]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.29.17:596][374]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.29.17:596][374]sg.PostProcessQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.29.17:596][374]sg.ShadowQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: sg.TextureQuality 3
+[2014.11.05-16.29.17:596][374]sg.TextureQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.29.17:596][374]sg.EffectsQuality = "3"
+[2014.11.05-16.29.17:596][374]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.29.17:596][374]r.PostProcessAAQuality = "4"
+[2014.11.05-16.29.17:596][374]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.29.17:596][374]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.29.17:596][374]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.29.17:596][374]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.29.17:596][374]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.32.40:318][906]Cmd: sg.ResolutionQuality 25
+[2014.11.05-16.32.40:318][906]sg.ResolutionQuality = "25"
+[2014.11.05-16.32.40:319][906]Cmd: sg.ViewDistanceQuality 0
+[2014.11.05-16.32.40:319][906]sg.ViewDistanceQuality = "0"
+[2014.11.05-16.32.40:319][906]Cmd: sg.AntiAliasingQuality 0
+[2014.11.05-16.32.40:319][906]sg.AntiAliasingQuality = "0"
+[2014.11.05-16.32.40:319][906]Cmd: sg.PostProcessQuality 0
+[2014.11.05-16.32.40:319][906]sg.PostProcessQuality = "0"
+[2014.11.05-16.32.40:319][906]Cmd: sg.ShadowQuality 0
+[2014.11.05-16.32.40:319][906]sg.ShadowQuality = "0"
+[2014.11.05-16.32.40:319][906]Cmd: sg.TextureQuality 0
+[2014.11.05-16.32.40:319][906]sg.TextureQuality = "0"
+[2014.11.05-16.32.40:319][906]Cmd: sg.EffectsQuality 0
+[2014.11.05-16.32.40:319][906]sg.EffectsQuality = "0"
+[2014.11.05-16.32.40:405][906]Cmd: r.PostProcessAAQuality 1
+[2014.11.05-16.32.40:405][906]r.PostProcessAAQuality = "1"
+[2014.11.05-16.32.40:405][906]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.32.40:405][906]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.32.40:405][906]Cmd: r.SSR.MaxRoughness 0.2
+[2014.11.05-16.32.40:405][906]r.SSR.MaxRoughness = "0.2"
+[2014.11.05-16.32.40:405][906]LogBlueprintUserMessages: LOW!!
+[2014.11.05-16.32.40:423][907]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.32.40:455][908]LogContentStreaming: Texture pool size now 200 MB
+[2014.11.05-16.32.48:873][615]Cmd: sg.ResolutionQuality 400
+[2014.11.05-16.32.48:873][615]sg.ResolutionQuality = "400"
+[2014.11.05-16.32.48:873][615]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.32.48:874][615]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.32.48:874][615]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.32.48:874][615]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.32.48:874][615]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.32.48:874][615]sg.PostProcessQuality = "3"
+[2014.11.05-16.32.48:874][615]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.32.48:874][615]sg.ShadowQuality = "3"
+[2014.11.05-16.32.48:874][615]Cmd: sg.TextureQuality 3
+[2014.11.05-16.32.48:874][615]sg.TextureQuality = "3"
+[2014.11.05-16.32.48:874][615]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.32.48:874][615]sg.EffectsQuality = "3"
+[2014.11.05-16.32.48:947][615]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.32.48:947][615]r.PostProcessAAQuality = "6"
+[2014.11.05-16.32.48:947][615]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.32.48:947][615]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.32.48:948][615]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.32.48:948][615]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.32.48:948][615]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-16.32.48:958][616]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.32.48:997][618]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.34.23:084][817]Cmd: sg.ResolutionQuality 25
+[2014.11.05-16.34.23:084][817]sg.ResolutionQuality = "25"
+[2014.11.05-16.34.23:084][817]Cmd: sg.ViewDistanceQuality 0
+[2014.11.05-16.34.23:084][817]sg.ViewDistanceQuality = "0"
+[2014.11.05-16.34.23:084][817]Cmd: sg.AntiAliasingQuality 0
+[2014.11.05-16.34.23:084][817]sg.AntiAliasingQuality = "0"
+[2014.11.05-16.34.23:084][817]Cmd: sg.PostProcessQuality 0
+[2014.11.05-16.34.23:084][817]sg.PostProcessQuality = "0"
+[2014.11.05-16.34.23:085][817]Cmd: sg.ShadowQuality 0
+[2014.11.05-16.34.23:085][817]sg.ShadowQuality = "0"
+[2014.11.05-16.34.23:085][817]Cmd: sg.TextureQuality 0
+[2014.11.05-16.34.23:085][817]sg.TextureQuality = "0"
+[2014.11.05-16.34.23:085][817]Cmd: sg.EffectsQuality 0
+[2014.11.05-16.34.23:086][817]sg.EffectsQuality = "0"
+[2014.11.05-16.34.23:173][817]Cmd: r.PostProcessAAQuality 1
+[2014.11.05-16.34.23:173][817]r.PostProcessAAQuality = "1"
+[2014.11.05-16.34.23:173][817]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.23:173][817]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.23:173][817]Cmd: r.SSR.MaxRoughness 0.2
+[2014.11.05-16.34.23:173][817]r.SSR.MaxRoughness = "0.2"
+[2014.11.05-16.34.23:173][817]LogBlueprintUserMessages: LOW!!
+[2014.11.05-16.34.23:187][818]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.34.23:188][818]LogContentStreaming: Texture pool size now 200 MB
+[2014.11.05-16.34.27:423][175]Cmd: sg.ResolutionQuality 50
+[2014.11.05-16.34.27:423][175]sg.ResolutionQuality = "50"
+[2014.11.05-16.34.27:423][175]Cmd: sg.ViewDistanceQuality 1
+[2014.11.05-16.34.27:424][175]sg.ViewDistanceQuality = "1"
+[2014.11.05-16.34.27:424][175]Cmd: sg.AntiAliasingQuality 1
+[2014.11.05-16.34.27:424][175]sg.AntiAliasingQuality = "1"
+[2014.11.05-16.34.27:424][175]Cmd: sg.PostProcessQuality 1
+[2014.11.05-16.34.27:424][175]sg.PostProcessQuality = "1"
+[2014.11.05-16.34.27:424][175]Cmd: sg.ShadowQuality 1
+[2014.11.05-16.34.27:424][175]sg.ShadowQuality = "1"
+[2014.11.05-16.34.27:424][175]Cmd: sg.TextureQuality 1
+[2014.11.05-16.34.27:424][175]sg.TextureQuality = "1"
+[2014.11.05-16.34.27:424][175]Cmd: sg.EffectsQuality 1
+[2014.11.05-16.34.27:424][175]sg.EffectsQuality = "1"
+[2014.11.05-16.34.27:497][175]Cmd: r.PostProcessAAQuality 2
+[2014.11.05-16.34.27:497][175]r.PostProcessAAQuality = "2"
+[2014.11.05-16.34.27:497][175]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.27:497][175]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.27:497][175]Cmd: r.SSR.MaxRoughness 0.6
+[2014.11.05-16.34.27:497][175]r.SSR.MaxRoughness = "0.6"
+[2014.11.05-16.34.27:497][175]LogBlueprintUserMessages: MID!!
+[2014.11.05-16.34.27:508][176]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.34.27:551][179]LogContentStreaming: Texture pool size now 400 MB
+[2014.11.05-16.34.27:786][198]Cmd: sg.ResolutionQuality 75
+[2014.11.05-16.34.27:786][198]sg.ResolutionQuality = "75"
+[2014.11.05-16.34.27:786][198]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-16.34.27:786][198]sg.ViewDistanceQuality = "2"
+[2014.11.05-16.34.27:786][198]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-16.34.27:786][198]sg.AntiAliasingQuality = "2"
+[2014.11.05-16.34.27:786][198]Cmd: sg.PostProcessQuality 2
+[2014.11.05-16.34.27:786][198]sg.PostProcessQuality = "2"
+[2014.11.05-16.34.27:786][198]Cmd: sg.ShadowQuality 2
+[2014.11.05-16.34.27:786][198]sg.ShadowQuality = "2"
+[2014.11.05-16.34.27:786][198]Cmd: sg.TextureQuality 2
+[2014.11.05-16.34.27:786][198]sg.TextureQuality = "2"
+[2014.11.05-16.34.27:787][198]Cmd: sg.EffectsQuality 2
+[2014.11.05-16.34.27:787][198]sg.EffectsQuality = "2"
+[2014.11.05-16.34.27:787][198]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-16.34.27:787][198]r.PostProcessAAQuality = "3"
+[2014.11.05-16.34.27:787][198]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.27:787][198]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.27:787][198]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-16.34.27:787][198]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-16.34.27:787][198]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-16.34.27:801][199]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.34.27:802][199]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-16.34.28:063][219]Cmd: sg.ResolutionQuality 100
+[2014.11.05-16.34.28:063][219]sg.ResolutionQuality = "100"
+[2014.11.05-16.34.28:063][219]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.34.28:063][219]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.34.28:063][219]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.34.28:063][219]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.34.28:063][219]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.34.28:063][219]sg.PostProcessQuality = "3"
+[2014.11.05-16.34.28:063][219]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.34.28:063][219]sg.ShadowQuality = "3"
+[2014.11.05-16.34.28:063][219]Cmd: sg.TextureQuality 3
+[2014.11.05-16.34.28:063][219]sg.TextureQuality = "3"
+[2014.11.05-16.34.28:064][219]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.34.28:064][219]sg.EffectsQuality = "3"
+[2014.11.05-16.34.28:067][219]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-16.34.28:067][219]r.PostProcessAAQuality = "4"
+[2014.11.05-16.34.28:068][219]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.28:068][219]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.28:068][219]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.34.28:068][219]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.34.28:068][219]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-16.34.28:069][219]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-16.34.28:069][219]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-16.34.28:315][235]Cmd: sg.ResolutionQuality 150
+[2014.11.05-16.34.28:315][235]sg.ResolutionQuality = "150"
+[2014.11.05-16.34.28:315][235]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.34.28:315][235]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.34.28:315][235]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.34.28:315][235]sg.PostProcessQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.34.28:315][235]sg.ShadowQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: sg.TextureQuality 3
+[2014.11.05-16.34.28:315][235]sg.TextureQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.34.28:315][235]sg.EffectsQuality = "3"
+[2014.11.05-16.34.28:315][235]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.34.28:315][235]r.PostProcessAAQuality = "6"
+[2014.11.05-16.34.28:315][235]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.28:315][235]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.28:315][235]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.34.28:315][235]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.34.28:315][235]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-16.34.28:675][258]Cmd: sg.ResolutionQuality 400
+[2014.11.05-16.34.28:675][258]sg.ResolutionQuality = "400"
+[2014.11.05-16.34.28:675][258]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-16.34.28:675][258]sg.ViewDistanceQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-16.34.28:675][258]sg.AntiAliasingQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: sg.PostProcessQuality 3
+[2014.11.05-16.34.28:675][258]sg.PostProcessQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: sg.ShadowQuality 3
+[2014.11.05-16.34.28:675][258]sg.ShadowQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: sg.TextureQuality 3
+[2014.11.05-16.34.28:675][258]sg.TextureQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: sg.EffectsQuality 3
+[2014.11.05-16.34.28:675][258]sg.EffectsQuality = "3"
+[2014.11.05-16.34.28:675][258]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-16.34.28:675][258]r.PostProcessAAQuality = "6"
+[2014.11.05-16.34.28:675][258]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-16.34.28:675][258]r.EyeAdaptationQuality = "0"
+[2014.11.05-16.34.28:675][258]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-16.34.28:675][258]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-16.34.28:675][258]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-16.36.10:760][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021307B00
+[2014.11.05-16.36.43:403][  5]Cmd: CLOSE_SLATE_MAINFRAME
+[2014.11.05-16.36.45:074][  5]LogSavePackage: Save=146.773727ms
+[2014.11.05-16.36.45:074][  5]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom141A8AC14ECD09A06F916096F90DB715.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.36.45:101][  5]LogFileHelpers: Saving map 'TheRoom' took 0.273
+[2014.11.05-16.36.45:576][  6]Cmd: QUIT_EDITOR
+[2014.11.05-16.36.45:815][  6]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.05-16.36.45:816][  6]LogExit: Preparing to exit.
+[2014.11.05-16.36.46:936][  6]LogExit: Editor shut down
+[2014.11.05-16.36.46:936][  6]LogExit: Transaction tracking system shut down
+[2014.11.05-16.36.46:937][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA5A0C0
+[2014.11.05-16.36.46:937][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D30BA60
+[2014.11.05-16.36.46:938][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C59B600
+[2014.11.05-16.36.46:938][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000169916C0
+[2014.11.05-16.36.46:938][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000138E80E0
+[2014.11.05-16.36.46:938][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000138E94E0
+[2014.11.05-16.36.46:968][  6]LogExit: Object subsystem successfully closed.
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.11.05-16.36.47:172][  6]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.11.05-16.36.47:173][  6]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.11.05-16.36.47:174][  6]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.11.05-16.36.47:303][  6]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.11.05-16.36.47:304][  6]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.11.05-16.36.47:537][  6]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.11.05-16.36.47:538][  6]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.11.05-16.36.47:538][  6]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.11.05-16.36.47:538][  6]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.11.05-16.36.47:538][  6]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.05-16.36.47:539][  6]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.05-16.36.47:639][  6]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.05-16.36.47:639][  6]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.05-16.36.47:643][  6]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.05-16.36.47:645][  6]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.05-16.36.47:737][  6]LogDerivedDataCache: Shutdown
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.05-16.36.47:737][  6]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.05-16.36.47:738][  6]LogExit: Exiting.
+[2014.11.05-16.36.47:741][  6]Log file closed, 11/05/14 17:36:47

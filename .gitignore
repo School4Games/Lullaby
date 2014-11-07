@@ -2,10 +2,7 @@
 DerivedDataCache/
 Binaries/
 Intermediate/
-Saved/
 Build/
-Content/Textures
-Content/Materials
 
 # Ignored files
 Nightterror.opensdf

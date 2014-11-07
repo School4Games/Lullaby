@@ -1,0 +1,1551 @@
+Log file open, 11/05/14 17:36:46
+LogInit:Display: Running engine for game: TheRoom
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.05-16.36.46:592][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.05-16.36.46:620][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.05-16.36.46:630][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.05-16.36.46:638][  0]LogInit: Object subsystem initialized
+[2014.11.05-16.36.46:640][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.05-16.36.46:640][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.05-16.36.46:645][  0]LogInit: Computer: 2013-KURS-09
+[2014.11.05-16.36.46:645][  0]LogInit: User: lennartdaldrup
+[2014.11.05-16.36.46:646][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.05-16.36.46:646][  0]LogInit: High frequency timer resolution =3.320390 MHz
+[2014.11.05-16.36.46:646][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.05-16.36.46:647][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.05-16.36.46:647][  0]LogMemory: Process Physical Memory: 61.46 MB used, 61.46 MB peak
+[2014.11.05-16.36.46:647][  0]LogMemory: Process Virtual Memory: 37.03 MB used, 37.03 MB peak
+[2014.11.05-16.36.46:647][  0]LogMemory: Physical Memory: 3081.38 MB used, 8185.95 MB total
+[2014.11.05-16.36.46:647][  0]LogMemory: Virtual Memory: 262.12 MB used, 8388608.00 MB total
+[2014.11.05-16.36.46:691][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.11.05-16.36.46:691][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.11.05-16.36.46:691][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.05-16.36.46:698][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2014.11.05-16.36.46:707][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.05-16.36.46:770][  0]LogTextLocalizationManager:Warning: The selected culture 'de_DE' is not available; falling back to 'en'
+[2014.11.05-16.36.46:861][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.05-16.36.48:562][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.36.48:983][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.36.49:023][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.05-16.36.49:112][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.05-16.36.49:112][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.05-16.36.49:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.05-16.36.49:112][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.05-16.36.49:131][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.05-16.36.49:143][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.05-16.36.49:333][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.05-16.36.49:333][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.05-16.36.49:730][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.05-16.36.50:445][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_674_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_ebc_0///////STATCAT_Advanced////
+[2014.11.05-16.36.50:445][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.05-16.36.50:574][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.36.50:574][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.36.50:579][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.36.50:760][  0]BlueprintLog: New page: Editor Load
+[2014.11.05-16.36.50:861][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.05-16.36.50:861][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.05-16.36.51:115][  0]LogEngine: Initializing Engine...
+[2014.11.05-16.36.51:246][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.05-16.36.51:282][  0]LogInit: FAudioDevice initialized.
+[2014.11.05-16.36.51:296][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.05-16.36.51:332][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/lennart.daldrup.S4G/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.05-16.36.51:345][  0]LogInit: Texture streaming: Enabled
+[2014.11.05-16.36.51:378][  0]LogInit: Transaction tracking system initialized
+[2014.11.05-16.36.51:491][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.11.05-16.36.51:977][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.36.52:319][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.05-16.36.52:448][  0]LogConsoleResponse:Display: 
+[2014.11.05-16.36.52:616][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3ec_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_ebc_0///////STATCAT_Advanced////
+[2014.11.05-16.36.52:616][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_c60_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_ebc_0///////STATCAT_Advanced////
+[2014.11.05-16.36.52:616][  0]SourceControl: Info Source control is disabled
+[2014.11.05-16.36.52:616][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.05-16.36.52:617][  0]LightingResults: New page: Lighting Build
+[2014.11.05-16.36.52:624][  0]MapCheck: New page: Map Check
+[2014.11.05-16.36.52:624][  0]LightingResults: New page: Lighting Build
+[2014.11.05-16.36.52:642][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000110A5300
+[2014.11.05-16.36.52:930][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.05-16.36.52:931][  0]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.36.52:931][  0]Cmd: MAP CHECKDEP
+[2014.11.05-16.36.52:931][  0]MapCheck: New page: TheRoom - Nov 5, 2014, 6:36:52 PM
+[2014.11.05-16.36.52:986][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [54.616ms] ==========
+[2014.11.05-16.36.52:986][  0]LogFileHelpers: Loading map 'TheRoom' took 0.369
+[2014.11.05-16.36.53:089][  0]LogCollectionManager: Loaded 0 collections in 0.001556 seconds
+[2014.11.05-16.36.53:102][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.05-16.36.53:188][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.05-16.36.53:286][  0]LogLoad: Full Startup: 7.45 seconds (BP compile: 0.11 seconds)
+[2014.11.05-16.36.53:471][  0]LogRenderer:Warning: Reallocating scene render targets to support 608x528.
+[2014.11.05-16.36.53:712][  2]LogAssetRegistry: Asset discovery search completed in 2.2311 seconds
+[2014.11.05-16.37.13:879][398]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.11.05-16.37.18:344][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:344][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:563][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:564][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:564][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:564][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:564][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:564][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:565][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:565][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:565][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:565][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:565][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:566][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:566][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:566][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:566][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.18:567][528]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.19:792][566]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.37.19:792][566]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.00:255][796]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.11:418][162]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.41.41:906][ 42]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.41.42:111][ 42]BlueprintEditorCompileResults: Info [0296.16] Compile of TheRoom successful! [in 13 ms]
+[2014.11.05-16.41.52:199][309]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection
+[2014.11.05-16.41.52:202][309]LogBlueprint:Warning: [compiler] Warning [0306.38] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.11.05-16.41.52:589][309]LogSavePackage: Save=410.725861ms
+[2014.11.05-16.41.52:589][309]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom41DA520B4BCC600AECC588B34E38AE2C.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.41.52:617][309]LogFileHelpers: Saving map 'TheRoom' took 0.535
+[2014.11.05-16.41.55:814][380]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.41.55:889][380]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection
+[2014.11.05-16.41.55:891][380]LogBlueprint:Warning: [compiler] Warning [0310.06] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2014.11.05-16.41.56:060][380]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection
+[2014.11.05-16.41.56:060][380]BlueprintEditorCompileResults:Warning: Warning [0310.06] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.48:460][947]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.43.55:576][266]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.43.55:732][266]LogBlueprint:Error: [compiler] Error Cannot pass a literal to  ObjectTypes .  Connect a variable to it instead.
+[2014.11.05-16.43.55:734][266]LogBlueprint:Warning: [compiler] Warning [0429.91] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.11.05-16.43.55:898][266]BlueprintEditorCompileResults:Error: Error Cannot pass a literal to  ObjectTypes .  Connect a variable to it instead.
+[2014.11.05-16.43.55:898][266]BlueprintEditorCompileResults:Warning: Warning [0429.91] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.07:439][774]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.44.26:972][624]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.44.27:145][624]BlueprintEditorCompileResults: Info [0461.24] Compile of TheRoom successful! [in 14 ms]
+[2014.11.05-16.44.36:239][966]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.44.36:244][966]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.44.36:409][966]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2014.11.05-16.44.36:409][966]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:44:36 PM)
+[2014.11.05-16.44.36:418][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009173s)
+[2014.11.05-16.44.36:419][966]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2014.11.05-16.44.36:420][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010386s)
+[2014.11.05-16.44.36:487][966]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.11.05-16.44.36:488][966]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.11.05-16.44.36:488][966]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.44.36:490][966]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.44.36:494][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.44.36
+[2014.11.05-16.44.36:495][966]LogWorld: Bringing up level for play took: 0.005177
+[2014.11.05-16.44.36:496][966]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.714
+[2014.11.05-16.44.37:344][ 29]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.38:031][ 94]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.41:105][380]LogBlueprintUserMessages: Floor_400x400_7
+[2014.11.05-16.44.41:843][450]LogBlueprintUserMessages: Floor_400x400_7
+[2014.11.05-16.44.43:240][580]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.43:897][642]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.44:394][688]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.45:376][766]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.45:966][812]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.46:536][865]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.47:255][931]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.48:183][ 17]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.49:260][115]LogBlueprintUserMessages: Wall_400x401
+[2014.11.05-16.44.50:169][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002310B380
+[2014.11.05-16.45.07:666][ 95]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.45.07:827][ 95]BlueprintEditorCompileResults: Info [0501.93] Compile of TheRoom successful! [in 14 ms]
+[2014.11.05-16.45.11:744][277]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.45.11:749][277]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.45.11:904][277]LogPlayLevel: PIE:  Blueprint regeneration took 160 ms (1 blueprints)
+[2014.11.05-16.45.11:905][277]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:45:11 PM)
+[2014.11.05-16.45.11:914][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009284s)
+[2014.11.05-16.45.11:915][277]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2014.11.05-16.45.11:915][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010416s)
+[2014.11.05-16.45.11:944][277]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.45.11:945][277]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.45.11:947][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.45.11
+[2014.11.05-16.45.11:948][277]LogWorld: Bringing up level for play took: 0.002596
+[2014.11.05-16.45.11:949][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.74
+[2014.11.05-16.45.14:615][509]LogBlueprintUserMessages: MyCharacter_C_1
+[2014.11.05-16.45.16:600][692]LogBlueprintUserMessages: MyCharacter_C_1
+[2014.11.05-16.45.17:141][743]LogBlueprintUserMessages: MyCharacter_C_1
+[2014.11.05-16.45.17:605][786]LogBlueprintUserMessages: MyCharacter_C_1
+[2014.11.05-16.45.17:949][817]LogBlueprintUserMessages: MyCharacter_C_1
+[2014.11.05-16.45.19:866][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0DA840
+[2014.11.05-16.45.31:353][683]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.45.31:513][683]BlueprintEditorCompileResults: Info [0525.61] Compile of TheRoom successful! [in 14 ms]
+[2014.11.05-16.45.34:828][849]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.45.34:835][849]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.45.34:991][849]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2014.11.05-16.45.34:991][849]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:45:34 PM)
+[2014.11.05-16.45.35:001][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009551s)
+[2014.11.05-16.45.35:002][849]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2014.11.05-16.45.35:002][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010692s)
+[2014.11.05-16.45.35:035][849]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.45.35:036][849]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.45.35:041][849]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.45.35
+[2014.11.05-16.45.35:041][849]LogWorld: Bringing up level for play took: 0.005058
+[2014.11.05-16.45.35:042][849]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.166
+[2014.11.05-16.45.36:094][936]LogBlueprintUserMessages: None
+[2014.11.05-16.45.36:628][984]LogBlueprintUserMessages: None
+[2014.11.05-16.45.37:311][ 44]LogBlueprintUserMessages: None
+[2014.11.05-16.45.37:721][ 80]LogBlueprintUserMessages: None
+[2014.11.05-16.45.37:926][ 98]LogBlueprintUserMessages: None
+[2014.11.05-16.45.38:100][114]LogBlueprintUserMessages: None
+[2014.11.05-16.45.38:281][130]LogBlueprintUserMessages: None
+[2014.11.05-16.45.38:461][146]LogBlueprintUserMessages: None
+[2014.11.05-16.45.38:948][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DADD260
+[2014.11.05-16.45.47:434][633]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.45.47:639][633]BlueprintEditorCompileResults: Info [0541.74] Compile of TheRoom successful! [in 14 ms]
+[2014.11.05-16.45.49:061][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.45.49:067][685]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.45.49:285][685]LogPlayLevel: PIE:  Blueprint regeneration took 223 ms (1 blueprints)
+[2014.11.05-16.45.49:285][685]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:45:49 PM)
+[2014.11.05-16.45.49:295][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009624s)
+[2014.11.05-16.45.49:296][685]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2014.11.05-16.45.49:296][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010887s)
+[2014.11.05-16.45.49:327][685]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.45.49:328][685]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.45.49:331][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.45.49
+[2014.11.05-16.45.49:331][685]LogWorld: Bringing up level for play took: 0.002580
+[2014.11.05-16.45.49:332][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.125
+[2014.11.05-16.45.51:542][826]LogBlueprintUserMessages: None
+[2014.11.05-16.45.55:780][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000211D9300
+[2014.11.05-16.46.19:088][500]LogRenderer:Warning: Reallocating scene render targets to support 1616x896.
+[2014.11.05-16.46.42:510][354]BlueprintLog: New page: Compile Schlüssel
+[2014.11.05-16.46.42:643][354]BlueprintEditorCompileResults: Info [0596.70] Compile of Schlüssel successful! [in 1 ms]
+[2014.11.05-16.47.08:543][447]LogSavePackage: Save=155.559738ms
+[2014.11.05-16.47.08:543][447]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom9FFB38064400BB7E45B078BF589D568B.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.47.08:653][447]LogFileHelpers: Saving map 'TheRoom' took 0.369
+[2014.11.05-16.47.08:693][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Schlüssel" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Schlüssel.uasset" SILENT=true
+[2014.11.05-16.47.08:794][447]LogSavePackage: Save=93.429688ms
+[2014.11.05-16.47.08:794][447]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Schlüssel1D7674814CD2652E41531192CF8021BD.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Schlüssel.uasset'
+[2014.11.05-16.49.47:014][ 59]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-16.51.53:461][  1]LogSavePackage: Save=160.573608ms
+[2014.11.05-16.51.53:461][  1]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom3A22147446D792838416BA9DFF86B573.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.51.53:490][  1]LogFileHelpers: Saving map 'TheRoom' took 0.291
+[2014.11.05-16.51.54:172][ 21]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.51.54:355][ 21]BlueprintEditorCompileResults: Info [0908.45] Compile of TheRoom successful! [in 15 ms]
+[2014.11.05-16.51.55:972][ 88]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.51.55:976][ 88]LogPlayLevel: [PIE] Compiling Schlüssel before PIE...
+[2014.11.05-16.51.56:158][ 88]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.51.56:337][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 365 ms (2 blueprints)
+[2014.11.05-16.51.56:338][ 88]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:51:56 PM)
+[2014.11.05-16.51.56:348][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010435s)
+[2014.11.05-16.51.56:351][ 88]LogPlayLevel: PIE: World Init took: (0.002789s)
+[2014.11.05-16.51.56:351][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.013423s)
+[2014.11.05-16.51.56:378][ 88]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.51.56:379][ 88]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.51.56:383][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.51.56
+[2014.11.05-16.51.56:384][ 88]LogWorld: Bringing up level for play took: 0.004890
+[2014.11.05-16.51.56:385][ 88]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 1.192
+[2014.11.05-16.51.57:209][151]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1
+[2014.11.05-16.51.58:351][253]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1
+[2014.11.05-16.51.59:121][323]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1
+[2014.11.05-16.52.00:790][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002842DEE0
+[2014.11.05-16.52.14:086][125]LogSavePackage: Save=159.701721ms
+[2014.11.05-16.52.14:086][125]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom0DDC1E5D410D948E3ACA05AF457F6D9B.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.52.14:117][125]LogFileHelpers: Saving map 'TheRoom' took 0.292
+[2014.11.05-16.52.14:732][139]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-16.52.14:906][139]BlueprintEditorCompileResults: Info [0929.01] Compile of TheRoom successful! [in 15 ms]
+[2014.11.05-16.52.16:880][231]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-16.52.16:886][231]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-16.52.17:062][231]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2014.11.05-16.52.17:063][231]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 6:52:17 PM)
+[2014.11.05-16.52.17:072][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009784s)
+[2014.11.05-16.52.17:075][231]LogPlayLevel: PIE: World Init took: (0.002846s)
+[2014.11.05-16.52.17:075][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.012823s)
+[2014.11.05-16.52.17:103][231]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-16.52.17:104][231]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-16.52.17:106][231]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-17.52.17
+[2014.11.05-16.52.17:107][231]LogWorld: Bringing up level for play took: 0.002686
+[2014.11.05-16.52.17:108][231]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.085
+[2014.11.05-16.52.17:702][278]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.20:119][498]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.20:752][555]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.22:190][685]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.22:971][754]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.23:637][814]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.24:408][883]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.25:134][949]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.25:852][ 13]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.26:994][114]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.27:505][159]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.28:343][234]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.29:158][307]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.30:668][442]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.38:601][144]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.39:155][194]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.39:746][247]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.41:039][362]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.41:456][399]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.41:628][414]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.42:284][472]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.42:703][509]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.43:188][551]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.43:719][597]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.43:903][613]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.44:810][692]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.45:548][758]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.46:340][829]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.46:833][873]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.47:459][929]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.47:727][954]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.47:984][978]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.48:719][ 45]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.49:106][ 81]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.49:476][116]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.50:055][168]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.50:539][211]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.50:710][226]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.50:884][241]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:040][255]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:186][268]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:336][281]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:500][295]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:698][312]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.51:874][327]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.52:023][340]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.52:629][392]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.52:779][405]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.52:939][419]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.53:114][434]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.53:315][451]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.53:466][464]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.53:634][478]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.53:802][492]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.52.53:964][506]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.54:684][568]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.54:891][586]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.55:122][606]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.55:332][624]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.55:528][641]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.55:690][655]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.55:877][671]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.56:098][690]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.56:332][710]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.56:552][729]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.56:764][747]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.56:953][764]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.57:138][781]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.57:321][798]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.57:502][814]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.57:676][829]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.57:858][845]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.58:033][860]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.52.58:566][906]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-16.53.00:818][107]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.00:965][120]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.01:956][210]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.02:179][230]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.02:348][245]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.02:520][260]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.02:670][273]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.02:845][288]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:020][303]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:192][318]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:352][332]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:500][345]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:669][360]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:818][373]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.03:977][387]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.04:152][402]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.05:135][487]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.05:327][504]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.05:545][523]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.05:834][548]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.11:721][ 73]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-16.53.14:467][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022D4A160
+[2014.11.05-16.56.28:071][595]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a AIController, therefore ' Target ' must have a connection
+[2014.11.05-16.56.28:073][595]LogBlueprint:Warning: [compiler] Warning [1182.28] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 13 ms]
+[2014.11.05-16.56.28:329][595]LogSavePackage: Save=281.541626ms
+[2014.11.05-16.56.28:330][595]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom8E7F0F34474DDD094FCB3AB0696DBBC6.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-16.56.28:360][595]LogFileHelpers: Saving map 'TheRoom' took 0.411
+[2014.11.05-16.56.35:240][983]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-17.00.58:223][175]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.00.58:229][175]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.00.58:421][175]LogPlayLevel: PIE:  Blueprint regeneration took 197 ms (1 blueprints)
+[2014.11.05-17.00.58:421][175]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:00:58 PM)
+[2014.11.05-17.00.58:431][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009681s)
+[2014.11.05-17.00.58:432][175]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2014.11.05-17.00.58:432][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010887s)
+[2014.11.05-17.00.58:464][175]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.00.58:465][175]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.00.58:467][175]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.00.58
+[2014.11.05-17.00.58:468][175]LogWorld: Bringing up level for play took: 0.002651
+[2014.11.05-17.00.58:469][175]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.706
+[2014.11.05-17.00.58:955][213]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.00.59:385][251]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.00.59:562][266]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.00.59:728][280]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.00.59:905][295]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.01.00:281][326]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.01.00:433][339]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.01.00:576][351]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.01.00:716][363]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.01.01:161][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B6F36A0
+[2014.11.05-17.03.07:619][126]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-17.05.02:919][997]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.05.04:555][ 67]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.05.12:629][466]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.05.30:634][224]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.05.30:782][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.05.51:734][139]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.05.51:824][139]LogBlueprint:Error: [compiler] Error No input structure to break for  MinimalViewInfo 
+[2014.11.05-17.05.51:827][139]LogBlueprint:Warning: [compiler] Warning [1746.02] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.11.05-17.05.52:112][139]BlueprintEditorCompileResults:Error: Error No input structure to break for  MinimalViewInfo 
+[2014.11.05-17.05.52:112][139]BlueprintEditorCompileResults:Warning: Warning [1746.02] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.11.05-17.06.11:918][ 69]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.06.12:006][ 69]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a CameraComponent, therefore ' Target ' must have a connection
+[2014.11.05-17.06.12:011][ 69]LogBlueprint:Warning: [compiler] Warning [1766.21] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2014.11.05-17.06.12:190][ 69]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CameraComponent, therefore ' Target ' must have a connection
+[2014.11.05-17.06.12:190][ 69]BlueprintEditorCompileResults:Warning: Warning [1766.21] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2014.11.05-17.06.23:762][582]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.05-17.06.39:983][142]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a CameraComponent, therefore ' Target ' must have a connection
+[2014.11.05-17.06.39:986][142]LogBlueprint:Warning: [compiler] Warning [1794.18] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 14 ms]
+[2014.11.05-17.06.40:281][142]LogSavePackage: Save=322.981934ms
+[2014.11.05-17.06.40:281][142]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom_Auto1D35E1E1C441FA01ACC7512A4519AC507.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Autosaves/Game/Maps/TheRoom_Auto1.umap'
+[2014.11.05-17.06.40:289][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.389
+[2014.11.05-17.06.40:289][142]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.389
+[2014.11.05-17.14.34:058][453]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.14.34:149][453]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a CameraComponent, therefore ' Target ' must have a connection
+[2014.11.05-17.14.34:152][453]LogBlueprint:Warning: [compiler] Warning [2268.32] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2014.11.05-17.14.34:377][453]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a CameraComponent, therefore ' Target ' must have a connection
+[2014.11.05-17.14.34:377][453]BlueprintEditorCompileResults:Warning: Warning [2268.32] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2014.11.05-17.14.38:937][644]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.14.39:112][644]BlueprintEditorCompileResults: Info [2273.18] Compile of TheRoom successful! [in 15 ms]
+[2014.11.05-17.14.43:456][840]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.14.43:464][840]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.14.43:639][840]LogPlayLevel: PIE:  Blueprint regeneration took 183 ms (1 blueprints)
+[2014.11.05-17.14.43:640][840]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:14:43 PM)
+[2014.11.05-17.14.43:650][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010025s)
+[2014.11.05-17.14.43:651][840]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2014.11.05-17.14.43:651][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011208s)
+[2014.11.05-17.14.43:679][840]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.14.43:680][840]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.14.43:683][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.14.43
+[2014.11.05-17.14.43:683][840]LogWorld: Bringing up level for play took: 0.003092
+[2014.11.05-17.14.43:684][840]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.457
+[2014.11.05-17.14.45:353][980]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.46:694][100]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.47:149][140]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.47:454][166]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.47:716][189]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.47:933][208]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.48:119][224]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.49:288][326]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.49:884][377]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.50:132][399]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.50:667][445]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.14.52:554][597]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.52:702][610]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.53:182][653]LogBlueprintUserMessages: ActorHit: "Floor_400x400_7" + ItemHit: "-1"
+[2014.11.05-17.14.53:603][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003420F240
+[2014.11.05-17.15.15:252][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2014.11.05-17.15.23:431][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Dresser_nodrawer)
+[2014.11.05-17.15.50:301][638]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 P:\Nightterror\3Dmodels\Blockouts\Furniture_Dresser_Lowpoly.FBX)
+[2014.11.05-17.15.50:625][638]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.11.05-17.15.50:625][638]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: Model, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: Material, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: Texture, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.11.05-17.15.50:626][638]LogFbx: ItemName: Video, ItemCount : 1
+[2014.11.05-17.15.58:233][638]LogFbx: Loading FBX Scene from P:\Nightterror\3Dmodels\Blockouts\Furniture_Dresser_Lowpoly.FBX
+[2014.11.05-17.15.58:335][638]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.05-17.15.58:354][638]LogFbx: == Initial material list:
+[2014.11.05-17.15.58:354][638]LogFbx: 0: 01 - Default
+[2014.11.05-17.15.58:354][638]LogFbx: == After sorting:
+[2014.11.05-17.15.58:354][638]LogFbx: 0: 01 - Default
+[2014.11.05-17.15.58:354][638]LogFbx: == Mapping table:
+[2014.11.05-17.15.58:354][638]LogFbx:   sort 0 -> 0
+[2014.11.05-17.15.58:379][638]LogStaticMesh: Building static mesh Furniture_Dresser_Lowpoly...
+[2014.11.05-17.15.58:405][638]LogStaticMesh: Built static mesh [37.604618ms] /Game/Meshes/Furniture_Dresser_Lowpoly.Furniture_Dresser_Lowpoly
+[2014.11.05-17.15.58:431][638]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.05-17.15.58:432][638]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.11.05-17.16.03:857][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Dresser_nodrawer)
+[2014.11.05-17.16.04:220][942]Cmd: DELETE
+[2014.11.05-17.16.04:220][942]Cmd: ACTOR DELETE
+[2014.11.05-17.16.04:220][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.05-17.16.04:255][942]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.11.05-17.16.05:008][972]LogActorFactory: Actor Factory created Furniture_Dresser_Lowpoly
+[2014.11.05-17.16.06:164][ 55]LogActorFactory: Actor Factory created Furniture_Dresser_Lowpoly
+[2014.11.05-17.16.24:300][386]LogSavePackage: Save=200.165344ms
+[2014.11.05-17.16.24:300][386]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Furniture_Dresser_Lowpoly1D18705540E721F928B3C78DD43C7728.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Meshes/Furniture_Dresser_Lowpoly.uasset'
+[2014.11.05-17.16.31:634][833]LogSavePackage: Save=17.440422ms
+[2014.11.05-17.16.31:634][833]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Furniture_Dresser_Lowpoly9B82F0664FE89208DBFB34AFD50396EE.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Meshes/Furniture_Dresser_Lowpoly.uasset'
+[2014.11.05-17.16.45:154][674]Cmd: TRANSACTION UNDO
+[2014.11.05-17.16.45:154][674]LogEditorTransaction: Undo Move Actors
+[2014.11.05-17.16.53:291][913]LogSavePackage: Save=189.738861ms
+[2014.11.05-17.16.53:291][913]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom_Auto25DFEDA434524FD88199DE7A96DB31905.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Autosaves/Game/Maps/TheRoom_Auto2.umap'
+[2014.11.05-17.16.53:306][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.267
+[2014.11.05-17.16.53:306][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2014.11.05-17.16.53:316][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Schlüssel] ([1] browsable assets)...
+[2014.11.05-17.16.53:339][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Schlüssel.Schlüssel]
+[2014.11.05-17.16.53:339][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Schlüssel]
+[2014.11.05-17.16.53:467][913]LogSavePackage: Save=106.667587ms
+[2014.11.05-17.16.53:467][913]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Schlüssel_Auto221FFF4EA4929E3FD9481BDB280406266.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Autosaves/Game/Blueprints/Schlüssel_Auto2.uasset'
+[2014.11.05-17.16.53:480][913]LogFileHelpers: Auto-saving content packages took 0.174
+[2014.11.05-17.17.05:037][524]MapCheck: New page: Map Check
+[2014.11.05-17.17.05:072][524]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.05-17.17.05:072][524]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.05-17.17.05:088][524]LightingResults: New page: Lighting Build - Nov 5, 2014, 7:17:05 PM
+[2014.11.05-17.17.10:056][524]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.05-17.17.10:107][524]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.05-17.17.10:107][524]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.05-17.17.10:107][524]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.05-17.17.10:107][524]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.05-17.17.10:107][524]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.05-17.17.10:223][524]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.05-17.17.14:449][637]Job is a success!
+[2014.11.05-17.17.14:592][639]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.05-17.17.14:631][639]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.05-17.17.14:721][639]LogStaticLightingSystem:Warning: Illumination: 9.58 sec (103 ms encoding lightmaps)
+[2014.11.05-17.17.14:721][639]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.11.05-17.17.14:721][639]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.11.05-17.17.15:135][640]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.05-17.17.15:135][640]MapCheck: New page: TheRoom - Nov 5, 2014, 7:17:15 PM
+[2014.11.05-17.17.15:194][640]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.189ms] ==========
+[2014.11.05-17.17.23:571][ 18]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.17.23:575][ 18]LogPlayLevel: [PIE] Compiling Schlüssel before PIE...
+[2014.11.05-17.17.23:728][ 18]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.17.23:897][ 18]LogPlayLevel: PIE:  Blueprint regeneration took 326 ms (2 blueprints)
+[2014.11.05-17.17.23:897][ 18]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:17:23 PM)
+[2014.11.05-17.17.23:907][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009729s)
+[2014.11.05-17.17.23:908][ 18]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2014.11.05-17.17.23:908][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010965s)
+[2014.11.05-17.17.23:938][ 18]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.17.23:939][ 18]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.17.23:942][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.17.23
+[2014.11.05-17.17.23:942][ 18]LogWorld: Bringing up level for play took: 0.002841
+[2014.11.05-17.17.23:944][ 18]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.707
+[2014.11.05-17.17.26:240][197]Set new viewmode: Unlit
+[2014.11.05-17.17.27:668][314]Set new viewmode: Unlit
+[2014.11.05-17.17.27:892][333]Set new viewmode: Lit
+[2014.11.05-17.17.28:259][362]Error: view mode not recognized: detaillighting
+[2014.11.05-17.17.28:511][382]Set new viewmode: ShaderComplexity
+[2014.11.05-17.17.30:839][571]Set new viewmode: ShaderComplexity
+[2014.11.05-17.17.31:531][629]Set new viewmode: Wireframe
+[2014.11.05-17.17.31:878][660]Set new viewmode: Unlit
+[2014.11.05-17.17.35:946][  0]Set new viewmode: Unlit
+[2014.11.05-17.17.36:646][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033753B00
+[2014.11.05-17.18.25:983][242]MapCheck: New page: Map Check
+[2014.11.05-17.18.26:017][242]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.05-17.18.26:017][242]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.05-17.18.26:034][242]LightingResults: New page: Lighting Build - Nov 5, 2014, 7:18:26 PM
+[2014.11.05-17.18.30:620][242]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.05-17.18.30:670][242]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.05-17.18.30:671][242]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.05-17.18.30:671][242]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.05-17.18.30:671][242]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.05-17.18.30:671][242]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.05-17.18.30:741][242]LogEditorBuildUtils: Build time 0:00:04
+[2014.11.05-17.18.30:766][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.05-17.18.36:297][376]Job is a success!
+[2014.11.05-17.18.36:563][377]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.05-17.18.36:835][377]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.05-17.18.37:066][377]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.11.05-17.18.37:121][377]LogStaticLightingSystem:Warning: Illumination: 11.0 sec (692 ms encoding lightmaps)
+[2014.11.05-17.18.37:121][377]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.11.05-17.18.37:121][377]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2014.11.05-17.18.37:631][378]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.05-17.18.37:631][378]MapCheck: New page: TheRoom - Nov 5, 2014, 7:18:37 PM
+[2014.11.05-17.18.37:716][378]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [84.961ms] ==========
+[2014.11.05-17.18.55:227][297]Cmd: DELETE
+[2014.11.05-17.18.55:227][297]Cmd: ACTOR DELETE
+[2014.11.05-17.18.55:228][297]LogEditorActor: Deleted Actor: PointLight
+[2014.11.05-17.18.55:256][297]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.11.05-17.18.57:031][400]MapCheck: New page: Map Check
+[2014.11.05-17.18.57:054][400]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.05-17.18.57:054][400]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.05-17.18.57:073][400]LightingResults: New page: Lighting Build - Nov 5, 2014, 7:18:57 PM
+[2014.11.05-17.19.01:668][400]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.05-17.19.01:725][400]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.05-17.19.01:725][400]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.05-17.19.01:725][400]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.05-17.19.01:725][400]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.05-17.19.01:725][400]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.05-17.19.01:793][400]LogEditorBuildUtils: Build time 0:00:04
+[2014.11.05-17.19.05:321][512]Job is a success!
+[2014.11.05-17.19.05:592][513]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.05-17.19.05:697][513]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.05-17.19.05:810][513]Lightmass on 2013-KURS-09: 3.50 sec total, 387 ms importing, 11 ms setup, 96 ms photons, 2.95 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 8.84 sec total, 4.57 sec processing.
+[2014.11.05-17.19.05:818][513]LogStaticLightingSystem:Warning: Illumination: 8.68 sec (367 ms encoding lightmaps)
+[2014.11.05-17.19.05:818][513]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.11.05-17.19.05:818][513]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2014.11.05-17.19.06:704][514]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.05-17.19.06:706][514]MapCheck: New page: TheRoom - Nov 5, 2014, 7:19:06 PM
+[2014.11.05-17.19.06:792][514]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [87.998ms] ==========
+[2014.11.05-17.19.15:612][ 46]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.19.15:615][ 46]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.19.15:777][ 46]LogPlayLevel: PIE:  Blueprint regeneration took 164 ms (1 blueprints)
+[2014.11.05-17.19.15:777][ 46]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:19:15 PM)
+[2014.11.05-17.19.15:788][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010967s)
+[2014.11.05-17.19.15:789][ 46]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2014.11.05-17.19.15:789][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.012196s)
+[2014.11.05-17.19.15:822][ 46]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.19.15:824][ 46]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.19.15:826][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.19.15
+[2014.11.05-17.19.15:827][ 46]LogWorld: Bringing up level for play took: 0.002977
+[2014.11.05-17.19.15:828][ 46]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.594
+[2014.11.05-17.19.18:780][265]Cmd: sg.ResolutionQuality 400
+[2014.11.05-17.19.18:780][265]sg.ResolutionQuality = "400"
+[2014.11.05-17.19.18:780][265]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-17.19.18:780][265]sg.ViewDistanceQuality = "3"
+[2014.11.05-17.19.18:780][265]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-17.19.18:780][265]sg.AntiAliasingQuality = "3"
+[2014.11.05-17.19.18:780][265]Cmd: sg.PostProcessQuality 3
+[2014.11.05-17.19.18:780][265]sg.PostProcessQuality = "3"
+[2014.11.05-17.19.18:780][265]Cmd: sg.ShadowQuality 3
+[2014.11.05-17.19.18:780][265]sg.ShadowQuality = "3"
+[2014.11.05-17.19.18:780][265]Cmd: sg.TextureQuality 3
+[2014.11.05-17.19.18:780][265]sg.TextureQuality = "3"
+[2014.11.05-17.19.18:780][265]Cmd: sg.EffectsQuality 3
+[2014.11.05-17.19.18:781][265]sg.EffectsQuality = "3"
+[2014.11.05-17.19.18:785][265]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-17.19.18:785][265]r.PostProcessAAQuality = "6"
+[2014.11.05-17.19.18:785][265]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.18:785][265]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.18:785][265]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-17.19.18:785][265]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-17.19.18:785][265]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-17.19.18:796][266]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-17.19.18:797][266]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-17.19.19:097][280]Cmd: sg.ResolutionQuality 150
+[2014.11.05-17.19.19:097][280]sg.ResolutionQuality = "150"
+[2014.11.05-17.19.19:097][280]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-17.19.19:097][280]sg.ViewDistanceQuality = "3"
+[2014.11.05-17.19.19:097][280]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-17.19.19:097][280]sg.AntiAliasingQuality = "3"
+[2014.11.05-17.19.19:097][280]Cmd: sg.PostProcessQuality 3
+[2014.11.05-17.19.19:098][280]sg.PostProcessQuality = "3"
+[2014.11.05-17.19.19:098][280]Cmd: sg.ShadowQuality 3
+[2014.11.05-17.19.19:098][280]sg.ShadowQuality = "3"
+[2014.11.05-17.19.19:098][280]Cmd: sg.TextureQuality 3
+[2014.11.05-17.19.19:098][280]sg.TextureQuality = "3"
+[2014.11.05-17.19.19:098][280]Cmd: sg.EffectsQuality 3
+[2014.11.05-17.19.19:098][280]sg.EffectsQuality = "3"
+[2014.11.05-17.19.19:098][280]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-17.19.19:098][280]r.PostProcessAAQuality = "6"
+[2014.11.05-17.19.19:098][280]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.19:098][280]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.19:098][280]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-17.19.19:098][280]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-17.19.19:098][280]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-17.19.20:337][359]Cmd: sg.ResolutionQuality 25
+[2014.11.05-17.19.20:338][359]sg.ResolutionQuality = "25"
+[2014.11.05-17.19.20:338][359]Cmd: sg.ViewDistanceQuality 0
+[2014.11.05-17.19.20:338][359]sg.ViewDistanceQuality = "0"
+[2014.11.05-17.19.20:338][359]Cmd: sg.AntiAliasingQuality 0
+[2014.11.05-17.19.20:338][359]sg.AntiAliasingQuality = "0"
+[2014.11.05-17.19.20:338][359]Cmd: sg.PostProcessQuality 0
+[2014.11.05-17.19.20:338][359]sg.PostProcessQuality = "0"
+[2014.11.05-17.19.20:338][359]Cmd: sg.ShadowQuality 0
+[2014.11.05-17.19.20:338][359]sg.ShadowQuality = "0"
+[2014.11.05-17.19.20:338][359]Cmd: sg.TextureQuality 0
+[2014.11.05-17.19.20:339][359]sg.TextureQuality = "0"
+[2014.11.05-17.19.20:339][359]Cmd: sg.EffectsQuality 0
+[2014.11.05-17.19.20:339][359]sg.EffectsQuality = "0"
+[2014.11.05-17.19.20:426][359]Cmd: r.PostProcessAAQuality 1
+[2014.11.05-17.19.20:426][359]r.PostProcessAAQuality = "1"
+[2014.11.05-17.19.20:426][359]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.20:426][359]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.20:426][359]Cmd: r.SSR.MaxRoughness 0.2
+[2014.11.05-17.19.20:426][359]r.SSR.MaxRoughness = "0.2"
+[2014.11.05-17.19.20:426][359]LogBlueprintUserMessages: LOW!!
+[2014.11.05-17.19.20:443][360]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-17.19.20:461][361]LogContentStreaming: Texture pool size now 200 MB
+[2014.11.05-17.19.21:448][437]Cmd: sg.ResolutionQuality 50
+[2014.11.05-17.19.21:448][437]sg.ResolutionQuality = "50"
+[2014.11.05-17.19.21:448][437]Cmd: sg.ViewDistanceQuality 1
+[2014.11.05-17.19.21:448][437]sg.ViewDistanceQuality = "1"
+[2014.11.05-17.19.21:448][437]Cmd: sg.AntiAliasingQuality 1
+[2014.11.05-17.19.21:448][437]sg.AntiAliasingQuality = "1"
+[2014.11.05-17.19.21:448][437]Cmd: sg.PostProcessQuality 1
+[2014.11.05-17.19.21:448][437]sg.PostProcessQuality = "1"
+[2014.11.05-17.19.21:448][437]Cmd: sg.ShadowQuality 1
+[2014.11.05-17.19.21:448][437]sg.ShadowQuality = "1"
+[2014.11.05-17.19.21:448][437]Cmd: sg.TextureQuality 1
+[2014.11.05-17.19.21:448][437]sg.TextureQuality = "1"
+[2014.11.05-17.19.21:448][437]Cmd: sg.EffectsQuality 1
+[2014.11.05-17.19.21:448][437]sg.EffectsQuality = "1"
+[2014.11.05-17.19.21:531][437]Cmd: r.PostProcessAAQuality 2
+[2014.11.05-17.19.21:531][437]r.PostProcessAAQuality = "2"
+[2014.11.05-17.19.21:531][437]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.21:531][437]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.21:531][437]Cmd: r.SSR.MaxRoughness 0.6
+[2014.11.05-17.19.21:531][437]r.SSR.MaxRoughness = "0.6"
+[2014.11.05-17.19.21:531][437]LogBlueprintUserMessages: MID!!
+[2014.11.05-17.19.21:556][438]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-17.19.21:618][441]Cmd: sg.ResolutionQuality 75
+[2014.11.05-17.19.21:618][441]sg.ResolutionQuality = "75"
+[2014.11.05-17.19.21:618][441]Cmd: sg.ViewDistanceQuality 2
+[2014.11.05-17.19.21:619][441]sg.ViewDistanceQuality = "2"
+[2014.11.05-17.19.21:619][441]Cmd: sg.AntiAliasingQuality 2
+[2014.11.05-17.19.21:619][441]sg.AntiAliasingQuality = "2"
+[2014.11.05-17.19.21:619][441]Cmd: sg.PostProcessQuality 2
+[2014.11.05-17.19.21:619][441]sg.PostProcessQuality = "2"
+[2014.11.05-17.19.21:619][441]Cmd: sg.ShadowQuality 2
+[2014.11.05-17.19.21:619][441]sg.ShadowQuality = "2"
+[2014.11.05-17.19.21:619][441]Cmd: sg.TextureQuality 2
+[2014.11.05-17.19.21:619][441]sg.TextureQuality = "2"
+[2014.11.05-17.19.21:620][441]Cmd: sg.EffectsQuality 2
+[2014.11.05-17.19.21:621][441]sg.EffectsQuality = "2"
+[2014.11.05-17.19.21:621][441]Cmd: r.PostProcessAAQuality 3
+[2014.11.05-17.19.21:621][441]r.PostProcessAAQuality = "3"
+[2014.11.05-17.19.21:621][441]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.21:621][441]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.21:621][441]Cmd: r.SSR.MaxRoughness 0.8
+[2014.11.05-17.19.21:621][441]r.SSR.MaxRoughness = "0.8"
+[2014.11.05-17.19.21:621][441]LogBlueprintUserMessages: HIGH!!
+[2014.11.05-17.19.21:635][441]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-17.19.21:635][441]LogContentStreaming: Texture pool size now 700 MB
+[2014.11.05-17.19.21:768][449]Cmd: sg.ResolutionQuality 100
+[2014.11.05-17.19.21:769][449]sg.ResolutionQuality = "100"
+[2014.11.05-17.19.21:769][449]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-17.19.21:769][449]sg.ViewDistanceQuality = "3"
+[2014.11.05-17.19.21:769][449]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-17.19.21:769][449]sg.AntiAliasingQuality = "3"
+[2014.11.05-17.19.21:769][449]Cmd: sg.PostProcessQuality 3
+[2014.11.05-17.19.21:769][449]sg.PostProcessQuality = "3"
+[2014.11.05-17.19.21:769][449]Cmd: sg.ShadowQuality 3
+[2014.11.05-17.19.21:769][449]sg.ShadowQuality = "3"
+[2014.11.05-17.19.21:769][449]Cmd: sg.TextureQuality 3
+[2014.11.05-17.19.21:769][449]sg.TextureQuality = "3"
+[2014.11.05-17.19.21:770][449]Cmd: sg.EffectsQuality 3
+[2014.11.05-17.19.21:771][449]sg.EffectsQuality = "3"
+[2014.11.05-17.19.21:778][449]Cmd: r.PostProcessAAQuality 4
+[2014.11.05-17.19.21:778][449]r.PostProcessAAQuality = "4"
+[2014.11.05-17.19.21:778][449]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.21:779][449]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.21:779][449]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-17.19.21:779][449]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-17.19.21:779][449]LogBlueprintUserMessages: ULTRA!!
+[2014.11.05-17.19.21:805][450]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2014.11.05-17.19.21:820][451]LogContentStreaming: Texture pool size now 1000 MB
+[2014.11.05-17.19.21:962][458]Cmd: sg.ResolutionQuality 150
+[2014.11.05-17.19.21:962][458]sg.ResolutionQuality = "150"
+[2014.11.05-17.19.21:962][458]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-17.19.21:962][458]sg.ViewDistanceQuality = "3"
+[2014.11.05-17.19.21:962][458]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-17.19.21:962][458]sg.AntiAliasingQuality = "3"
+[2014.11.05-17.19.21:962][458]Cmd: sg.PostProcessQuality 3
+[2014.11.05-17.19.21:963][458]sg.PostProcessQuality = "3"
+[2014.11.05-17.19.21:963][458]Cmd: sg.ShadowQuality 3
+[2014.11.05-17.19.21:963][458]sg.ShadowQuality = "3"
+[2014.11.05-17.19.21:963][458]Cmd: sg.TextureQuality 3
+[2014.11.05-17.19.21:963][458]sg.TextureQuality = "3"
+[2014.11.05-17.19.21:963][458]Cmd: sg.EffectsQuality 3
+[2014.11.05-17.19.21:963][458]sg.EffectsQuality = "3"
+[2014.11.05-17.19.21:963][458]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-17.19.21:963][458]r.PostProcessAAQuality = "6"
+[2014.11.05-17.19.21:963][458]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.21:963][458]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.21:963][458]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-17.19.21:963][458]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-17.19.21:963][458]LogBlueprintUserMessages: EXTREME!!
+[2014.11.05-17.19.22:124][468]Cmd: sg.ResolutionQuality 400
+[2014.11.05-17.19.22:124][468]sg.ResolutionQuality = "400"
+[2014.11.05-17.19.22:124][468]Cmd: sg.ViewDistanceQuality 3
+[2014.11.05-17.19.22:124][468]sg.ViewDistanceQuality = "3"
+[2014.11.05-17.19.22:124][468]Cmd: sg.AntiAliasingQuality 3
+[2014.11.05-17.19.22:124][468]sg.AntiAliasingQuality = "3"
+[2014.11.05-17.19.22:124][468]Cmd: sg.PostProcessQuality 3
+[2014.11.05-17.19.22:124][468]sg.PostProcessQuality = "3"
+[2014.11.05-17.19.22:124][468]Cmd: sg.ShadowQuality 3
+[2014.11.05-17.19.22:125][468]sg.ShadowQuality = "3"
+[2014.11.05-17.19.22:125][468]Cmd: sg.TextureQuality 3
+[2014.11.05-17.19.22:125][468]sg.TextureQuality = "3"
+[2014.11.05-17.19.22:125][468]Cmd: sg.EffectsQuality 3
+[2014.11.05-17.19.22:125][468]sg.EffectsQuality = "3"
+[2014.11.05-17.19.22:125][468]Cmd: r.PostProcessAAQuality 6
+[2014.11.05-17.19.22:125][468]r.PostProcessAAQuality = "6"
+[2014.11.05-17.19.22:125][468]Cmd: r.EyeAdaptationQuality 0
+[2014.11.05-17.19.22:125][468]r.EyeAdaptationQuality = "0"
+[2014.11.05-17.19.22:125][468]Cmd: r.SSR.MaxRoughness 0.9
+[2014.11.05-17.19.22:125][468]r.SSR.MaxRoughness = "0.9"
+[2014.11.05-17.19.22:125][468]LogBlueprintUserMessages: ULTRAEXTREME!!
+[2014.11.05-17.19.28:304][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020AF23E0
+[2014.11.05-17.19.41:479][532]LogEditorViewport: Clicking on Actor (LMB): Schlüssel_C (BP_UsableActor)
+[2014.11.05-17.20.40:236][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Secretary_Lowpoly)
+[2014.11.05-17.20.41:156][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2014.11.05-17.20.53:526][796]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.20.53:608][796]LogBlueprint:Error: [compiler] Error Default value '' for  [1]  is invalid: ''' is not a valid enumerant of '<EObjectTypeQuery>''
+[2014.11.05-17.20.53:610][796]LogBlueprint:Warning: [compiler] Warning [2647.77] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.11.05-17.20.53:828][796]BlueprintEditorCompileResults:Error: Error Default value '' for  [1]  is invalid: ''' is not a valid enumerant of '<EObjectTypeQuery>''
+[2014.11.05-17.20.53:828][796]BlueprintEditorCompileResults:Warning: Warning [2647.77] Compile of TheRoom failed. 1 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.11.05-17.20.59:323][987]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.20.59:504][987]BlueprintEditorCompileResults: Info [2653.57] Compile of TheRoom successful! [in 14 ms]
+[2014.11.05-17.21.02:120][ 72]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.21.02:144][ 72]LogPlayLevel: [PIE] Compiling Schlüssel before PIE...
+[2014.11.05-17.21.02:264][ 72]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.21.02:442][ 72]LogPlayLevel: PIE:  Blueprint regeneration took 322 ms (2 blueprints)
+[2014.11.05-17.21.02:442][ 72]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:21:02 PM)
+[2014.11.05-17.21.02:452][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009641s)
+[2014.11.05-17.21.02:453][ 72]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2014.11.05-17.21.02:453][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010916s)
+[2014.11.05-17.21.02:484][ 72]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.21.02:486][ 72]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.21.02:488][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.21.02
+[2014.11.05-17.21.02:489][ 72]LogWorld: Bringing up level for play took: 0.003205
+[2014.11.05-17.21.02:490][ 72]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 1.26
+[2014.11.05-17.21.03:349][114]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.05:104][228]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.06:961][349]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.07:392][378]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.07:614][393]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.07:798][405]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.07:981][417]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.08:181][430]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.08:341][440]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.08:500][450]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.08:660][460]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.08:837][471]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.09:074][486]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.09:278][499]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.11:827][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004FB30B80
+[2014.11.05-17.21.12:404][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Secretary_Lowpoly)
+[2014.11.05-17.21.15:166][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Secretary_Lowpoly)
+[2014.11.05-17.21.15:605][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Secretary_Lowpoly)
+[2014.11.05-17.21.16:108][819]LogEditorViewport: Clicking on Actor (LMB): Schlüssel_C (BP_UsableActor)
+[2014.11.05-17.21.16:881][858]LogEditorViewport: Clicking on Actor (LMB): Schlüssel_C (BP_UsableActor)
+[2014.11.05-17.21.30:248][353]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.21.30:251][353]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.21.30:416][353]LogPlayLevel: PIE:  Blueprint regeneration took 167 ms (1 blueprints)
+[2014.11.05-17.21.30:416][353]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:21:30 PM)
+[2014.11.05-17.21.30:426][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009644s)
+[2014.11.05-17.21.30:429][353]LogPlayLevel: PIE: World Init took: (0.002926s)
+[2014.11.05-17.21.30:429][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.012764s)
+[2014.11.05-17.21.30:457][353]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.21.30:458][353]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.21.30:462][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.21.30
+[2014.11.05-17.21.30:463][353]LogWorld: Bringing up level for play took: 0.004520
+[2014.11.05-17.21.30:464][353]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.764
+[2014.11.05-17.21.32:409][469]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.32:961][504]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:120][514]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:264][523]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:424][533]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:566][542]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:714][551]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.33:856][560]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.34:000][569]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.35:232][645]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.35:406][656]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.35:565][666]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.35:723][676]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.35:882][686]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.21.36:495][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024BFD260
+[2014.11.05-17.21.37:766][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Dresser_Lowpoly)
+[2014.11.05-17.21.41:790][938]LogEditorViewport: Clicking on Actor (LMB): Schlüssel_C (BP_UsableActor)
+[2014.11.05-17.21.58:498][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Secretary_Lowpoly)
+[2014.11.05-17.22.01:254][632]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.22.01:258][632]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.22.01:419][632]LogPlayLevel: PIE:  Blueprint regeneration took 164 ms (1 blueprints)
+[2014.11.05-17.22.01:419][632]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:22:01 PM)
+[2014.11.05-17.22.01:429][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009675s)
+[2014.11.05-17.22.01:430][632]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2014.11.05-17.22.01:430][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010852s)
+[2014.11.05-17.22.01:459][632]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.22.01:461][632]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.22.01:463][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.22.01
+[2014.11.05-17.22.01:464][632]LogWorld: Bringing up level for play took: 0.002675
+[2014.11.05-17.22.01:465][632]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.237
+[2014.11.05-17.22.02:657][699]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.22.03:352][743]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.22.06:850][957]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.22.07:070][971]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.22.08:477][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046BCBB00
+[2014.11.05-17.24.24:526][680]BlueprintLog: New page: Compile Schlüssel
+[2014.11.05-17.24.24:651][680]BlueprintEditorCompileResults: Info [2858.70] Compile of Schlüssel successful! [in 0 ms]
+[2014.11.05-17.24.28:353][838]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.24.28:359][838]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.24.28:519][838]LogPlayLevel: PIE:  Blueprint regeneration took 165 ms (1 blueprints)
+[2014.11.05-17.24.28:519][838]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:24:28 PM)
+[2014.11.05-17.24.28:529][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009870s)
+[2014.11.05-17.24.28:530][838]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2014.11.05-17.24.28:530][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011044s)
+[2014.11.05-17.24.28:560][838]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.24.28:561][838]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.24.28:564][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.24.28
+[2014.11.05-17.24.28:564][838]LogWorld: Bringing up level for play took: 0.002687
+[2014.11.05-17.24.28:566][838]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.656
+[2014.11.05-17.24.29:603][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045258A40
+[2014.11.05-17.24.35:809][ 81]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.24.35:816][ 81]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.24.35:986][ 81]LogPlayLevel: PIE:  Blueprint regeneration took 176 ms (1 blueprints)
+[2014.11.05-17.24.35:986][ 81]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:24:35 PM)
+[2014.11.05-17.24.35:996][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009718s)
+[2014.11.05-17.24.35:997][ 81]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2014.11.05-17.24.35:997][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011022s)
+[2014.11.05-17.24.36:030][ 81]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.24.36:032][ 81]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.24.36:034][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.24.36
+[2014.11.05-17.24.36:034][ 81]LogWorld: Bringing up level for play took: 0.002689
+[2014.11.05-17.24.36:036][ 81]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.814
+[2014.11.05-17.24.37:478][164]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.37:977][193]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.38:286][212]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.38:461][224]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.38:638][235]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.38:781][244]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:022][321]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:195][332]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:359][342]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:521][352]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:680][362]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:823][371]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.40:980][381]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.41:122][390]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.41:279][400]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.41:421][409]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.41:595][420]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.41:737][429]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.24.42:136][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EA1E840
+[2014.11.05-17.25.02:690][363]LogSavePackage: Save=267.428833ms
+[2014.11.05-17.25.02:690][363]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom20DAF4B34E201232D2CBDD8F6D9D4047.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.25.02:719][363]LogFileHelpers: Saving map 'TheRoom' took 0.396
+[2014.11.05-17.25.02:756][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Schlüssel" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Schlüssel.uasset" SILENT=true
+[2014.11.05-17.25.03:118][363]LogSavePackage: Save=353.500336ms
+[2014.11.05-17.25.03:118][363]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/SchlüsselC56146D7416F1919219D8BA6D264FC89.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/Schlüssel.uasset'
+[2014.11.05-17.25.03:708][380]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.25.03:711][380]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.25.03:872][380]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2014.11.05-17.25.03:873][380]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:25:03 PM)
+[2014.11.05-17.25.03:882][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009623s)
+[2014.11.05-17.25.03:883][380]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2014.11.05-17.25.03:884][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.010895s)
+[2014.11.05-17.25.03:916][380]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.25.03:918][380]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.25.03:920][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.25.03
+[2014.11.05-17.25.03:920][380]LogWorld: Bringing up level for play took: 0.002668
+[2014.11.05-17.25.03:922][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.701
+[2014.11.05-17.25.04:893][437]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.05:362][466]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.05:526][476]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.05:683][486]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.05:808][494]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.05:918][501]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:050][509]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:176][517]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:333][527]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:466][535]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:616][545]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.06:735][552]LogBlueprintUserMessages: ActorHit: "None" + ItemHit: "0"
+[2014.11.05-17.25.07:820][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024D77060
+[2014.11.05-17.26.22:656][875]LogSavePackage: Save=172.204468ms
+[2014.11.05-17.26.22:656][875]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomA7D711234EDE8592BED6438C0D220B68.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.26.22:684][875]LogFileHelpers: Saving map 'TheRoom' took 0.294
+[2014.11.05-17.26.26:454][ 33]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.26.26:463][ 33]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.26.26:650][ 33]LogPlayLevel: PIE:  Blueprint regeneration took 196 ms (1 blueprints)
+[2014.11.05-17.26.26:651][ 33]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:26:26 PM)
+[2014.11.05-17.26.26:661][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009773s)
+[2014.11.05-17.26.26:662][ 33]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2014.11.05-17.26.26:662][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011047s)
+[2014.11.05-17.26.26:695][ 33]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.26.26:697][ 33]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.26.26:699][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.26.26
+[2014.11.05-17.26.26:700][ 33]LogWorld: Bringing up level for play took: 0.002858
+[2014.11.05-17.26.26:701][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.516
+[2014.11.05-17.26.27:841][103]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.28:443][142]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.30:380][274]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.31:085][322]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.32:132][394]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.33:730][500]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.33:958][514]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.34:170][527]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.34:360][539]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.34:575][553]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.34:777][566]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.34:976][579]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.35:158][591]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.35:568][618]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.35:796][633]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.36:010][647]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.36:218][660]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.41:805][ 15]LogBlueprintUserMessages: 1
+[2014.11.05-17.26.43:589][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C787F60
+[2014.11.05-17.28.11:458][215]LogSavePackage: Save=166.932800ms
+[2014.11.05-17.28.11:458][215]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom7F0917A348FFF79D5C04B69F42B47C08.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.28.11:486][215]LogFileHelpers: Saving map 'TheRoom' took 0.292
+[2014.11.05-17.28.13:723][285]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.28.13:731][285]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.28.13:906][285]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2014.11.05-17.28.13:906][285]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:28:13 PM)
+[2014.11.05-17.28.13:916][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010131s)
+[2014.11.05-17.28.13:919][285]LogPlayLevel: PIE: World Init took: (0.002936s)
+[2014.11.05-17.28.13:919][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.013268s)
+[2014.11.05-17.28.13:946][285]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.28.13:948][285]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.28.13:950][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.28.13
+[2014.11.05-17.28.13:951][285]LogWorld: Bringing up level for play took: 0.002832
+[2014.11.05-17.28.13:952][285]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.739
+[2014.11.05-17.28.14:838][338]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.15:405][375]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.15:542][384]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.15:694][394]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.15:875][406]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.16:116][422]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.16:297][434]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.16:553][451]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.16:825][469]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.17:262][498]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.17:503][514]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.17:718][528]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.19:196][626]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.19:451][643]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.19:632][655]LogBlueprintUserMessages: 1
+[2014.11.05-17.28.20:315][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045435E40
+[2014.11.05-17.28.27:872][ 33]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.28.28:047][ 33]BlueprintEditorCompileResults: Info [3102.13] Compile of TheRoom successful! [in 15 ms]
+[2014.11.05-17.28.31:720][128]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.28.31:727][128]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.28.31:901][128]LogPlayLevel: PIE:  Blueprint regeneration took 181 ms (1 blueprints)
+[2014.11.05-17.28.31:901][128]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:28:31 PM)
+[2014.11.05-17.28.31:912][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010339s)
+[2014.11.05-17.28.31:913][128]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.11.05-17.28.31:913][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011485s)
+[2014.11.05-17.28.31:946][128]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.28.31:948][128]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.28.31:950][128]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.28.31
+[2014.11.05-17.28.31:950][128]LogWorld: Bringing up level for play took: 0.002729
+[2014.11.05-17.28.31:952][128]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.739
+[2014.11.05-17.28.32:337][149]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.32:594][165]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.32:844][181]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.32:999][191]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.33:185][203]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.33:386][216]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.33:643][232]LogBlueprintUserMessages: 0
+[2014.11.05-17.28.34:599][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DF2CD60
+[2014.11.05-17.29.18:833][425]LogSavePackage: Save=172.448120ms
+[2014.11.05-17.29.18:833][425]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomFC8833B342401F4B13623CA8D1118967.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.29.18:863][425]LogFileHelpers: Saving map 'TheRoom' took 0.300
+[2014.11.05-17.29.20:792][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.29.20:800][472]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.29.20:976][472]LogPlayLevel: PIE:  Blueprint regeneration took 184 ms (1 blueprints)
+[2014.11.05-17.29.20:976][472]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:29:20 PM)
+[2014.11.05-17.29.20:989][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013029s)
+[2014.11.05-17.29.20:990][472]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2014.11.05-17.29.20:991][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.014214s)
+[2014.11.05-17.29.21:019][472]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.29.21:020][472]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.29.21:023][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.29.21
+[2014.11.05-17.29.21:023][472]LogWorld: Bringing up level for play took: 0.002923
+[2014.11.05-17.29.21:025][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.186
+[2014.11.05-17.29.21:968][528]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.22:595][569]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.24:943][729]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.25:324][755]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.25:513][768]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.25:789][787]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.26:088][807]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.26:351][825]LogBlueprintUserMessages: 33
+[2014.11.05-17.29.27:984][924]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004FE46AC0
+[2014.11.05-17.37.39:470][491]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.37.39:478][491]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.37.39:732][491]LogPlayLevel: PIE:  Blueprint regeneration took 262 ms (1 blueprints)
+[2014.11.05-17.37.39:732][491]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:37:39 PM)
+[2014.11.05-17.37.39:743][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010334s)
+[2014.11.05-17.37.39:744][491]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2014.11.05-17.37.39:744][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011519s)
+[2014.11.05-17.37.39:776][491]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.37.39:777][491]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.37.39:779][491]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.37.39
+[2014.11.05-17.37.39:781][491]LogWorld: Bringing up level for play took: 0.003867
+[2014.11.05-17.37.39:783][491]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.572
+[2014.11.05-17.37.40:795][552]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.42:217][649]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.42:817][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058AE5B20
+[2014.11.05-17.37.53:204][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Furniture_Liege_lowpoly)
+[2014.11.05-17.37.53:295][ 87]Cmd: EDIT COPY
+[2014.11.05-17.37.53:451][ 94]Cmd: EDIT PASTE
+[2014.11.05-17.37.56:061][185]LogSavePackage: Save=175.025528ms
+[2014.11.05-17.37.56:061][185]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom4F5D85A24312A641D7924BA013FC6491.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.37.56:089][185]LogFileHelpers: Saving map 'TheRoom' took 0.301
+[2014.11.05-17.37.57:629][233]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.37.57:637][233]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.37.57:813][233]LogPlayLevel: PIE:  Blueprint regeneration took 183 ms (1 blueprints)
+[2014.11.05-17.37.57:813][233]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:37:57 PM)
+[2014.11.05-17.37.57:823][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010129s)
+[2014.11.05-17.37.57:824][233]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2014.11.05-17.37.57:824][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011336s)
+[2014.11.05-17.37.57:852][233]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.37.57:854][233]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.37.57:856][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.37.57
+[2014.11.05-17.37.57:857][233]LogWorld: Bringing up level for play took: 0.002879
+[2014.11.05-17.37.57:858][233]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.646
+[2014.11.05-17.37.58:676][280]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.59:268][320]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.59:460][333]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.59:621][344]LogBlueprintUserMessages: 33
+[2014.11.05-17.37.59:796][356]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.00:008][369]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.00:285][388]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.00:501][402]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.00:679][414]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.00:825][424]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.01:045][439]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.01:250][453]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.02:457][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AA98AE0
+[2014.11.05-17.38.03:908][565]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.05-17.38.03:939][565]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.11.05-17.38.09:089][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.05-17.38.09:122][746]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2014.11.05-17.38.10:242][786]LogSavePackage: Save=168.177231ms
+[2014.11.05-17.38.10:242][786]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom68D667A14870E7A9E88E75A0BE8567E3.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.38.10:271][786]LogFileHelpers: Saving map 'TheRoom' took 0.292
+[2014.11.05-17.38.11:466][838]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.38.11:469][838]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.38.11:644][838]LogPlayLevel: PIE:  Blueprint regeneration took 177 ms (1 blueprints)
+[2014.11.05-17.38.11:644][838]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:38:11 PM)
+[2014.11.05-17.38.11:654][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010084s)
+[2014.11.05-17.38.11:655][838]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2014.11.05-17.38.11:655][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011253s)
+[2014.11.05-17.38.11:685][838]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.38.11:687][838]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.38.11:689][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.38.11
+[2014.11.05-17.38.11:689][838]LogWorld: Bringing up level for play took: 0.002606
+[2014.11.05-17.38.11:691][838]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.478
+[2014.11.05-17.38.12:500][886]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.13:281][939]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.13:485][953]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.13:659][965]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.13:848][978]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.15:551][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AA9BC40
+[2014.11.05-17.38.19:818][289]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.38.19:821][289]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.38.19:989][289]LogPlayLevel: PIE:  Blueprint regeneration took 171 ms (1 blueprints)
+[2014.11.05-17.38.19:989][289]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:38:19 PM)
+[2014.11.05-17.38.19:999][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009952s)
+[2014.11.05-17.38.20:002][289]LogPlayLevel: PIE: World Init took: (0.002871s)
+[2014.11.05-17.38.20:002][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.013031s)
+[2014.11.05-17.38.20:031][289]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.38.20:032][289]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.38.20:035][289]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.38.20
+[2014.11.05-17.38.20:035][289]LogWorld: Bringing up level for play took: 0.002953
+[2014.11.05-17.38.20:037][289]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.824
+[2014.11.05-17.38.21:315][367]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.21:925][407]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.22:138][421]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.22:318][433]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.22:469][443]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.22:620][453]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.22:786][464]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.23:068][482]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.23:859][534]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:029][545]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:166][554]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:288][562]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:455][573]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:833][598]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.24:969][607]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.25:135][618]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.25:301][629]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.25:980][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005BB15620
+[2014.11.05-17.38.27:462][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2014.11.05-17.38.30:635][904]Cmd: EDIT COPY
+[2014.11.05-17.38.30:763][911]Cmd: EDIT PASTE
+[2014.11.05-17.38.32:542][985]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.38.32:545][985]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.38.32:795][985]LogPlayLevel: PIE:  Blueprint regeneration took 252 ms (1 blueprints)
+[2014.11.05-17.38.32:795][985]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:38:32 PM)
+[2014.11.05-17.38.32:805][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010161s)
+[2014.11.05-17.38.32:808][985]LogPlayLevel: PIE: World Init took: (0.002587s)
+[2014.11.05-17.38.32:808][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.012949s)
+[2014.11.05-17.38.32:836][985]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.38.32:837][985]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.38.32:839][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.38.32
+[2014.11.05-17.38.32:840][985]LogWorld: Bringing up level for play took: 0.002773
+[2014.11.05-17.38.32:841][985]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.373
+[2014.11.05-17.38.33:701][ 36]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.34:196][ 69]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.34:333][ 78]LogBlueprintUserMessages: 33
+[2014.11.05-17.38.34:850][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005BB15E40
+[2014.11.05-17.38.35:470][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2014.11.05-17.38.35:877][148]Cmd: DELETE
+[2014.11.05-17.38.35:877][148]Cmd: ACTOR DELETE
+[2014.11.05-17.38.35:877][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.05-17.38.35:912][148]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.11.05-17.38.37:457][218]LogSavePackage: Save=169.741211ms
+[2014.11.05-17.38.37:458][218]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom97667FD547D3809EFD03B0B4F9E5260B.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.38.37:488][218]LogFileHelpers: Saving map 'TheRoom' took 0.296
+[2014.11.05-17.38.45:493][527]LogActorFactory: Actor Factory created rug
+[2014.11.05-17.38.46:648][587]LogActorFactory: Actor Factory created rug
+[2014.11.05-17.39.09:828][450]LogSavePackage: Save=164.673721ms
+[2014.11.05-17.39.09:828][450]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom34251AA944C8B99679A9AE997E15565F.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.39.09:856][450]LogFileHelpers: Saving map 'TheRoom' took 0.287
+[2014.11.05-17.39.13:130][599]LogSavePackage: Save=163.987961ms
+[2014.11.05-17.39.13:131][599]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom8749298F498827F88577D4BC22C476A2.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.39.13:160][599]LogFileHelpers: Saving map 'TheRoom' took 0.290
+[2014.11.05-17.39.15:179][681]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.39.15:182][681]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.39.15:353][681]LogPlayLevel: PIE:  Blueprint regeneration took 173 ms (1 blueprints)
+[2014.11.05-17.39.15:353][681]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:39:15 PM)
+[2014.11.05-17.39.15:364][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010654s)
+[2014.11.05-17.39.15:365][681]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2014.11.05-17.39.15:365][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011815s)
+[2014.11.05-17.39.15:394][681]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.39.15:395][681]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.39.15:397][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.39.15
+[2014.11.05-17.39.15:398][681]LogWorld: Bringing up level for play took: 0.002664
+[2014.11.05-17.39.15:399][681]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.182
+[2014.11.05-17.39.16:602][754]LogBlueprintUserMessages: 33
+[2014.11.05-17.39.17:163][791]LogBlueprintUserMessages: 33
+[2014.11.05-17.39.17:300][800]LogBlueprintUserMessages: 33
+[2014.11.05-17.39.18:210][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005E432340
+[2014.11.05-17.39.35:825][669]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.11.05-17.39.36:146][688]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.05-17.39.41:171][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.05-17.39.41:935][916]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.05-17.39.47:971][ 45]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.05-17.39.48:353][ 59]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.11.05-17.39.48:920][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.05-17.39.49:415][111]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.11.05-17.39.49:884][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2014.11.05-17.39.50:292][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.11.05-17.39.52:985][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.05-17.39.54:842][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.05-17.39.57:679][355]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.39.57:687][355]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.39.57:866][355]LogPlayLevel: PIE:  Blueprint regeneration took 186 ms (1 blueprints)
+[2014.11.05-17.39.57:866][355]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:39:57 PM)
+[2014.11.05-17.39.57:876][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009991s)
+[2014.11.05-17.39.57:880][355]LogPlayLevel: PIE: World Init took: (0.003025s)
+[2014.11.05-17.39.57:880][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.013215s)
+[2014.11.05-17.39.57:907][355]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.39.57:909][355]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.39.57:911][355]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.39.57
+[2014.11.05-17.39.57:911][355]LogWorld: Bringing up level for play took: 0.002553
+[2014.11.05-17.39.57:913][355]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.693
+[2014.11.05-17.39.58:792][401]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.00:620][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024BFFB00
+[2014.11.05-17.40.03:871][605]LogSavePackage: Save=186.145004ms
+[2014.11.05-17.40.03:871][605]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomC364CA3C4B7F9BAD6975A5923CEECBC4.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.40.05:107][642]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.40.05:110][642]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.40.05:280][642]LogPlayLevel: PIE:  Blueprint regeneration took 173 ms (1 blueprints)
+[2014.11.05-17.40.05:281][642]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:40:05 PM)
+[2014.11.05-17.40.05:291][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010114s)
+[2014.11.05-17.40.05:292][642]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2014.11.05-17.40.05:292][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011310s)
+[2014.11.05-17.40.05:323][642]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.40.05:324][642]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.40.05:327][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.40.05
+[2014.11.05-17.40.05:328][642]LogWorld: Bringing up level for play took: 0.003526
+[2014.11.05-17.40.05:329][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.109
+[2014.11.05-17.40.06:075][686]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.06:395][707]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.06:517][715]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.06:986][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AEE1300
+[2014.11.05-17.40.29:070][761]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.11.05-17.40.30:118][816]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.11.05-17.40.31:238][858]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.40.31:246][858]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.40.31:490][858]LogPlayLevel: PIE:  Blueprint regeneration took 252 ms (1 blueprints)
+[2014.11.05-17.40.31:490][858]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:40:31 PM)
+[2014.11.05-17.40.31:501][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010660s)
+[2014.11.05-17.40.31:502][858]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2014.11.05-17.40.31:502][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011977s)
+[2014.11.05-17.40.31:534][858]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.40.31:535][858]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.40.31:538][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.40.31
+[2014.11.05-17.40.31:539][858]LogWorld: Bringing up level for play took: 0.003121
+[2014.11.05-17.40.31:540][858]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.319
+[2014.11.05-17.40.32:230][898]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.32:748][932]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.32:916][943]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.33:053][952]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.33:188][961]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.33:339][971]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.33:461][979]LogBlueprintUserMessages: 33
+[2014.11.05-17.40.34:170][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AF3D940
+[2014.11.05-17.40.34:892][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.11.05-17.40.35:079][ 55]Cmd: DELETE
+[2014.11.05-17.40.35:079][ 55]Cmd: ACTOR DELETE
+[2014.11.05-17.40.35:079][ 55]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.05-17.40.35:111][ 55]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2014.11.05-17.41.10:196][495]BlueprintLog: New page: Compile TheRoom
+[2014.11.05-17.41.10:511][495]BlueprintEditorCompileResults: Info [3864.58] Compile of TheRoom successful! [in 16 ms]
+[2014.11.05-17.41.13:384][591]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.41.13:393][591]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.41.13:567][591]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2014.11.05-17.41.13:567][591]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:41:13 PM)
+[2014.11.05-17.41.13:578][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010278s)
+[2014.11.05-17.41.13:579][591]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2014.11.05-17.41.13:579][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011493s)
+[2014.11.05-17.41.13:609][591]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.41.13:610][591]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.41.13:613][591]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.41.13
+[2014.11.05-17.41.13:613][591]LogWorld: Bringing up level for play took: 0.002655
+[2014.11.05-17.41.13:614][591]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.39
+[2014.11.05-17.41.14:413][637]LogBlueprintUserMessages: 33
+[2014.11.05-17.41.14:844][666]LogBlueprintUserMessages: 33
+[2014.11.05-17.41.16:088][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030FD0C20
+[2014.11.05-17.42.19:119][640]LogSavePackage: Save=170.776016ms
+[2014.11.05-17.42.19:119][640]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoomE3D4FD684A175C81AE803A957D404C8F.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.42.19:148][640]LogFileHelpers: Saving map 'TheRoom' took 0.295
+[2014.11.05-17.42.21:786][719]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.42.21:795][719]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.42.21:971][719]LogPlayLevel: PIE:  Blueprint regeneration took 184 ms (1 blueprints)
+[2014.11.05-17.42.21:971][719]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:42:21 PM)
+[2014.11.05-17.42.21:982][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010130s)
+[2014.11.05-17.42.21:984][719]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2014.11.05-17.42.21:984][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011310s)
+[2014.11.05-17.42.22:013][719]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.42.22:014][719]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.42.22:017][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.42.22
+[2014.11.05-17.42.22:017][719]LogWorld: Bringing up level for play took: 0.002679
+[2014.11.05-17.42.22:018][719]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom 0.79
+[2014.11.05-17.42.22:796][765]LogBlueprintUserMessages: 0
+[2014.11.05-17.42.25:623][951]LogBlueprintUserMessages: 0
+[2014.11.05-17.42.26:167][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005E4311C0
+[2014.11.05-17.46.14:070][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.05-17.48.29:077][822]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.11.05-17.48.32:006][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.05-17.52.23:290][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.05-17.52.23:573][543]LogSavePackage: Save=185.342087ms
+[2014.11.05-17.52.23:573][543]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom_Auto32D31CD3542A380C1037ACDAAAE98A62E.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Autosaves/Game/Maps/TheRoom_Auto3.umap'
+[2014.11.05-17.52.23:611][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheRoom' took 0.321
+[2014.11.05-17.52.23:611][543]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.321
+[2014.11.05-17.52.23:620][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2014.11.05-17.52.23:648][543]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2014.11.05-17.52.23:648][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2014.11.05-17.52.24:036][543]LogSavePackage: Save=370.692291ms
+[2014.11.05-17.52.24:036][543]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/MyCharacter_Auto38A20A39E435E0EB367BBEF87D6C6E0E6.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto3.uasset'
+[2014.11.05-17.52.24:049][543]LogFileHelpers: Auto-saving content packages took 0.438
+[2014.11.05-17.52.46:526][438]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.05-17.52.46:536][438]LogPlayLevel: [PIE] Compiling TheRoom before PIE...
+[2014.11.05-17.52.46:685][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.05-17.52.46:731][438]LogPlayLevel: PIE:  Blueprint regeneration took 205 ms (1 blueprints)
+[2014.11.05-17.52.46:731][438]PIE: New page: PIE session: TheRoom (Nov 5, 2014, 7:52:46 PM)
+[2014.11.05-17.52.46:742][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010587s)
+[2014.11.05-17.52.46:743][438]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2014.11.05-17.52.46:743][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheRoom.TheRoom to /Game/Maps/UEDPIE_0_TheRoom.TheRoom (0.011795s)
+[2014.11.05-17.52.46:776][438]LogWorld: Game class is 'MyGame_C'
+[2014.11.05-17.52.46:777][438]LogAIModule: Creating AISystem for world TheRoom
+[2014.11.05-17.52.46:779][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheRoom.TheRoom up for play (max tick rate 0) at 2014.11.05-18.52.46
+[2014.11.05-17.52.46:780][438]LogWorld: Bringing up level for play took: 0.002678
+[2014.11.05-17.52.46:781][438]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheRoom -0.466
+[2014.11.05-17.52.47:287][466]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.47:798][499]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.47:980][511]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:131][521]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:293][532]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:477][544]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:666][557]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:840][569]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.48:971][578]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.49:116][588]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.49:276][599]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.49:452][611]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.49:921][643]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.50:081][654]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.50:750][700]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.50:969][715]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.51:158][728]LogBlueprintUserMessages: ActorHit: "Wall_400x401" + ItemHit: "-1"
+[2014.11.05-17.52.52:037][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AD58B80
+[2014.11.05-17.53.19:521][534]Cmd: CLOSE_SLATE_MAINFRAME
+[2014.11.05-17.53.20:646][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.05-17.53.20:705][534]LogSavePackage: Save=50.969917ms
+[2014.11.05-17.53.20:705][534]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/MyCharacterD73A3AD64BC6D404A5A48FA51B40BA52.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Blueprints/MyCharacter.uasset'
+[2014.11.05-17.53.21:005][534]LogSavePackage: Save=182.205399ms
+[2014.11.05-17.53.21:005][534]LogSavePackage: Moving '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Saved/TheRoom358585FF46E46590F004A7A086C08395.tmp' to '../../../../../../Users/lennart.daldrup.S4G/Documents/Unreal Projects/Nightterror/Content/Maps/TheRoom.umap'
+[2014.11.05-17.53.21:037][534]LogFileHelpers: Saving map 'TheRoom' took 0.315
+[2014.11.05-17.53.21:601][535]Cmd: QUIT_EDITOR
+[2014.11.05-17.53.21:836][535]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.05-17.53.21:843][535]LogExit: Preparing to exit.
+[2014.11.05-17.53.22:270][535]LogExit: Editor shut down
+[2014.11.05-17.53.22:270][535]LogExit: Transaction tracking system shut down
+[2014.11.05-17.53.22:271][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E15DA80
+[2014.11.05-17.53.22:272][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000062032F20
+[2014.11.05-17.53.22:272][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0D91C0
+[2014.11.05-17.53.22:273][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024DBB600
+[2014.11.05-17.53.22:273][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118FD4E0
+[2014.11.05-17.53.22:274][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000165C8360
+[2014.11.05-17.53.22:274][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D629940
+[2014.11.05-17.53.22:274][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000127F6A20
+[2014.11.05-17.53.22:305][535]LogExit: Object subsystem successfully closed.
+[2014.11.05-17.53.22:369][535]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (162)
+[2014.11.05-17.53.22:369][535]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.11.05-17.53.22:369][535]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.11.05-17.53.22:370][535]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.11.05-17.53.22:371][535]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.11.05-17.53.22:372][535]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.11.05-17.53.22:442][535]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.11.05-17.53.22:686][535]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.05-17.53.22:688][535]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.05-17.53.22:796][535]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.05-17.53.22:796][535]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.05-17.53.22:801][535]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.05-17.53.22:801][535]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.05-17.53.22:801][535]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.05-17.53.22:801][535]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.05-17.53.22:801][535]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.05-17.53.22:802][535]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.05-17.53.22:802][535]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.05-17.53.22:802][535]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.05-17.53.22:802][535]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.05-17.53.22:802][535]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.05-17.53.22:803][535]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.05-17.53.22:804][535]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.05-17.53.22:891][535]LogDerivedDataCache: Shutdown
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.05-17.53.22:903][535]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.05-17.53.22:904][535]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.05-17.53.22:907][535]LogExit: Exiting.
+[2014.11.05-17.53.22:921][535]Log file closed, 11/05/14 18:53:22
